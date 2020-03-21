@@ -5,3 +5,7 @@ blockquote p{
 .blockquote-footer{
 	font-size: 12px;
 }
+
+img {
+	width: 40%;
+}
