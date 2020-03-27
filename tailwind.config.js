@@ -1,11 +1,13 @@
+// tailwind.config.js
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   theme: {
-    extend: {},
-    fontFamily: {
-      display: ['Inter', 'sans-serif'],
-      body: ['Inter', 'sans-serif']
+    extend: {
+      fontFamily: {
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans]
+      }
     }
   },
-  variants: {},
-  plugins: []
+  plugins: [require('@tailwindcss/ui')]
 }
