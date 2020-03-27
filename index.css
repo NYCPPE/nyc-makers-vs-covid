@@ -6,6 +6,14 @@ blockquote p{
 	font-size: 12px;
 }
 
-img {
-	width: 40%;
+.designs img {
+	max-width: 40%;
+}
+
+.offs_design img {
+	max-width: 60%;
+}
+
+.red{
+	color: red;
 }
