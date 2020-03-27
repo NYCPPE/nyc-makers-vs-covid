@@ -1,0 +1,44 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+
+.body {
+  font-family: sans-serif;
+}
+
+.hero {
+  width: 100%;
+  color: #333;
+}
+
+.title {
+  margin: 0;
+  width: 100%;
+  padding-top: 80px;
+  line-height: 1.15;
+  font-size: 48px;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+h1 {
+  @apply text-2xl font-bold;
+}
+h2 {
+  @apply text-xl;
+}
+h3 {
+  @apply text-lg;
+}
+a {
+  @apply text-blue-400;
+}
+p {
+  @apply mt-4;
+}
+
+@tailwind utilities;
