@@ -1,5 +1,6 @@
 import React from 'react'
 import { MDXProvider } from '@mdx-js/react'
+import Header from '../components/header'
 import Nav from '../components/nav'
 import Footer from '../components/footer'
 import '../styles/index.css'
@@ -11,8 +12,9 @@ export default ({ Component, pageProps }) => (
     className="md:flex flex-col items-center w-full"
     components={mdComponents}
   >
+    <Header />
     <Nav />
-    <div className="max-w-4xl pb-20 px-8 mx-auto">
+    <div className="markdown-body max-w-2xl pb-20 px-8 mx-auto">
       <Component {...pageProps} />
     </div>
     <Footer />
