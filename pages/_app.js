@@ -19,16 +19,19 @@ const Warning = ({ children }) => {
 
 const mdComponents = {}
 
-export default ({ Component, pageProps }) => (
-  <MDXProvider
-    className="md:flex flex-col items-center w-full"
-    components={mdComponents}
-  >
-    <Header />
-    <Nav />
-    <div className="markdown-body max-w-4xl pb-20 px-8 mx-auto">
-      <Component {...pageProps} />
-    </div>
-    <Footer />
-  </MDXProvider>
-)
+export default ({ Component, pageProps }) => {
+  console.log(pageProps)
+  return (
+    <MDXProvider
+      className="md:flex flex-col items-center w-full"
+      components={mdComponents}
+    >
+      <Header />
+      <Nav />
+      <div className="markdown-body max-w-4xl pb-20 px-8 mx-auto">
+        <Component {...pageProps} />
+      </div>
+      <Footer />
+    </MDXProvider>
+  )
+}

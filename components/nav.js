@@ -25,8 +25,8 @@ export default function Nav() {
           <li>
             <Link href="/">
               <a className="flex flex-nowrap items-center ">
-                <img src="NYCMakesPPELogo.svg" className="mr-4 w-10" />
-                <span className="text-gray-900">NYCMakesPPE</span>
+                <img src="NYCMakesPPELogo.svg" className="mr-2 w-10" />
+                <span className="text-gray-900 font-semibold">NYCMakesPPE</span>
               </a>
             </Link>
           </li>
