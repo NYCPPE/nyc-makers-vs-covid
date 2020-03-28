@@ -3,18 +3,6 @@ const emoji = require('remark-emoji')
 const toc = require('remark-toc')
 const customblocks = require('remark-custom-blocks')
 
-const options = {
-  alert: {
-    classes: 'alert'
-  },
-  danger: {
-    classes: 'danger'
-  },
-  info: {
-    classes: 'info'
-  }
-}
-
 const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/,
   options: {
@@ -28,8 +16,8 @@ const withMDX = require('@next/mdx')({
           alert: {
             classes: 'alert'
           },
-          danger: {
-            classes: 'danger'
+          warning: {
+            classes: 'warning'
           },
           info: {
             classes: 'info'
@@ -41,5 +29,10 @@ const withMDX = require('@next/mdx')({
 })
 
 module.exports = withMDX({
-  pageExtensions: ['js', 'jsx', 'md', 'mdx']
+  pageExtensions: ['js', 'jsx', 'md', 'mdx'],
+  exportPathMap: function(defaultPathMap) {
+    const pathMap = Object.assign({}, defaultPathMap)
+    delete pathMap['/index']
+    return pathMap
+  }
 })

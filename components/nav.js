@@ -18,11 +18,13 @@ const links = [
 export default function Nav() {
   return (
     <>
+      <Banner />
+
       <nav>
-        <ul className="flex justify-between items-center p-8 ">
+        <ul className="flex justify-between items-center px-6 py-4 ">
           <li>
             <Link href="/">
-              <a className="md:flex flex-nowrap items-center hidden">
+              <a className="flex flex-nowrap items-center ">
                 <img src="NYCMakesPPELogo.svg" className="mr-4 w-10" />
                 <span className="text-gray-900">NYCMakesPPE</span>
               </a>
@@ -39,7 +41,6 @@ export default function Nav() {
           </ul>
         </ul>
       </nav>
-      {/* <Banner /> */}
     </>
   )
 }
