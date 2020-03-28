@@ -21,6 +21,9 @@ const withMDX = require('@next/mdx')({
           },
           info: {
             classes: 'info'
+          },
+          success: {
+            classes: 'success'
           }
         }
       ]

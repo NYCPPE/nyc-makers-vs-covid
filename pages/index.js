@@ -1,4 +1,7 @@
 import TotalCount from '../components/totalcount'
+import Donations from '../components/donations'
+import Social from '../components/social'
+import Photos from '../components/photos'
 
 const links = [
   {
@@ -6,30 +9,29 @@ const links = [
       'https://docs.google.com/forms/d/1eON_mLsFlD1wn_JUDM31IQkamXbBWD8Df6VdYJ9UDWQ/edit?ts=5e7bfed0',
     label: 'Request',
     image: 'distribution/hero.png',
-    title: 'Are you a doctor in need of PPE?',
+    title: 'Are you a healthcare professional in need of PPE?',
     text:
       'Our network of makers and couriers can deliver 50-100 units same day in NYC area.',
     button: 'Request',
     color: 'bg-blue-500'
   },
+  // {
+  //   href: '/instructions',
+  //   image: 'distribution/make.png',
+  //   label: 'Make',
+  //   title: 'Can you fabricate PPE?',
+  //   text:
+  //     'Our guides and community can help you get started ASAP. Assembly, fabrication and more.',
+  //   button: 'Make',
+  //   color: 'bg-blue-500'
+  // }
   {
-    href: '/instructions',
-    image: 'distribution/make.png',
-    label: 'Make',
-    title: 'Can you fabricate PPE?',
-    text:
-      'Our guides and community can help you get started ASAP. Assembly, fabrication and more.',
-    button: 'Make',
-    color: 'bg-blue-500'
-  },
-  {
-    href:
-      'https://docs.google.com/forms/d/1eON_mLsFlD1wn_JUDM31IQkamXbBWD8Df6VdYJ9UDWQ/edit?ts=5e7bfed0',
+    href: 'https://charity.gofundme.com/o/en/campaign/nyc-makes-ppe-covid-19',
     image: 'distribution/join.png',
     label: 'Join',
-    title: 'Want to get involved?',
-    text: 'We need people on call for assembly, delivery and organization.',
-    button: 'Join',
+    title: 'Want to donate to fun our efforts?',
+    text: "We're raising money to buy materials make PPE.",
+    button: 'Donate',
     color: 'bg-blue-500'
   }
 ]
@@ -37,114 +39,78 @@ const links = [
 export default () => (
   <>
     <div>
-      <div className="flex flex-wrap justify-between w-full items-start mt-12 p-4">
-        <div className=" mr-0 md:mr-2">
-          <div className="text-4xl font-extrabold flex items-start flex-wrap ">
-            NYCMakesPPE
-          </div>
-          <div className="mt-4 text-lg leading-7 text-gray-800">
-            <p>
-              We are a group of makers and healthcare professionals in NYC
-              leveraging DIY manufacturing technology to support PPE production
-              in NYC. Our goal full the gap for those who may be overlooked
-              during the severe equipment shortage due to COVID-19.
-            </p>
-            <a href="/about" className="text-blue-600 underline pr-4">
-              Learn more
-            </a>
-            <a href="/license" className="text-blue-600 underline">
-              Our Disclaimer
-            </a>
-          </div>
+      <div className="flex justify-between items-center max-w-4xl items-start mt-8 p-4">
+        <div className="text-3xl md:text-4xl leading-tight font-black flex items-start flex-wrap text-gay-700 mb-4 mr-4">
+          Providing PPE to underserved healthcare workers in NYC.
         </div>
+        <span className="rounded-lg w-1/2">
+          <img
+            className="h-auto mx-auto hidden md:block"
+            src="distribution/hero.png"
+          />
+        </span>
       </div>
-      <div className="relative z-10 mx-auto mt-4">
+      <span className=" hidden md:block rounded-lg px-4 block md:hidden">
+        <img
+          className="h-auto w-full mx-auto block md:hidden"
+          src="distribution/hero.png"
+        />
+      </span>
+      <div className="relative z-10 mx-auto ">
         <div className=" flex flex-row flex-wrap md:flex-no-wrap justify-between rounded-lg">
           {links.map(({ href, label, title, text, button, image }, i) => (
             <div
               key={i}
-              className="w-full rounded-lg w-full bg-yellow-100 m-2 overflow-hidden flex flex-col justify-between p-4"
+              className="w-full rounded-lg bg-yellow-50 m-2 overflow-hidden flex flex-col justify-between text-gray-900 p-6"
             >
               <div className=" items-baseline ">
-                <span className="rounded-lg">
-                  <img className="h-auto w-full mx-auto" src={image} />
-                </span>
-                <div className="pt-4 text-gray-800 text-2xl leading-7 font-extrabold mb-2">
+                <div className="pb-2 items-baseline text-black text-2xl leading-tight font-semibold">
                   {title}
                 </div>
-                <p className="text-sm leading-5 text-gray-500 mt-4">{text}</p>
+                <p className="py-2 text-base leading-normal text-gray-600">
+                  {text}
+                </p>
               </div>
-              <div className="">
-                <div className="rounded-md shadow">
-                  <a
-                    href={href}
-                    className="flex items-center justify-center px-4 py-2 text-base leading-6 font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                  >
-                    {button}
-                  </a>
-                </div>
+              <div className="rounded-md shadow">
+                <a
+                  href={href}
+                  className="flex items-center justify-center px-2 py-3 text-base font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                >
+                  {button}
+                </a>
               </div>
             </div>
           ))}
         </div>
       </div>
     </div>
-
-    <div className="mt-4 relative max-w-screen-xl mx-auto">
-      <div className="max-w-md mx-auto lg:max-w-5xl flex">
-        <TotalCount />
-
-        <div className=" flex-1 m-4 rounded-lg bg-gray-100 p-6 lg:flex flex-col justify-start md:w-2/3">
-          <div className="flex-1">
-            <div className="mb-6 items-baseline text-2xl leading-7 font-extrabold">
-              Will you help us?
-            </div>
-            <div className="mt-4 text-lg leading-7 text-gray-800">
-              We've raised over $30,000 so far. Your donation will be used to
-              deliver critical PPE for medical workers. We are running the
-              gofundme campaign to cover material costs for all manufactured PPE
-              donated to hospitals.
-            </div>
-          </div>
-          <div className="rounded-md shadow mt-4">
-            <a
-              href="https://charity.gofundme.com/o/en/campaign/nyc-makes-ppe-covid-19"
-              className="flex items-center justify-center px-5 py-3 text-base leading-6 font-medium rounded-md text-white bg-gray-600 hover:bg-gray-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-            >
-              Donate.
-            </a>
-          </div>
-          <div className="text-xs mt-4 text-gray-800">
-            They campaign is being organized by Hack Manhattan, a 501(c)(3)
-            exempt charity. Any surplus we cannot reasonably use will be donated
-            to other COVID-19 relief efforts or relevant 501(c)(3) exempt
-            charities not part of this campaign.
-          </div>
-        </div>
-      </div>
-      <div>
-        <h3>Reccomended Designs</h3>
-        <a href="/open-fold-face-shield" className="flex py-2">
-          <img src="img/fastfaceshield.png" className="w-40 mr-2" />
-          <span>
-            <div className="mt-0">Open Fold Face Shield</div>
-            <div className="text-sm mt-4 text-gray-800">
-              These designs can be used to make complete PPE "Face-shields"
-              using only thin plastic materials and some folding.
-            </div>
-          </span>
-        </a>
-        <a href="/fast-face-shield" className="flex">
-          <img src="img/fastfaceshield.png" className="w-40 mr-2 py-2" />
-          <span>
-            <div className="mt-0">Fast Face Shield</div>
-            <div className="text-sm mt-4 text-gray-800">
-              The Fast Face Shield† is a suggested design for healthcare workers
-              with no other options.
-            </div>
-          </span>
-        </a>
-      </div>
+    <div className="mx-auto flex flex-wrap justify-start md:flex-nowrap">
+      <TotalCount />
+      <Donations />
     </div>
+
+    <h3 className="py-2 px-4"></h3>
+    <div className="flex-1 py-2 px-4">
+      <p className="text-xl">
+        NYC Makes PPE is a group of engineers, makers, and healthcare
+        professionals leveraging DIY manufacturing technology to support PPE
+        production in NYC.
+      </p>
+      <p className="text-xl">
+        Our represented organizations include: Columbia University, Weill
+        Cornell Medicine, NYC Resistor, HackManhattan, fat cat FAB LAB,
+        Makerspace NYC, and others
+      </p>
+      <a
+        className="text-lg text-blue-600"
+        href="mailto:jake.h.lee@columbia.edu"
+      >
+        Want to get involved?
+      </a>
+    </div>
+    <h3 className="py-2 px-4">Photos</h3>
+    <Photos />
+    <h3 className="py-2 px-4">Find us online</h3>
+    <Social />
   </>
 )

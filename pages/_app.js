@@ -28,7 +28,7 @@ export default ({ Component, pageProps }) => {
     >
       <Header />
       <Nav />
-      <div className="markdown-body max-w-4xl pb-20 px-8 mx-auto">
+      <div className="markdown-body max-w-3xl pb-20 px-2 md:px-4 mx-auto">
         <Component {...pageProps} />
       </div>
       <Footer />

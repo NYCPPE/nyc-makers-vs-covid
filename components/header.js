@@ -17,8 +17,6 @@ export default function Header() {
         content="NYC Makes PPE is a group of makers and healthcare professionals in NYC leveraging DIY manufacturing technology to support PPE production in NYC and worldwide. This website seeks to consolidate information gathered during planning and manufacturing for reference."
       />
 
-      <link rel="canonical" href="https://nycmakesppe.com/" />
-
       <meta property="og:locale" content="en_US" />
       <meta property="og:title" content="NYC Makes PPE" />
       <meta
@@ -27,7 +25,7 @@ export default function Header() {
       />
       <meta property="og:url" content="https://nycmakesppe.com/" />
       <meta property="og:site_name" content="NYC Makes PPE" />
-      <meta property="og:image" content="img/card-social-media.jpg" />
+      <meta property="og:image" content="img/card-social-media2.jpg" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
 
@@ -44,7 +42,7 @@ export default function Header() {
       <meta name="twitter:title" content="NYC Makes PPE" />
       <meta name="twitter:site" content="@fatcatFABLAB" />
       <meta name="twitter:domain" content="NYC Makes PPE" />
-      <meta name="twitter:image" content="img/card-social-media.jpg" />
+      <meta name="twitter:image" content="img/card-social-media2.jpg" />
       <meta name="twitter:creator" content="@fatcatFABLAB" />
 
       <link rel="stylesheet" href="/github-markdown.css" />

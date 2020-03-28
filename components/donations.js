@@ -1,12 +1,4 @@
-import totals from './totals'
-
 export default ({ limit }) => {
-  let truncatedList = []
-  let totalCount = 0
-
-  truncatedList = totals
-  totals.map(props => (totalCount = totalCount + props.count))
-
   return (
     <div className="bg-white sm:rounded-md p-2 h-full hover:no-underline w-full md:w-1/2">
       <a
@@ -15,19 +7,19 @@ export default ({ limit }) => {
       >
         <span className="flex justify-between ">
           <p className="text-base leading-6 font-medium text-blue-600  hover:no-underline">
-            Total PPE Delivered
+            Total raised
           </p>
 
           <p className="text-base font-normal text-blue-600 ml-2 ">&rarr;</p>
         </span>
         <div className="flex items-baseline">
           <p className="text-5xl leading-8 mb-1 font-extrabold text-blue-600">
-            {(totalCount / 100).toFixed() * 100}
+            $35,000
           </p>
           {/* <small className="upprcase text-blue-600">estimated</small> */}
         </div>
         <p className="text-base text-blue-600 mb-0">
-          Face Shields, Masks and more...
+          Organized by Hack Manhattan
         </p>
       </a>
     </div>

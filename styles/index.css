@@ -79,6 +79,10 @@ table {
   @apply bg-red-100 text-red-800;
 }
 
+.success {
+  @apply bg-green-100 text-green-800;
+}
+
 @import './github-markdown.css';
 
 @tailwind utilities;
