@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { GA_TRACKING_ID } from './gtag'
 
 export default function Header() {
   return (
@@ -43,19 +44,10 @@ export default function Header() {
       <meta name="twitter:title" content="NYC Makes PPE" />
       <meta name="twitter:site" content="@fatcatFABLAB" />
       <meta name="twitter:domain" content="NYC Makes PPE" />
-      <meta name="twitter:image:src" content="img/card-social-media.jpg" />
+      <meta name="twitter:image" content="img/card-social-media.jpg" />
       <meta name="twitter:creator" content="@fatcatFABLAB" />
 
-      <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-161723058-1"
-      ></script>
-      {/* <script>
-        window.dataLayer = window.dataLayer || []; function gtag()
-        {dataLayer.push(arguments)}
-        gtag('js', new Date()); gtag('config', 'UA-161723058-1');
-      </script> */}
-
+      <link rel="stylesheet" href="/github-markdown.css" />
       <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     </Head>
   )

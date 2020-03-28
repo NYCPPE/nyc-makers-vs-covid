@@ -12,23 +12,21 @@ const links = [
       'https://docs.google.com/forms/d/1eON_mLsFlD1wn_JUDM31IQkamXbBWD8Df6VdYJ9UDWQ/edit?ts=5e7bfed0',
     label: 'Request'
   },
-  { href: '/stats', label: 'Stats' },
   { href: '/about', label: 'About' }
 ]
 
 export default function Nav() {
   return (
     <>
+      <Banner />
+
       <nav>
-        <ul className="flex justify-between items-center p-8 ">
+        <ul className="flex justify-between items-center px-6 py-4 ">
           <li>
             <Link href="/">
-              <a className="no-underline font-base text-gray-900">
-                {' '}
-                <span role="img" aria-label="apple">
-                  🍎
-                </span>{' '}
-                NYC Makes PPE
+              <a className="flex flex-nowrap items-center ">
+                <img src="NYCMakesPPELogo.svg" className="mr-2 w-10" />
+                <span className="text-gray-900 font-semibold">NYCMakesPPE</span>
               </a>
             </Link>
           </li>
@@ -43,7 +41,6 @@ export default function Nav() {
           </ul>
         </ul>
       </nav>
-      {/* <Banner /> */}
     </>
   )
 }

@@ -3,8 +3,6 @@
 /* purgecss end ignore */
 @tailwind components;
 
-@import './github-markdown.css';
-
 .body {
   font-family: sans-serif;
 }
@@ -77,8 +75,10 @@ table {
   @apply bg-blue-100 text-blue-800;
 }
 
-.danger {
+.warning {
   @apply bg-red-100 text-red-800;
 }
+
+@import './github-markdown.css';
 
 @tailwind utilities;
