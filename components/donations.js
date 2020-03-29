@@ -19,7 +19,7 @@ export default ({ limit }) => {
           {/* <small className="upprcase text-pink-600">estimated</small> */}
         </div>
         <p className="text-base text-pink-600 mb-0 pt-2">
-          For materials and labor to make PPE
+          For materials to make PPE
         </p>
       </a>
     </div>
