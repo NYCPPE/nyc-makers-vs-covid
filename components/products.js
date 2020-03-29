@@ -14,7 +14,7 @@ const product = [
     text: 'High-output 3D printed face shield.'
   },
   {
-    href: '/instructions#WISC',
+    href: '/instructions#open-source-face-shield',
     label: 'Open Source Face Shield',
     image: 'img/nyu.png',
     title: 'Open Source Face Shield',
