@@ -111,15 +111,13 @@ export default () => (
       </a>
     </div>
     <div className="mt-12 py-2 px-4 text-xl font-bold text-gray-900">
-      Find us online
-    </div>
-
-    <Social />
-    <div className="mt-12 py-2 px-4 text-xl font-bold text-gray-900">
       Photos
     </div>
     <Photos />
-
+    <div className="mt-12 py-2 px-4 text-xl font-bold text-gray-900">
+      Find us online
+    </div>
+    <Social />
     <Products />
   </>
 )
