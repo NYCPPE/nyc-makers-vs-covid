@@ -31,7 +31,7 @@ const links = [
     image: 'distribution/join.png',
     label: 'Join',
     title: 'Will you help us fund our efforts?',
-    text: "We're raising money to buy materials make PPE.",
+    text: "We're on GoFundMe raising money to buy materials make PPE.",
     button: 'Donate',
     color: 'bg-pink-500'
   }
