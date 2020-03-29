@@ -2,6 +2,8 @@ const images = require('remark-images')
 const emoji = require('remark-emoji')
 const toc = require('remark-toc')
 const customblocks = require('remark-custom-blocks')
+const headings = require('remark-autolink-headings')
+const slug = require('remark-slug')
 
 const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/,
@@ -9,6 +11,8 @@ const withMDX = require('@next/mdx')({
     remarkPlugins: [
       images,
       emoji,
+      slug,
+      headings,
       toc,
       [
         customblocks,

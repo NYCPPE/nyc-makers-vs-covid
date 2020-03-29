@@ -6,7 +6,7 @@ export default function Header() {
     <Head>
       <title>NYC Makes PPE</title>
 
-      <meta charset="utf-8" />
+      <meta charSet="utf-8" />
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -14,14 +14,14 @@ export default function Header() {
 
       <meta
         name="description"
-        content="NYC Makes PPE is a group of makers and healthcare professionals in NYC leveraging DIY manufacturing technology to support PPE production in NYC and worldwide. This website seeks to consolidate information gathered during planning and manufacturing for reference."
+        content="NYC Makes PPE is a group of makers and healthcare professionals in NYC leveraging DIY manufacturing technology to support PPE production in NYC. This website seeks to consolidate information gathered during planning and manufacturing for reference."
       />
 
       <meta property="og:locale" content="en_US" />
       <meta property="og:title" content="NYC Makes PPE" />
       <meta
         property="og:description"
-        content="NYC Makes PPE is a group of makers and healthcare professionals in NYC leveraging DIY manufacturing technology to support PPE production in NYC and worldwide."
+        content="NYC Makes PPE is a group of makers and healthcare professionals in NYC leveraging DIY manufacturing technology to support PPE production in NYC."
       />
       <meta property="og:url" content="https://nycmakesppe.com/" />
       <meta property="og:site_name" content="NYC Makes PPE" />
@@ -46,7 +46,10 @@ export default function Header() {
       <meta name="twitter:creator" content="@fatcatFABLAB" />
 
       <link rel="stylesheet" href="/github-markdown.css" />
-      <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet"
+      ></link>
     </Head>
   )
 }

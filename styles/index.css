@@ -4,7 +4,7 @@
 @tailwind components;
 
 .body {
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .hero {
@@ -81,6 +81,14 @@ table {
 
 .success {
   @apply bg-green-100 text-green-800;
+}
+
+.main-title {
+  font-size: 48px !important;
+}
+.main-image {
+  /* width: 100%;
+  max-width: 150px; */
 }
 
 @import './github-markdown.css';

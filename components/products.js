@@ -1,20 +1,20 @@
 const product = [
   {
-    href: '/make#WISC',
+    href: '/instructions#wisc',
     label: 'Face Shield',
     image: 'img/wisc.png',
     title: 'WISC',
     text: 'Wisconsin Face shield.'
   },
   {
-    href: '/make#WISC',
+    href: '/instructions#3dverkstan-face-shield',
     label: 'Face Shield',
     image: 'img/3dverk.png',
     title: '3DVerkstan',
     text: '3D printed face shield.'
   },
   {
-    href: '/make#WISC',
+    href: '/instructions#WISC',
     label: 'Face Shield',
     image: 'img/miniband.png',
     title: 'Miniband',
@@ -23,7 +23,7 @@ const product = [
 ]
 const community = [
   {
-    href: '/open-fold-face-shield.mdx',
+    href: '/open-fold-face-shield',
     label: 'Face Shield',
     image: 'img/openfold.png',
     title: 'Open Fold Face Shield',
@@ -31,7 +31,7 @@ const community = [
       'These designs can be used to make complete PPE ‘Face-shields’† using only thin plastic materials and some folding.'
   },
   {
-    href: '/fast-face-shield.mdx',
+    href: '/fast-face-shield',
     label: 'Face Shield',
     image: 'img/fastface.png',
     title: '3DVerkstan',
@@ -86,7 +86,7 @@ export default () => (
             <div className="pt-4 text-2xl leading-7 font-extrabold mb-2">
               {title}
             </div>
-            <p className="text-sm leading-5  mt-4 ">{text}</p>
+            <div className="text-sm leading-5  mt-4 ">{text}</div>
           </div>
         </a>
       ))}

@@ -18,23 +18,23 @@ export default ({ limit }) => {
     <div className={'bg-white sm:rounded-md p-4 h-full hover:no-underline'}>
       <a
         href="/stats"
-        className="p-4 rounded-lg inline-block w-full hover:no-underline border border-blue-600"
+        className=" rounded-lg inline-block w-full hover:no-underline "
       >
         <span className="flex justify-between ">
-          <p className="text-base leading-6 font-medium text-blue-600  hover:no-underline">
+          <p className="text-xl leading-6 font-medium text-gray-900  hover:no-underline">
             Total PPE Delivered
           </p>
           {limit && (
-            <p className="text-base font-normal text-blue-600 ml-2 ">&rarr;</p>
+            <p className="text-base font-normal text-gray-900 ml-2 ">&rarr;</p>
           )}
         </span>
         <div className="flex items-baseline">
-          <p className="text-5xl leading-8 mb-1 font-extrabold text-blue-600">
-            {(totalCount / 100).toFixed() * 100}
+          <p className="text-6xl leading-8 mb-1 pt-6 font-extrabold text-gray-900">
+            {totalCount}
           </p>
-          {/* <small className="upprcase text-blue-600">estimated</small> */}
+          {/* <small className="upprcase text-gray-600">estimated</small> */}
         </div>
-        <p className="text-xs text-blue-400 mb-0">
+        <p className="text-md pt-2 text-gray-800 mb-0">
           Face Shields, Masks and more...
         </p>
       </a>
@@ -43,7 +43,9 @@ export default ({ limit }) => {
       <div className="text-6xl font-bold">{totalCount}</div> */}
       {!limit && (
         <>
-          <h3>Latest Deliveries</h3>
+          <p className="pt-12 text-xl leading-6 font-medium text-gray-900  hover:no-underline">
+            Latest
+          </p>{' '}
           <table className="w-full table border-transparent">
             <tbody className="w-full table border-none">
               {truncatedList.map((props, i) => (

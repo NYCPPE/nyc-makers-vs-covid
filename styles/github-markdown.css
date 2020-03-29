@@ -301,7 +301,7 @@
 }
 
 .markdown-body .border {
-  border: 1px solid #e1e4e8 !important;
+  /* border: 1px solid #e1e4e8 !important; */
 }
 
 .markdown-body .border-0 {

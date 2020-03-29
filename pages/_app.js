@@ -5,22 +5,9 @@ import Nav from '../components/nav'
 import Footer from '../components/footer'
 import '../styles/index.css'
 
-const Info = ({ children }) => {
-  return <div className="custom-block info">{children}</div>
-}
-
-const Alert = ({ children }) => {
-  return <div className="custom-block alert">{children}</div>
-}
-
-const Warning = ({ children }) => {
-  return <div className="custom-block warning">{children}</div>
-}
-
 const mdComponents = {}
 
 export default ({ Component, pageProps }) => {
-  console.log(pageProps)
   return (
     <MDXProvider
       className="md:flex flex-col items-center w-full"
