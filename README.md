@@ -4,22 +4,22 @@ Website for consolidating information on making PPE for the COVID-19 Outbreak.
 
 ## How to develop and build the site
 
-To get run the site locally `yarn` and then `yarn dev`.
+To run the site locally `yarn` and then `yarn dev`.
 
-To build a static site (output will be placed in the `out` directory) run `yarn build && yarn export`
+To build a static site (output will be placed in the `out` directory) run `yarn build && yarn export`. You can deploy this `out` directory to any server.
 
 Anything you place in the `public` folder will be exported untouched.
 
 Anything you place in pages, will be compiled into html.
 
-This site uses next.js and mdx to build pages. This allows people to write raw markdown in the pages director to make new pages, write react inside of .mdx files to make custom markdown pages, or just write raw react for super custom pages and data stuff.
+This site uses next.js and mdx to build pages. This allows people to write raw markdown in the pages directory to make new pages, write react inside of `.mdx` files to make custom markdown pages, or just write raw react for super custom pages and data stuff.
 
-If you are writing raw .html files, place them in the public folder.
+If you are writing raw `.html` files, place them in the public folder.
 
 ## How to make new pages
 
-Make a new file ending in .md or .mdx in the pages directory. Nesting directories works.
-You can also write .js files in pages and use react.
+Make a new file ending in `.md` or `.mdx` in the pages directory. Nesting directories works.
+You can also write `.js` files in pages and use react.
 
 ## How to style the layouts
 
