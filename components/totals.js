@@ -1,5 +1,11 @@
 export default [
   {
+    count: 50,
+    date: '03/28/20',
+    hospital: 'Queens',
+    type: 'WISC'
+  },
+  {
     count: 300,
     date: '03/27/20',
     hospital: 'Upper West Side',
@@ -46,6 +52,12 @@ export default [
     date: '03/25/20',
     hospital: 'Brooklyn',
     type: 'WISC Shields'
+  },
+  {
+    count: 40,
+    date: '03/25/20',
+    hospital: 'Bronx',
+    type: 'NYU Shields'
   },
   {
     count: 30,

@@ -40,8 +40,8 @@ const links = [
 export default () => (
   <>
     <div>
-      <div className="flex justify-between max-w-4xl items-start mt-8 p-4">
-        <div className="text-3xl md:text-4xl leading-tight font-black flex items-start flex-wrap text-gay-700 mb-4 mr-8 main-title ">
+      <div className="flex justify-between max-w-4xl items-start mt-0 md:mt-8 p-4">
+        <div className="text-2xl md:text-4xl leading-tight font-black flex items-start flex-wrap text-gay-700 mb-4 mr-8 main-title ">
           Providing PPE to underserved healthcare workers and organizations in
           NYC.
         </div>
@@ -95,12 +95,12 @@ export default () => (
       About
     </div>
     <div className="flex-1 mb-6 bg-gray-50 p-6 rounded-lg">
-      <p className="text-md leading-snug text-gray-700">
+      <p className="text-md leading-normal text-gray-700">
         NYC Makes PPE is a group of engineers, makers, and healthcare
         professionals leveraging DIY manufacturing technology to support PPE
         production in NYC.
       </p>
-      <p className="text-md leading-snug text-gray-700">
+      <p className="text-md leading-normal text-gray-700">
         Our represented organizations include: Columbia University, Weill
         Cornell Medicine, NYC Resistor, HackManhattan, fat cat FAB LAB,
         Makerspace NYC, and others
