@@ -4,21 +4,21 @@ const product = [
     label: 'Face Shield',
     image: 'img/wisc.png',
     title: 'WISC',
-    text: 'Wisconsin Face shield.'
+    text: 'A design similar to commercial products.'
   },
   {
     href: '/instructions#3dverkstan-face-shield',
     label: 'Face Shield',
     image: 'img/3dverk.png',
     title: '3DVerkstan',
-    text: '3D printed face shield.'
+    text: 'High-output 3D printed face shield.'
   },
   {
     href: '/instructions#WISC',
-    label: 'Face Shield',
-    image: 'img/miniband.png',
-    title: 'Miniband',
-    text: 'Reduced version of the prusa design.'
+    label: 'Open Source Face Shield',
+    image: 'img/nyu.png',
+    title: 'Open Source Face Shield',
+    text: 'A design that doesn\'t require foam.'
   }
 ]
 const community = [
@@ -28,13 +28,13 @@ const community = [
     image: 'img/openfold.png',
     title: 'Open Fold Face Shield',
     text:
-      'These designs can be used to make complete PPE ‘Face-shields’† using only thin plastic materials and some folding.'
+      'These designs can be used to make ‘Face-shields’ using only thin plastic materials and some folding.'
   },
   {
     href: '/fast-face-shield.html',
-    label: 'Face Shield',
+    label: 'Fast Face Shield',
     image: 'img/fastface.png',
-    title: 'Face Shield',
+    title: 'Fast Face Shield',
     text:
       'The Fast Face Shield is a suggested design for healthcare workers with no other options.    ',
     button: 'View Design'
