@@ -5,8 +5,8 @@ export default function Header(props) {
   const title = props.title || 'NYC Makes PPE'
   const description =
     props.description ||
-    'NYC Makes PPE is a group of makers and healthcare professionals in NYC leveraging DIY manufacturing technology to support PPE production in NYC. '
-  const image = props.image || 'img/card-social-media2.jpg'
+    'Providing PPE to underserved healthcare workers and organizations in NYC. We are a group of engineers, makers, and healthcare professionals leveraging DIY manufacturing technology to support PPE production in NYC.'
+  const image = props.image || '/img/card-social-media_2.jpg'
 
   return (
     <Head>
@@ -18,13 +18,14 @@ export default function Header(props) {
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
 
-      <meta name="description" content={description} />
+      <meta name="title" content={title} />
 
+      <meta name="description" content={description} />
       <meta property="og:locale" content="en_US" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:url" content="https://nycmakesppe.com/" />
-      <meta property="og:site_name" content="NYC Makes PPE" />
+      {/* <meta property="og:url" content="https://nycmakesppe.com/" /> */}
+      <meta property="og:site_name" content={title} />
       <meta property="og:image" content={image} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
@@ -42,11 +43,30 @@ export default function Header(props) {
       <meta name="twitter:image" content={image} />
       <meta name="twitter:creator" content="@fatcatFABLAB" />
 
+      <link rel="icon" type="image/png" href="/fav.png" />
+
       <link rel="stylesheet" href="/github-markdown.css" />
       <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
         rel="stylesheet"
       ></link>
+
+      <script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+      />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `
+        }}
+      />
     </Head>
   )
 }

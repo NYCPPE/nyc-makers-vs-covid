@@ -18,7 +18,7 @@ const product = [
     label: 'Face Shield',
     image: 'img/miniband.png',
     title: 'Miniband',
-    text: 'Reduced version of the prusa design.'
+    text: 'Simplified prusa design.'
   }
 ]
 const community = [
@@ -43,8 +43,9 @@ const community = [
 
 export default () => (
   <>
-    <h3>Currently in production</h3>
-
+    <div className="mt-12 mb-2 py-2 px-4 text-xl font-bold text-gray-900">
+      Currently in production
+    </div>
     <div className=" flex flex-row flex-wrap md:flex-no-wrap justify-between rounded-lg">
       {product.map(({ href, label, title, text, button, image }, i) => (
         <a
@@ -62,13 +63,15 @@ export default () => (
             <div className="pt-4 text-2xl leading-7 font-extrabold mb-2">
               {title}
             </div>
-            <p className="text-sm leading-5  mt-4 ">{text}</p>
+            <div className="text-sm leading-5  mt-4 ">{text}</div>
           </div>
         </a>
       ))}
     </div>
 
-    <h3>Community designs</h3>
+    <div className="mt-12 mb-2 py-2 px-4 text-xl font-bold text-gray-900">
+      Community designs
+    </div>
 
     <div className=" flex flex-row flex-wrap md:flex-no-wrap justify-between rounded-lg">
       {community.map(({ href, label, title, text, button, image }, i) => (
@@ -87,7 +90,7 @@ export default () => (
             <div className="pt-4 text-2xl leading-7 font-extrabold mb-2">
               {title}
             </div>
-            <div className="text-sm leading-5  mt-4 ">{text}</div>
+            <div className="text-sm leading-5 mt-4 ">{text}</div>
           </div>
         </a>
       ))}
