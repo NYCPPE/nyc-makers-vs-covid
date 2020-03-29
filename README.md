@@ -6,6 +6,12 @@ Website for consolidating information on making PPE for the COVID-19 Outbreak.
 
 To run the site locally `yarn` and then `yarn dev`.
 
+## How to deploy your changes
+
+Just push your latest changes to master. Another method is to use the built in github editor and just makes changes and submit, the changes will be automatically deployed.
+
+## How developing with next and mdx works
+
 To build a static site (output will be placed in the `out` directory) run `yarn build && yarn export`. You can deploy this `out` directory to any server.
 
 Anything you place in the `public` folder will be exported untouched.
@@ -23,4 +29,4 @@ You can also write `.js` files in pages and use react.
 
 ## How to style the layouts
 
-This project comes with tailwindcss to make styling faster. It also includes the github markdown standard css file. You can also just add classes to html files via `styles/index.css` and write css how you usually would. If you are writing using .md or .mdx there is not a lot of customization, but there are a few included blocks like: `[[info]] , [[alert]] , [[warning]]` which will style your markdown.
+This project comes with tailwindcss to make styling faster. It also includes the github markdown standard css file. You can also just add classes to html files via `styles/index.css` and write css how you usually would. If you are writing using .md or .mdx there is not a lot of customization, but there are a few included blocks like: `[[info]] , [[alert]] , [[warning]], [[success]]` which will style your markdown.

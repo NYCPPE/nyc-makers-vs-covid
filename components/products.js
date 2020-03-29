@@ -23,7 +23,7 @@ const product = [
 ]
 const community = [
   {
-    href: '/open-fold-face-shield',
+    href: '/open-fold-face-shield.html',
     label: 'Face Shield',
     image: 'img/openfold.png',
     title: 'Open Fold Face Shield',
@@ -31,11 +31,12 @@ const community = [
       'These designs can be used to make complete PPE ‘Face-shields’† using only thin plastic materials and some folding.'
   },
   {
-    href: '/fast-face-shield',
+    href: '/fast-face-shield.html',
     label: 'Face Shield',
     image: 'img/fastface.png',
-    title: '3DVerkstan',
-    text: '3D printed face shield.',
+    title: 'Face Shield',
+    text:
+      'The Fast Face Shield is a suggested design for healthcare workers with no other options.    ',
     button: 'View Design'
   }
 ]
