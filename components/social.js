@@ -5,7 +5,7 @@ export default ({ limit }) => {
     <div className="bg-white sm:rounded-md h-full hover:no-underline flex flex-row flex-wrap md:flex-no-wrap px-2">
       <a
         href="https://twitter.com/nycmakesppe"
-        className="m-2 p-4 rounded-lg inline-block w-full hover:no-underline bg-gray-50 hover:bg-gray-100"
+        className="m-2 p-4 rounded-lg inline-block w-full hover:no-underline bg-blue-50 hover:bg-gray-100"
       >
         <div className="flex items-center justify-between">
           <div className=" text-xl leading-8 font-medium text-blue-500">
@@ -21,7 +21,7 @@ export default ({ limit }) => {
       </a>
       <a
         href="https://www.instagram.com/nycmakesppe/?utm_source=ig_embed&utm_campaign=loading"
-        className="m-2 p-4 rounded-lg inline-block w-full hover:no-underline bg-gray-50 hover:bg-gray-100"
+        className="m-2 p-4 rounded-lg inline-block w-full hover:no-underline bg-pink-50 hover:bg-gray-100"
       >
         <div className="flex items-center justify-between text-pink-900">
           <div className=" text-xl leading-8 font-medium text-pink-900">
@@ -59,7 +59,7 @@ export default ({ limit }) => {
       </a>
       <a
         href="https://www.facebook.com/nycmakesppe"
-        className="m-2 p-4 rounded-lg inline-block w-full hover:no-underline bg-gray-50 hover:bg-gray-100 sca"
+        className="m-2 p-4 rounded-lg inline-block w-full hover:no-underline bg-indigo-50 hover:bg-gray-100 sca"
       >
         <div className="flex items-center justify-between text-indigo-600">
           <div className=" text-xl leading-8 font-medium text-indigo-600">
