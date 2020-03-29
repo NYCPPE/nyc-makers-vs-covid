@@ -91,14 +91,16 @@ export default () => (
       <Donations />
     </div>
 
-    <div className="mt-12 py-2 px-4 text-xl font-bold text-gray-900">About</div>
-    <div className="flex-1 py-2 px-4 mb-6">
-      <p className="text-md leading-snug">
+    <div className="mt-12 mb-2 py-2 px-4 text-xl font-bold text-gray-700">
+      About
+    </div>
+    <div className="flex-1 mb-6 bg-gray-50 p-6 rounded-lg">
+      <p className="text-md leading-snug text-gray-700">
         NYC Makes PPE is a group of engineers, makers, and healthcare
         professionals leveraging DIY manufacturing technology to support PPE
         production in NYC.
       </p>
-      <p className="text-md leading-snug">
+      <p className="text-md leading-snug text-gray-700">
         Our represented organizations include: Columbia University, Weill
         Cornell Medicine, NYC Resistor, HackManhattan, fat cat FAB LAB,
         Makerspace NYC, and others.
@@ -110,11 +112,11 @@ export default () => (
         Want to get involved?
       </a>
     </div>
-    <div className="mt-12 py-2 px-4 text-xl font-bold text-gray-900">
+    <div className="mt-12 mb-4 px-4 text-xl font-bold text-gray-900">
       Photos
     </div>
     <Photos />
-    <div className="mt-12 py-2 px-4 text-xl font-bold text-gray-900">
+    <div className="mt-12 mb-4 px-4 text-xl font-bold text-gray-900">
       Find us online
     </div>
     <Social />
