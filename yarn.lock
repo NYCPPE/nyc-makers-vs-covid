@@ -5482,6 +5482,13 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+react-db-google-sheets@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-db-google-sheets/-/react-db-google-sheets-2.0.0.tgz#8a47c1cd17d96675a2c499f9de4230b756cec7e2"
+  integrity sha512-f+860iyjHWPDViy9LdLxKMZ430Mmx7CYlsp6HdEPL01xONmiz+7emtSnOKN4S/YY0sNK5VI33VA0pvj4mYl7ow==
+  dependencies:
+    lodash "^4.17.15"
+
 react-dom@^16.9.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"

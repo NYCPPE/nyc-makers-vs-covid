@@ -1,12 +1,10 @@
-import totals from './totals'
+import { withGoogleSheets } from 'react-db-google-sheets'
 
-export default ({ limit }) => {
-  let truncatedList = []
-  let totalCount = 0
-
-  truncatedList = totals
-  totals.map(props => (totalCount = totalCount + props.count))
-
+export function Sheet({ db }) {
+  let totalcount = 0
+  db.completed.map(props => {
+    totalcount = totalcount + parseInt(props.count)
+  })
   return (
     <div className="bg-white sm:rounded-md p-2 h-full hover:no-underline w-full md:w-1/2">
       <a
@@ -22,7 +20,7 @@ export default ({ limit }) => {
         </span>
         <div className="flex items-baseline">
           <p className="text-5xl leading-8 mb-1 font-extrabold text-pink-600">
-            {(totalCount / 100).toFixed() * 100}
+            {(totalcount / 100).toFixed() * 100}
           </p>
           {/* <small className="upprcase text-pink-600">estimated</small> */}
         </div>
@@ -33,3 +31,5 @@ export default ({ limit }) => {
     </div>
   )
 }
+
+export default withGoogleSheets('completed')(Sheet)

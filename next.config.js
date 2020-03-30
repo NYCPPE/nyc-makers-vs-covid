@@ -36,6 +36,11 @@ const withMDX = require('@next/mdx')({
 })
 
 module.exports = withMDX({
+  env: {
+    REACT_APP_GOOGLE_SHEETS_API_KEY:
+      process.env.REACT_APP_GOOGLE_SHEETS_API_KEY,
+    REACT_APP_GOOGLE_SHEETS_DOC_ID: process.env.REACT_APP_GOOGLE_SHEETS_DOC_ID
+  },
   target: 'serverless',
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   exportPathMap: function(defaultPathMap) {

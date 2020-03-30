@@ -3,6 +3,7 @@ import Donations from '../components/donations'
 import Social from '../components/social'
 import Photos from '../components/photos'
 import Products from '../components/products'
+import Header from '../components/header'
 
 const links = [
   {
@@ -37,92 +38,101 @@ const links = [
   }
 ]
 
-export default () => (
-  <>
-    <div>
-      <div className="flex justify-between max-w-4xl items-start mt-0 md:mt-8 p-4">
-        <div className="text-2xl md:text-4xl leading-tight font-black flex items-start flex-wrap text-gay-700 mb-4 mr-8 main-title ">
-          Providing PPE to underserved healthcare workers and organizations in
-          NYC.
-        </div>
-        {/* <span className="z-10 rounded-lg main-image max-w-sm">
+export default () => {
+  return (
+    <>
+      <Header
+        title="NYCMakesPPE | Home"
+        description="NYC Makes PPE is a group of makers and healthcare professionals in NYC leveraging DIY manufacturing technology to support PPE production in NYC and worldwide."
+      />
+      <div>
+        <div className="flex justify-between max-w-4xl items-start mt-0 md:mt-8 p-4">
+          <div className="text-2xl md:text-4xl leading-tight font-black flex items-start flex-wrap text-gay-700 mb-4 mr-8 main-title ">
+            Providing PPE to underserved healthcare workers and organizations in
+            NYC.
+          </div>
+          {/* <span className="z-10 rounded-lg main-image max-w-sm">
           <img
             className="h-auto mx-auto hidden md:block"
             src="distribution/hero.png"
           />
         </span> */}
-      </div>
-      <span className=" hidden md:block rounded-lg px-4 block md:hidden">
-        <img
-          className="h-auto w-full mx-auto block md:hidden"
-          src="distribution/hero.png"
-        />
-      </span>
-      <div className="relative mx-auto ">
-        <div className=" flex flex-row flex-wrap md:flex-no-wrap justify-between rounded-lg">
-          {links.map(({ href, label, title, text, button, image }, i) => (
-            <div
-              key={i}
-              className="w-full rounded-lg bg-pink-50 m-2 overflow-hidden flex flex-col justify-between p-6"
-            >
-              <div className=" items-baseline ">
-                <div className="text-pink-600 pb-2 items-baseline text-black text-2xl leading-tight font-semibold">
-                  {title}
+        </div>
+        <span className=" hidden md:block rounded-lg px-4 block md:hidden">
+          <img
+            className="h-auto w-full mx-auto block md:hidden"
+            src="distribution/hero.png"
+          />
+        </span>
+        <div className="relative mx-auto ">
+          <div className=" flex flex-row flex-wrap md:flex-no-wrap justify-between rounded-lg">
+            {links.map(({ href, label, title, text, button, image }, i) => (
+              <div
+                key={i}
+                className="w-full rounded-lg bg-pink-50 m-2 overflow-hidden flex flex-col justify-between p-6"
+              >
+                <div className=" items-baseline ">
+                  <div className="text-pink-600 pb-2 items-baseline text-black text-2xl leading-tight font-semibold">
+                    {title}
+                  </div>
+                  <p className="py-2 text-base leading-normal text-pink-600">
+                    {text}
+                  </p>
                 </div>
-                <p className="py-2 text-base leading-normal text-pink-600">
-                  {text}
-                </p>
+                <div className="rounded-md shadow-xl">
+                  <a
+                    href={href}
+                    className="flex items-center justify-center px-2 py-3 text-base font-medium rounded-lg text-white bg-pink-600 hover:bg-pink-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                  >
+                    {button}
+                  </a>
+                </div>
               </div>
-              <div className="rounded-md shadow-xl">
-                <a
-                  href={href}
-                  className="flex items-center justify-center px-2 py-3 text-base font-medium rounded-lg text-white bg-pink-600 hover:bg-pink-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                >
-                  {button}
-                </a>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
-    </div>
-    <div className="mx-auto flex flex-wrap justify-start md:flex-nowrap">
-      <TotalCount />
-      <Donations />
-    </div>
+      <div className="mx-auto flex flex-wrap justify-start md:flex-nowrap">
+        <TotalCount />
+        <Donations />
+      </div>
 
-    <div className="mt-12 mb-2 py-2 px-4 text-xl font-bold text-gray-700">
-      About
-    </div>
-    <div className="flex-1 mb-6 bg-gray-50 p-6 rounded-lg">
-      <p className="text-md leading-normal text-gray-700">
-        NYC Makes PPE is a group of engineers, makers, and healthcare
-        professionals leveraging DIY manufacturing technology to support PPE
-        production in NYC.
-      </p>
-      <p className="text-md leading-normal text-gray-700">
-        Our represented organizations include: Columbia University, Weill
-        Cornell Medicine, NYC Resistor, HackManhattan, fat cat FAB LAB,
-        Makerspace NYC, and others
-      </p>
-      <a className="text-base text-pink-600 rounded-lg mr-4" href="/about.html">
-        Learn more
-      </a>
-      <a
-        className="text-base text-pink-600 rounded-lg"
-        href="mailto:jake.h.lee@columbia.edu"
-      >
-        Get involved
-      </a>
-    </div>
-    <div className="mt-12 mb-4 px-4 text-xl font-bold text-gray-900">
-      Photos
-    </div>
-    <Photos />
-    <div className="mt-12 mb-4 px-4 text-xl font-bold text-gray-900">
-      Find us online
-    </div>
-    <Social />
-    <Products />
-  </>
-)
+      <div className="mt-12 mb-2 py-2 px-4 text-xl font-bold text-gray-700">
+        About
+      </div>
+      <div className="flex-1 mb-6 bg-gray-50 p-6 rounded-lg">
+        <p className="text-md leading-normal text-gray-700">
+          NYC Makes PPE is a group of engineers, makers, and healthcare
+          professionals leveraging DIY manufacturing technology to support PPE
+          production in NYC.
+        </p>
+        <p className="text-md leading-normal text-gray-700">
+          Our represented organizations include: Columbia University, Weill
+          Cornell Medicine, NYC Resistor, HackManhattan, fat cat FAB LAB,
+          Makerspace NYC, and others
+        </p>
+        <a
+          className="text-base text-pink-600 rounded-lg mr-4"
+          href="/about.html"
+        >
+          Learn more
+        </a>
+        <a
+          className="text-base text-pink-600 rounded-lg"
+          href="mailto:jake.h.lee@columbia.edu"
+        >
+          Get involved
+        </a>
+      </div>
+      <div className="mt-12 mb-4 px-4 text-xl font-bold text-gray-900">
+        Photos
+      </div>
+      <Photos />
+      <div className="mt-12 mb-4 px-4 text-xl font-bold text-gray-900">
+        Find us online
+      </div>
+      <Social />
+      <Products />
+    </>
+  )
+}
