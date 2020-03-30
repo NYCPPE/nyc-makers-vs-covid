@@ -6,7 +6,6 @@ export default (
   exception
 ) => {
   Sentry.captureException(exception);
-
   let status = 500;
   let error = {
     title: 'Unknown Error',
