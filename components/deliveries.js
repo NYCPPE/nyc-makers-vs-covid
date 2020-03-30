@@ -17,7 +17,7 @@ export default ({ limit }) => {
   return (
     <div className={'bg-white sm:rounded-md p-4 h-full hover:no-underline'}>
       <a
-        href="/stats.html"
+        href="/stats"
         className=" rounded-lg inline-block w-full hover:no-underline "
       >
         <span className="flex justify-between ">
