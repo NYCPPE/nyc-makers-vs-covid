@@ -1,20 +1,20 @@
 const product = [
   {
-    href: '/instructions#wisc',
+    href: '/instructions.html#wisc',
     label: 'Face Shield',
     image: 'img/wisc.png',
     title: 'WISC',
     text: 'A design similar to commercial products.'
   },
   {
-    href: '/instructions#3dverkstan-face-shield',
+    href: '/instructions.html#3dverkstan-face-shield',
     label: 'Face Shield',
     image: 'img/3dverk.png',
     title: '3DVerkstan',
     text: 'High-output 3D printed face shield.'
   },
   {
-    href: '/instructions#open-source-face-shield',
+    href: '/instructions.html#open-source-face-shield',
     label: 'Open Source Face Shield',
     image: 'img/nyu.png',
     title: 'Open Source Face Shield',

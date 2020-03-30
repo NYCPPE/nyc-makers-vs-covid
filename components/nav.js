@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Banner from './banner'
 
 const links = [
-  { href: '/instructions', label: 'Make' },
+  { href: '/instructions.html', label: 'Make' },
   {
     href: 'https://charity.gofundme.com/o/en/campaign/nyc-makes-ppe-covid-19',
     label: 'Donate'
@@ -12,7 +12,7 @@ const links = [
       'https://docs.google.com/forms/d/1eON_mLsFlD1wn_JUDM31IQkamXbBWD8Df6VdYJ9UDWQ/edit?ts=5e7bfed0',
     label: 'Request'
   },
-  { href: '/about', label: 'About' }
+  { href: '/about.html', label: 'About' }
 ]
 
 export default function Nav() {
