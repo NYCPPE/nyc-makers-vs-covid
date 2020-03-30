@@ -29,14 +29,6 @@ export default ({ children }) => (
         </div>
         <div className="px-5 py-2">
           <a
-            href="pdf/Face_Shield_Disclaimer.pdf"
-            className="text-base leading-6 text-gray-500 hover:text-gray-900"
-          >
-            Discord
-          </a>
-        </div>
-        <div className="px-5 py-2">
-          <a
             href="https://twitter.com/nycmakesppe"
             className="text-base leading-6 text-gray-500 hover:text-gray-900"
           >
