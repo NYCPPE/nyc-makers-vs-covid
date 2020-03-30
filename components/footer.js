@@ -4,7 +4,7 @@ export default ({ children }) => (
       <nav className="-mx-5 -my-2 flex flex-wrap justify-center">
         <div className="px-5 py-2">
           <a
-            href="/about.html"
+            href="/about"
             className="text-base leading-6 text-gray-500 hover:text-gray-900"
           >
             About
