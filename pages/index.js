@@ -12,20 +12,10 @@ const links = [
     image: 'distribution/hero.png',
     title: 'Are you a healthcare worker in need of PPE?',
     text:
-      'Our network of makers and couriers can deliver 50-100 units same day in NYC area.',
+      'Our network of makers and couriers can deliver anywhere in the NYC area.',
     button: 'Request',
     color: 'bg-pink-500'
   },
-  // {
-  //   href: '/instructions',
-  //   image: 'distribution/make.png',
-  //   label: 'Make',
-  //   title: 'Can you fabricate PPE?',
-  //   text:
-  //     'Our guides and community can help you get started ASAP. Assembly, fabrication and more.',
-  //   button: 'Make',
-  //   color: 'bg-pink-500'
-  // }
   {
     href: 'https://charity.gofundme.com/o/en/campaign/nyc-makes-ppe-covid-19',
     image: 'distribution/join.png',
