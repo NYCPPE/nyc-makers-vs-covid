@@ -93,7 +93,7 @@ export default () => (
       <p className="text-md leading-normal text-gray-700">
         Our represented organizations include: Columbia University, Weill
         Cornell Medicine, NYC Resistor, HackManhattan, fat cat FAB LAB,
-        Makerspace NYC, and others
+        Makerspace NYC, CUNY, and others.
       </p>
       <a className="text-base text-pink-600 rounded-lg mr-4" href="/about.html">
         Learn more
