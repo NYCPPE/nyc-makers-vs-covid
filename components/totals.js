@@ -1,6 +1,18 @@
 export default [
   {
-    count: 50,
+    count: 160,
+    date: '03/30/20',
+    hospital: 'Bronx',
+    type: 'WISC'
+  },
+  {
+    count: 10,
+    date: '03/28/20',
+    hospital: 'Brooklyn',
+    type: 'WISC'
+  },
+  {
+    count: 30,
     date: '03/28/20',
     hospital: 'Queens',
     type: 'WISC'
