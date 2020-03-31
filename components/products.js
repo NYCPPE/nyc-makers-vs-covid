@@ -19,6 +19,13 @@ const product = [
     image: 'img/nyu.png',
     title: 'Open Source Face Shield',
     text: "A design that doesn't require foam."
+  },
+  {
+    href: '/instructions#sewn-cotton-masks',
+    label: 'Cotton Masks',
+    image: 'img/mask.jpg',
+    title: 'Sewn Cotton Masks',
+    text: 'At home masks for NYC Healthcare Workers'
   }
 ]
 const community = [
@@ -46,12 +53,12 @@ export default () => (
     <div className="mt-12 mb-2 py-2 px-4 text-xl font-bold text-gray-900">
       Currently in production
     </div>
-    <div className=" flex flex-row flex-wrap md:flex-no-wrap justify-between rounded-lg">
+    <div className=" flex flex-row flex-wrap justify rounded-lg">
       {product.map(({ href, label, title, text, button, image }, i) => (
         <a
           href={href}
           key={i}
-          className="w-full rounded-lg bg-gray-50 hover:bg-gray-100 m-2 text-gray-900 overflow-hidden flex flex-col justify-between p-4"
+          className="block w-full md:w-1/3 rounded-lg over:bg-gray-100 text-gray-900 overflow-hidden flex flex-col justify-between p-4"
         >
           <div className=" items-baseline ">
             <span className="rounded-lg">
@@ -78,7 +85,7 @@ export default () => (
         <a
           href={href}
           key={i}
-          className="w-full rounded-lg bg-gray-50 hover:bg-gray-100 m-2 text-gray-900 overflow-hidden flex flex-col justify-between p-4"
+          className="w-full md:w-1/2 rounded-lg hover:bg-gray-100 text-gray-900 overflow-hidden flex flex-col justify-between p-4"
         >
           <div className=" items-baseline ">
             <span className="rounded-lg">
