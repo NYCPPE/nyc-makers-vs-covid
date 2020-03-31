@@ -106,6 +106,10 @@ table {
   max-width: 150px; */
 }
 
+.markdown-body table {
+  @apply font-normal text-left;
+}
+
 @import './github-markdown.css';
 
 @tailwind utilities;
