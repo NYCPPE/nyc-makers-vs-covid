@@ -22,10 +22,11 @@ const product = [
   },
   {
     href: '/instructions#sewn-cotton-masks',
-    label: 'Cotton Masks',
+    label: '100% Cotton Masks',
     image: 'img/mask.jpg',
-    title: 'Sewn Cotton Masks',
-    text: 'At home masks for NYC Healthcare Workers'
+    title: '100% Cotton Masks',
+    text:
+      'Intended to be worn over existing PPE to prolong the life of surgical/N95 masks.'
   }
 ]
 const community = [
