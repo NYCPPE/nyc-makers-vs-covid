@@ -21,7 +21,7 @@ const product = [
     text: "A design that doesn't require foam."
   },
   {
-    href: '/instructions#sewn-cotton-masks',
+    href: '/instructions#sewn-100-cotton-masks',
     label: '100% Cotton Masks',
     image: 'img/mask.jpg',
     title: '100% Cotton Masks',
