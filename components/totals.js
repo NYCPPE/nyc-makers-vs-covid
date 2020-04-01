@@ -108,6 +108,12 @@ export default [
     type: 'WISC Shields'
   },
   {
+    count: 150,
+    date: '03/23/20',
+    hospital: 'Brooklyn',
+    type: 'WISC Shields'
+  },
+  {
     count: 50,
     date: '03/22/20',
     hospital: 'Manhattan',
