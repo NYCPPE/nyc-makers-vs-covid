@@ -1,21 +1,57 @@
 export default [
   {
-    count: 160,
-    date: '03/29/20',
+    count: 250,
+    date: '03/31/20',
+    hospital: 'Queens',
+    type: 'WISC Shields'
+  },
+  {
+    count: 100,
+    date: '03/31/20',
+    hospital: 'UWS',
+    type: 'WISC Shields'
+  },
+  {
+    count: 100,
+    date: '03/31/20',
     hospital: 'Bronx',
-    type: 'WISC'
+    type: 'WISC Shields'
+  },
+  {
+    count: 30,
+    date: '03/30/20',
+    hospital: 'UES',
+    type: 'WISC Shields'
+  },
+  {
+    count: 160,
+    date: '03/30/20',
+    hospital: 'Bronx',
+    type: 'WISC Shields'
+  },
+  {
+    count: 175,
+    date: '03/30/20',
+    hospital: 'LES',
+    type: 'WISC Shields'
+  },
+  {
+    count: 50,
+    date: '03/30/20',
+    hospital: 'Queens',
+    type: 'WISC Shields'
   },
   {
     count: 30,
     date: '03/28/20',
     hospital: 'Queens',
-    type: 'WISC'
+    type: 'WISC Shields'
   },
   {
     count: 10,
     date: '03/28/20',
     hospital: 'Brooklyn',
-    type: 'WISC'
+    type: 'WISC Shields'
   },
   {
     count: 175,
