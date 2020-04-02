@@ -1,4 +1,4 @@
-import totals from "./totals";
+import totals from './totals'
 
 export default ({ limit }) => {
   return (
@@ -80,5 +80,5 @@ export default ({ limit }) => {
         {/* <div className="text-sm text-indigo-600 mt-2">Join our community.</div> */}
       </a>
     </div>
-  );
-};
+  )
+}
