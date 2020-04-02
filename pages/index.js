@@ -13,20 +13,10 @@ const links = [
     image: 'distribution/hero.png',
     title: 'Are you a healthcare worker in need of PPE?',
     text:
-      'Our network of makers and couriers can deliver 50-100 units same day in NYC area.',
+      'Our network of makers and couriers can deliver anywhere in the NYC area.',
     button: 'Request',
     color: 'bg-pink-500'
   },
-  // {
-  //   href: '/instructions',
-  //   image: 'distribution/make.png',
-  //   label: 'Make',
-  //   title: 'Can you fabricate PPE?',
-  //   text:
-  //     'Our guides and community can help you get started ASAP. Assembly, fabrication and more.',
-  //   button: 'Make',
-  //   color: 'bg-pink-500'
-  // }
   {
     href: 'https://charity.gofundme.com/o/en/campaign/nyc-makes-ppe-covid-19',
     image: 'distribution/join.png',
@@ -97,42 +87,38 @@ export default () => {
         <Donations />
       </div>
 
-      <div className="mt-12 mb-2 py-2 px-4 text-xl font-bold text-gray-700">
-        About
-      </div>
-      <div className="flex-1 mb-6 bg-gray-50 p-6 rounded-lg">
-        <p className="text-md leading-normal text-gray-700">
-          NYC Makes PPE is a group of engineers, makers, and healthcare
-          professionals leveraging DIY manufacturing technology to support PPE
-          production in NYC.
-        </p>
-        <p className="text-md leading-normal text-gray-700">
-          Our represented organizations include: Columbia University, Weill
-          Cornell Medicine, NYC Resistor, HackManhattan, fat cat FAB LAB,
-          Makerspace NYC, and others
-        </p>
-        <a
-          className="text-base text-pink-600 rounded-lg mr-4"
-          href="/about.html"
-        >
-          Learn more
-        </a>
-        <a
-          className="text-base text-pink-600 rounded-lg"
-          href="mailto:jake.h.lee@columbia.edu"
-        >
-          Get involved
-        </a>
-      </div>
-      <div className="mt-12 mb-4 px-4 text-xl font-bold text-gray-900">
-        Photos
-      </div>
-      <Photos />
-      <div className="mt-12 mb-4 px-4 text-xl font-bold text-gray-900">
-        Find us online
-      </div>
-      <Social />
-      <Products />
-    </>
-  )
-}
+    <div className="mt-12 mb-2 py-2 px-4 text-xl font-bold text-gray-700">
+      About
+    </div>
+    <div className="flex-1 mb-6 bg-gray-50 p-6 rounded-lg">
+      <p className="text-md leading-normal text-gray-700">
+        NYC Makes PPE is a group of engineers, makers, and healthcare
+        professionals leveraging DIY manufacturing technology to support PPE
+        production in NYC.
+      </p>
+      <p className="text-md leading-normal text-gray-700">
+        Our represented organizations include: Columbia University, Weill
+        Cornell Medicine, NYC Resistor, HackManhattan, fat cat FAB LAB,
+        Makerspace NYC, CCNY CUNY ASRC, and others.
+      </p>
+      <a className="text-base text-pink-600 rounded-lg mr-4" href="/about.html">
+        Learn more
+      </a>
+      <a
+        className="text-base text-pink-600 rounded-lg"
+        href="mailto:jake.h.lee@columbia.edu"
+      >
+        Get involved
+      </a>
+    </div>
+    <div className="mt-12 mb-4 px-4 text-xl font-bold text-gray-900">
+      Photos
+    </div>
+    <Photos />
+    <div className="mt-12 mb-4 px-4 text-xl font-bold text-gray-900">
+      Find us online
+    </div>
+    <Social />
+    <Products />
+  </>
+)
