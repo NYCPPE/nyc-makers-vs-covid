@@ -1,9 +1,10 @@
-import totals from './totals'
+import totals from './totals';
 
 export default ({ limit }) => {
   return (
     <div className="bg-white sm:rounded-md h-full hover:no-underline flex flex-row flex-wrap md:flex-no-wrap px-2">
       <a
+        target="_blank"
         href="https://twitter.com/nycmakesppe"
         className="m-2 p-4 rounded-lg inline-block w-full hover:no-underline bg-blue-50 hover:bg-gray-100"
       >
@@ -20,6 +21,7 @@ export default ({ limit }) => {
         </div> */}
       </a>
       <a
+        target="_blank"
         href="https://www.instagram.com/nycmakesppe/?utm_source=ig_embed&utm_campaign=loading"
         className="m-2 p-4 rounded-lg inline-block w-full hover:no-underline bg-pink-50 hover:bg-gray-100"
       >
@@ -40,7 +42,8 @@ export default ({ limit }) => {
         </div> */}
       </a>
       <a
-        href="https://www.instagram.com/nycmakesppe/?utm_source=ig_embed&utm_campaign=loading"
+        target="_blank"
+        href="https://github.com/NYCPPE/nyc-makers-vs-covid/"
         className="m-2 p-4 rounded-lg inline-block w-full hover:no-underline bg-gray-50 hover:bg-gray-100 sca"
       >
         <div className="flex items-center justify-between text-gray-600">
@@ -58,6 +61,7 @@ export default ({ limit }) => {
         {/* <div className="text-sm text-gray-600 mt-2">Colaborate with us.</div> */}
       </a>
       <a
+        target="_blank"
         href="https://www.facebook.com/nycmakesppe"
         className="m-2 p-4 rounded-lg inline-block w-full hover:no-underline bg-indigo-50 hover:bg-gray-100 sca"
       >
@@ -76,5 +80,5 @@ export default ({ limit }) => {
         {/* <div className="text-sm text-indigo-600 mt-2">Join our community.</div> */}
       </a>
     </div>
-  )
-}
+  );
+};
