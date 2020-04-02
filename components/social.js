@@ -1,4 +1,4 @@
-import totals from './totals';
+import totals from "./totals";
 
 export default ({ limit }) => {
   return (
