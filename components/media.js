@@ -24,7 +24,7 @@ const coverage = [
 export default () => (
   <>
     <div className="mt-12 mb-2 py-2 px-4 text-xl font-bold text-gray-900">
-      NYC Makes PPE in the Press
+      Press
     </div>
     <div className=" flex flex-col flex-nowrap justify rounded-lg">
       {coverage.map(({ href, organization, title, date }, i) => (
