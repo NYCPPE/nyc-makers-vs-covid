@@ -27,7 +27,7 @@ export default () => (
           key={i}
           className="block w-full rounded-lg over:bg-gray-100 text-base text-pink-600 overflow-hidden flex flex-col justify-between px-4 py-2"
         >
-          <div className="text-xl font-medium">{title}</div>
+          <div className="text-xl font-medium hover:underline">{title}</div>
           {organization} - {date}
         </a>
       ))}
