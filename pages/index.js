@@ -1,6 +1,7 @@
 import TotalCount from '../components/totalcount'
 import Donations from '../components/donations'
 import Social from '../components/social'
+import Media from '../components/media'
 import Photos from '../components/photos'
 import Products from '../components/products'
 
@@ -109,6 +110,7 @@ export default () => (
       Photos
     </div>
     <Photos />
+    <Media/>
     <div className="mt-12 mb-4 px-4 text-xl font-bold text-gray-900">
       Find us online
     </div>
