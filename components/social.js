@@ -43,7 +43,7 @@ export default ({ limit }) => {
       </a>
       <a
         target="_blank"
-        href="https://github.com/NYCPPE/nyc-makers-vs-covid/"
+        href="https://github.com/NYCPPE/nyc-makers-vs-covid"
         className="m-2 p-4 rounded-lg inline-block w-full hover:no-underline bg-gray-50 hover:bg-gray-100 sca"
       >
         <div className="flex items-center justify-between text-gray-600">
