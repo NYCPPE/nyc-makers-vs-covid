@@ -37,7 +37,7 @@ export default ({ children }) => (
         </div>
         <div className="px-5 py-2">
           <a
-            href="https://github.com/jakehlee/nyc-makers-vs-covid"
+            href="https://github.com/NYCPPE/nyc-makers-vs-covid"
             className="text-base leading-6 text-gray-500 hover:text-gray-900"
           >
             Github
