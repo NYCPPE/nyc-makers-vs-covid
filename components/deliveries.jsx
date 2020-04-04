@@ -1,4 +1,5 @@
 import totals from './totals'
+import { isToday, parse, formatDistanceStrict, startOfToday } from 'date-fns'
 
 export let totalCount = 0
 
@@ -18,7 +19,7 @@ export default ({ limit }) => {
     <div className={'bg-white sm:rounded-md p-4 h-full hover:no-underline'}>
       <a
         href="/stats"
-        className="rounded-lg inline-block w-full hover:no-underline"
+        className="rounded-lg inline-block w-full hover:no-underline "
       >
         <span className="flex justify-between ">
           <p className="text-xl leading-6 font-medium text-gray-900  hover:no-underline">
@@ -44,7 +45,8 @@ export default ({ limit }) => {
       {!limit && (
         <>
           <p className="pt-12 text-xl leading-6 font-medium text-gray-900  hover:no-underline">
-            Latest
+            Latest PPE deliveries. Only locations are given. We deliver PPE to
+            EMTs, nursing homes, and hospitals.
           </p>{' '}
           <table className="w-full table border-transparent">
             <tbody className="w-full table border-none">
@@ -81,7 +83,13 @@ export default ({ limit }) => {
                       />
                     </svg>
                     <span>
-                      <time dateTime="2020-01-07">{props.date}</time>
+                      {isToday(parse(props.date, 'MM/dd/yyyy', new Date()))
+                        ? 'Today'
+                        : formatDistanceStrict(
+                            parse(props.date, 'MM/dd/yyyy', new Date()),
+                            startOfToday(),
+                            { unit: 'day', addSuffix: 'true' }
+                          )}
                     </span>
                   </td>
                 </tr>
