@@ -12,13 +12,19 @@ const coverage = [
     organization: 'Bloomberg TV',
     title: 'NYC Makes PPE Interview',
     date: '4/1/2020'
+  },
+  {
+    href: 'https://makezine.com/2020/04/03/makers-wanted-print-ppe-for-nyc-now/',
+    organization: 'Make: Community',
+    title: 'Makers Wanted: Print PPE for NYC Now',
+    date: '4/3/2020'
   }
 ]
 
 export default () => (
   <>
     <div className="mt-12 mb-2 py-2 px-4 text-xl font-bold text-gray-900">
-      NYC Makes PPE in the Press
+      Press
     </div>
     <div className=" flex flex-col flex-nowrap justify rounded-lg">
       {coverage.map(({ href, organization, title, date }, i) => (
