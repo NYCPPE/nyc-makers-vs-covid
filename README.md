@@ -25,8 +25,14 @@ If you are writing raw `.html` files, place them in the public folder.
 ## How to make new pages
 
 Make a new file ending in `.md` or `.mdx` in the pages directory. Nesting directories works.
-You can also write `.js` files in pages and use react.
+You can also write `.jsx` files in pages and use react.
 
 ## How to style the layouts
 
 This project comes with tailwindcss to make styling faster. It also includes the github markdown standard css file. You can also just add classes to html files via `styles/index.css` and write css how you usually would. If you are writing using .md or .mdx there is not a lot of customization, but there are a few included blocks like: `[[info]] , [[alert]] , [[warning]], [[success]]` which will style your markdown.
+
+## Formatting your changes
+
+Sometimes formatting gets off but fear not we have added a script -- simply run `yarn format` and it will format any code that you have modified to our consistent style.
+
+There is a .prettierrc file which specifies the configuration for [prettier](https://prettier.io/). We use another package, [pretty-quick](https://github.com/azz/pretty-quick#readme) to run thr formatter on files you've modified.
