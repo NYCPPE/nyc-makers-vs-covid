@@ -1,5 +1,11 @@
 export default [
   {
+    count: 100,
+    date: '04/03/20',
+    hospital: 'Queens',
+    type: 'Sewn Masks'
+  }
+  {
     count: 200,
     date: '04/03/20',
     hospital: 'Queens',
