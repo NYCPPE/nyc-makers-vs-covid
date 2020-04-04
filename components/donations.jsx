@@ -27,7 +27,7 @@ export default ({ limit }) => {
             Total raised
           </p>
 
-          <p className="text-base font-normal text-pink-600 ml-2 ">&rarr;</p>
+          <p className="text-base font-normal text-pink-600 ml-2">&rarr;</p>
         </span>
         <div className="flex items-baseline">
           <p className="text-5xl leading-8 mb-1 font-extrabold text-pink-600">

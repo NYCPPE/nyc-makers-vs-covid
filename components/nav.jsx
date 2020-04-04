@@ -24,7 +24,7 @@ export default function Nav() {
         <ul className="w-full flex justify-between items-center px-6 py-4 pt-6 ">
           <li>
             <Link href="/">
-              <a className="flex flex-nowrap items-center ">
+              <a className="flex flex-nowrap items-center">
                 <img src="NYCMakesPPELogo.svg" className="mr-3 w-10" />
                 <span className="text-gray-900 font-semibold hidden md:block">
                   NYCMakesPPE

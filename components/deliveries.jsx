@@ -18,14 +18,14 @@ export default ({ limit }) => {
     <div className={'bg-white sm:rounded-md p-4 h-full hover:no-underline'}>
       <a
         href="/stats"
-        className=" rounded-lg inline-block w-full hover:no-underline "
+        className="rounded-lg inline-block w-full hover:no-underline"
       >
         <span className="flex justify-between ">
           <p className="text-xl leading-6 font-medium text-gray-900  hover:no-underline">
             Total PPE Delivered
           </p>
           {limit && (
-            <p className="text-base font-normal text-gray-900 ml-2 ">&rarr;</p>
+            <p className="text-base font-normal text-gray-900 ml-2">&rarr;</p>
           )}
         </span>
         <div className="flex items-baseline">
@@ -50,13 +50,13 @@ export default ({ limit }) => {
             <tbody className="w-full table border-none">
               {truncatedList.map((props, i) => (
                 <tr key={i} className="">
-                  <td className=" border px-4 py-4">
+                  <td className="border px-4 py-4">
                     <span className="py-4">{props.count}</span>
                   </td>
-                  <td className="  border px-4 py-2">{props.type}</td>
-                  <td className="   border px-4 py-2">
+                  <td className="border px-4 py-2">{props.type}</td>
+                  <td className="border px-4 py-2">
                     <svg
-                      className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400 float-left "
+                      className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400 float-left"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -68,7 +68,7 @@ export default ({ limit }) => {
                     </svg>
                     {props.hospital}
                   </td>
-                  <td className="   border px-4 py-2">
+                  <td className="border px-4 py-2">
                     <svg
                       className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400 float-left"
                       fill="currentColor"

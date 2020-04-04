@@ -32,7 +32,7 @@ export default () => (
   <>
     <div>
       <div className="flex justify-between max-w-4xl items-start mt-0 md:mt-8 p-4">
-        <div className="text-2xl md:text-4xl leading-tight font-black flex items-start flex-wrap text-gay-700 mb-4 mr-8 main-title ">
+        <div className="text-2xl md:text-4xl leading-tight font-black flex items-start flex-wrap text-gay-700 mb-4 mr-8 main-title">
           Providing PPE to underserved healthcare workers and organizations in
           NYC.
         </div>
