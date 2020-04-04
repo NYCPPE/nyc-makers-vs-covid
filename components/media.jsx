@@ -14,7 +14,8 @@ const coverage = [
     date: '4/1/2020'
   },
   {
-    href: 'https://makezine.com/2020/04/03/makers-wanted-print-ppe-for-nyc-now/',
+    href:
+      'https://makezine.com/2020/04/03/makers-wanted-print-ppe-for-nyc-now/',
     organization: 'Make: Community',
     title: 'Makers Wanted: Print PPE for NYC Now',
     date: '4/3/2020'

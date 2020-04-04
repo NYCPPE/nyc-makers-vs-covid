@@ -1,20 +1,20 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react'
 
 export default ({ limit }) => {
-  const [hasError, setErrors] = useState(false);
-  const [data, setData] = useState({});
+  const [hasError, setErrors] = useState(false)
+  const [data, setData] = useState({})
 
   async function fetchData() {
-    const res = await fetch("/api/v1/system");
+    const res = await fetch('/api/v1/system')
     res
       .json()
       .then(res => setData(res))
-      .catch(err => setErrors(err));
+      .catch(err => setErrors(err))
   }
 
   useEffect(() => {
     fetchData()
-  }, []);
+  }, [])
 
   return (
     <div className="bg-white sm:rounded-md p-2 h-full hover:no-underline w-full md:w-1/2">
@@ -31,7 +31,7 @@ export default ({ limit }) => {
         </span>
         <div className="flex items-baseline">
           <p className="text-5xl leading-8 mb-1 font-extrabold text-pink-600">
-            {data.raised ? data.raised : (hasError ? "$40,000" : "Loading...")}
+            {data.raised ? data.raised : hasError ? '$40,000' : 'Loading...'}
           </p>
           {/* <small className="upprcase text-pink-600">estimated</small> */}
         </div>
