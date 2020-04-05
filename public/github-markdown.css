@@ -750,9 +750,8 @@
 }
 
 .markdown-body table {
-  display: block;
+  /* display: block; */
   width: 100%;
-  overflow: auto;
 }
 
 .markdown-body table th {

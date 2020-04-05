@@ -85,9 +85,10 @@ export default () => (
     <div className="mt-12 mb-2 py-2 px-4 text-xl font-bold text-gray-700">
       About
     </div>
-    <div className="flex-1 mb-6 bg-gray-50 p-6 rounded-lg">
+    <Photos />
+    <div className="flex-1 mt-4 mb-6 bg-gray-50 p-4 rounded-lg">
       <p className="text-md leading-normal text-gray-700">
-        NYC Makes PPE is a group of engineers, makers, and healthcare
+        <b>NYC Makes PPE</b> is a group of engineers, makers, and healthcare
         professionals leveraging DIY manufacturing technology to support PPE
         production in NYC.
       </p>
@@ -106,10 +107,7 @@ export default () => (
         Get involved
       </a>
     </div>
-    <div className="mt-12 mb-4 px-4 text-xl font-bold text-gray-900">
-      Photos
-    </div>
-    <Photos />
+
     <Media />
     <div className="mt-12 mb-4 px-4 text-xl font-bold text-gray-900">
       Find us online
