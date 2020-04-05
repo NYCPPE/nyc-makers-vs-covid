@@ -25,7 +25,6 @@ export default ({ limit }) => {
           <p className="text-5xl leading-8 mb-1 font-extrabold text-pink-600">
             {format((totalCount / 100).toFixed() * 100)}
           </p>
-          {/* <small className="upprcase text-pink-600">estimated</small> */}
         </div>
         <p className="text-base text-pink-600 mb-0 pt-2">
           Face Shields, Masks and more...

@@ -33,7 +33,6 @@ export default ({ limit }) => {
           <p className="text-5xl leading-8 mb-1 font-extrabold text-pink-600">
             {data.raised ? data.raised : hasError ? '$40,000' : 'Loading...'}
           </p>
-          {/* <small className="upprcase text-pink-600">estimated</small> */}
         </div>
         <p className="text-base text-pink-600 mb-0 pt-2">
           For materials to make PPE

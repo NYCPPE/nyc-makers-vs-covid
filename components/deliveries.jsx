@@ -72,8 +72,6 @@ export default ({ limit }) => {
             </div>
             <p> Other</p>
           </div>
-
-          {/* <small className="upprcase text-gray-600">estimated</small> */}
         </div>
       </div>
       <div className="mt-2 py-2 border-b mb-4 text-xl leading-6 font-medium text-gray-900">
