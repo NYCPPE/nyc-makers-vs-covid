@@ -4,58 +4,108 @@ import { isToday, parse, formatDistanceStrict, startOfToday } from 'date-fns'
 export let totalCount = 0
 
 export default ({ limit }) => {
-  let truncatedList = []
   let totalCount = 0
+  let totalShields = 0
+  let totalMasks = 0
+  let totalN95 = 0
+  let totalOther = 0
 
-  if (limit) {
-    truncatedList = totals.slice(0, 6)
-    totals.map(props => (totalCount = totalCount + props.count))
-  } else {
-    truncatedList = totals
-    totals.map(props => (totalCount = totalCount + props.count))
-  }
+  totals.map(items => (totalCount = totalCount + items.count))
+  totals
+    .filter(items => items.type === 'Face Shields')
+    .map(items => {
+      console.log(items)
+      totalShields = totalShields + items.count
+    })
+  totals
+    .filter(items => items.type === 'Sewn Masks')
+    .map(items => (totalMasks = totalMasks + items.count))
+  totals
+    .filter(items => items.type === 'N95 Masks')
+    .map(items => (totalN95 = totalN95 + items.count))
+  totals
+    .filter(
+      items =>
+        items.type !== 'Face Shields' &&
+        items.type !== 'Sewn Masks' &&
+        items.type !== 'N95 Masks'
+    )
+    .map(items => (totalOther = totalOther + items.count))
 
   return (
     <div className={'bg-white sm:rounded-md p-4 h-full hover:no-underline'}>
-      <a
-        href="/stats"
-        className="rounded-lg inline-block w-full hover:no-underline "
-      >
-        <span className="flex justify-between ">
-          <p className="text-xl leading-6 font-medium text-gray-900  hover:no-underline">
-            Total PPE Delivered
-          </p>
-          {limit && (
-            <p className="text-base font-normal text-gray-900 ml-2">&rarr;</p>
-          )}
-        </span>
-        <div className="flex items-baseline">
-          <p className="text-6xl leading-8 mb-1 pt-6 font-extrabold text-gray-900">
+      <div>
+        <div className=" py-2 border-b mb-4  text-xl leading-6 font-medium text-gray-900 ">
+          Total PPE Delivered
+        </div>
+        <div className="flex items-baseline mb-6">
+          <p className="text-6xl leading-8 mb-1 pt-2 font-extrabold text-gray-900">
             {totalCount}
           </p>
+        </div>
+        <div className="mt-6  py-2 border-b mb-4 text-xl leading-6 font-medium text-gray-900 ">
+          Delivery Breakdown
+        </div>
+        <div className="flex  items-baseline">
+          <div className="pr-8 ">
+            <div className="text-2xl font-medium text-gray-900">
+              {totalShields}
+            </div>
+            <p> Face Shields</p>
+          </div>
+          <div className="pr-8 ">
+            <div className="text-2xl font-medium text-gray-900">
+              {totalMasks}
+            </div>
+            <p> Sewn Face Masks</p>
+          </div>
+          <div className="pr-8 ">
+            <div className="text-2xl font-medium text-gray-900">{totalN95}</div>
+            <p> N95 Masks</p>
+          </div>
+          <div className="pr-8 ">
+            <div className="text-2xl font-medium text-gray-900">
+              {totalOther}
+            </div>
+            <p> Other</p>
+          </div>
+
           {/* <small className="upprcase text-gray-600">estimated</small> */}
         </div>
-        <p className="text-md pt-2 text-gray-800 mb-0">
-          Face Shields, Masks and more...
-        </p>
-      </a>
-
-      {/* <h3>Total PPE Delivered</h3>
-      <div className="text-6xl font-bold">{totalCount}</div> */}
+      </div>
+      <div className="mt-6 py-2 border-b mb-4 text-xl leading-6 font-medium text-gray-900 ">
+        Daily Counts
+      </div>{' '}
+      <p className="text-base leading-6 text-gray-900  hover:no-underline">
+        Latest PPE deliveries. Only locations are given. We deliver PPE to EMTs,
+        nursing homes, and hospitals.
+      </p>{' '}
       {!limit && (
-        <>
-          <p className="pt-12 text-xl leading-6 font-medium text-gray-900  hover:no-underline">
-            Latest PPE deliveries. Only locations are given. We deliver PPE to
-            EMTs, nursing homes, and hospitals.
-          </p>{' '}
-          <table className="w-full table border-transparent">
-            <tbody className="w-full table border-none">
-              {truncatedList.map((props, i) => (
+        <div className="align-middle inline-block min-w-full overflow-hidden ">
+          <table className="min-w-full ">
+            <thead>
+              <tr className="align-top">
+                <th className="border px-4 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-900 uppercase tracking-wider">
+                  Amount
+                </th>
+                <th className="border px-4 py-3 border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-900 uppercase tracking-wider">
+                  Type
+                </th>
+                <th className="border px-4 py-3  border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-900 uppercase tracking-wider">
+                  Location
+                </th>
+                <th className="border px-4 py-3  border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-900 uppercase tracking-wider">
+                  Date
+                </th>
+              </tr>
+            </thead>
+            <tbody className="border-none">
+              {totals.map((items, i) => (
                 <tr key={i} className="">
                   <td className="border px-4 py-4">
-                    <span className="py-4">{props.count}</span>
+                    <span className="py-4">{items.count}</span>
                   </td>
-                  <td className="border px-4 py-2">{props.type}</td>
+                  <td className="border px-4 py-2">{items.type}</td>
                   <td className="border px-4 py-2">
                     <svg
                       className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400 float-left"
@@ -68,7 +118,7 @@ export default ({ limit }) => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    {props.hospital}
+                    {items.hospital}
                   </td>
                   <td className="border px-4 py-2">
                     <svg
@@ -83,10 +133,10 @@ export default ({ limit }) => {
                       />
                     </svg>
                     <span>
-                      {isToday(parse(props.date, 'MM/dd/yyyy', new Date()))
+                      {isToday(parse(items.date, 'MM/dd/yyyy', new Date()))
                         ? 'Today'
                         : formatDistanceStrict(
-                            parse(props.date, 'MM/dd/yyyy', new Date()),
+                            parse(items.date, 'MM/dd/yyyy', new Date()),
                             startOfToday(),
                             { unit: 'day', addSuffix: 'true' }
                           )}
@@ -96,7 +146,7 @@ export default ({ limit }) => {
               ))}
             </tbody>
           </table>
-        </>
+        </div>
       )}
     </div>
   )

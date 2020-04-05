@@ -110,6 +110,6 @@ table {
   @apply font-normal text-left;
 }
 
-@import './github-markdown.css';
+/* @import './github-markdown.css'; */
 
 @tailwind utilities;
