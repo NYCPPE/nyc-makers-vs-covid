@@ -73,12 +73,12 @@ export default ({ limit }) => {
           {/* <small className="upprcase text-gray-600">estimated</small> */}
         </div>
       </div>
-      <div className="mt-6 py-2 border-b mb-4 text-xl leading-6 font-medium text-gray-900 ">
-        Daily Counts
+      <div className="mt-2 py-2 border-b mb-4 text-xl leading-6 font-medium text-gray-900 ">
+        Latest Deliveries
       </div>{' '}
       <p className="text-base leading-6 text-gray-900  hover:no-underline">
-        Latest PPE deliveries. Only locations are given. We deliver PPE to EMTs,
-        nursing homes, and hospitals.
+        We deliver PPE to EMTs, nursing homes, and hospitals. Locations
+        simplified privacy.
       </p>{' '}
       {!limit && (
         <div className="align-middle inline-block min-w-full overflow-hidden ">
