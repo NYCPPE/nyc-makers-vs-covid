@@ -22,7 +22,7 @@ export default ({ limit }) => {
       </a>
       <a
         target="_blank"
-        href="https://www.instagram.com/nycmakesppe/?utm_source=ig_embed&utm_campaign=loading"
+        href="https://www.instagram.com/nycmakesppe"
         className="m-2 p-4 rounded-lg inline-block w-full hover:no-underline bg-pink-50 hover:bg-gray-100"
       >
         <div className="flex items-center justify-between text-pink-900">
