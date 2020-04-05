@@ -1,4 +1,5 @@
 import totals from './totals'
+import { format } from './deliveries'
 
 export default ({ limit }) => {
   let truncatedList = []
@@ -22,7 +23,7 @@ export default ({ limit }) => {
         </span>
         <div className="flex items-baseline">
           <p className="text-5xl leading-8 mb-1 font-extrabold text-pink-600">
-            {(totalCount / 100).toFixed() * 100}
+            {format((totalCount / 100).toFixed() * 100)}
           </p>
           {/* <small className="upprcase text-pink-600">estimated</small> */}
         </div>

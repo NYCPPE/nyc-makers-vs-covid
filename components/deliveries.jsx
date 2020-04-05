@@ -2,6 +2,7 @@ import totals from './totals'
 import { isToday, parse, formatDistanceStrict, startOfToday } from 'date-fns'
 
 export let totalCount = 0
+export let format = num => Intl.NumberFormat('en-US').format(num)
 
 export default ({ limit }) => {
   let totalCount = 0
@@ -35,37 +36,39 @@ export default ({ limit }) => {
   return (
     <div className={'bg-white sm:rounded-md p-4 h-full hover:no-underline'}>
       <div>
-        <div className=" py-2 border-b mb-4  text-xl leading-6 font-medium text-gray-900 ">
+        <div className="py-2 border-b mb-4  text-xl leading-6 font-medium text-gray-900">
           Total PPE Delivered
         </div>
         <div className="flex items-baseline mb-6">
           <p className="text-6xl leading-8 mb-1 pt-2 font-extrabold text-gray-900">
-            {totalCount}
+            {format(totalCount)}
           </p>
         </div>
-        <div className="mt-6  py-2 border-b mb-4 text-xl leading-6 font-medium text-gray-900 ">
+        <div className="mt-6  py-2 border-b mb-4 text-xl leading-6 font-medium text-gray-900">
           Delivery Breakdown
         </div>
         <div className="flex  items-baseline">
-          <div className="pr-8 ">
+          <div className="pr-8">
             <div className="text-2xl font-medium text-gray-900">
-              {totalShields}
+              {format(totalShields)}
             </div>
             <p> Face Shields</p>
           </div>
-          <div className="pr-8 ">
+          <div className="pr-8">
             <div className="text-2xl font-medium text-gray-900">
-              {totalMasks}
+              {format(totalMasks)}
             </div>
             <p> Sewn Face Masks</p>
           </div>
-          <div className="pr-8 ">
-            <div className="text-2xl font-medium text-gray-900">{totalN95}</div>
+          <div className="pr-8">
+            <div className="text-2xl font-medium text-gray-900">
+              {format(totalN95)}
+            </div>
             <p> N95 Masks</p>
           </div>
-          <div className="pr-8 ">
+          <div className="pr-8">
             <div className="text-2xl font-medium text-gray-900">
-              {totalOther}
+              {format(totalOther)}
             </div>
             <p> Other</p>
           </div>
@@ -73,7 +76,7 @@ export default ({ limit }) => {
           {/* <small className="upprcase text-gray-600">estimated</small> */}
         </div>
       </div>
-      <div className="mt-2 py-2 border-b mb-4 text-xl leading-6 font-medium text-gray-900 ">
+      <div className="mt-2 py-2 border-b mb-4 text-xl leading-6 font-medium text-gray-900">
         Latest Deliveries
       </div>{' '}
       <p className="text-base leading-6 text-gray-900  hover:no-underline">
@@ -81,8 +84,8 @@ export default ({ limit }) => {
         simplified for privacy.
       </p>{' '}
       {!limit && (
-        <div className="align-middle inline-block min-w-full overflow-hidden ">
-          <table className="min-w-full ">
+        <div className="align-middle inline-block min-w-full overflow-hidden">
+          <table className="min-w-full">
             <thead>
               <tr className="align-top">
                 <th className="border px-4 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-900 uppercase tracking-wider">
