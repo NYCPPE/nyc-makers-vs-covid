@@ -78,7 +78,7 @@ export default ({ limit }) => {
       </div>{' '}
       <p className="text-base leading-6 text-gray-900  hover:no-underline">
         We deliver PPE to EMTs, nursing homes, and hospitals. Locations
-        simplified privacy.
+        simplified for privacy.
       </p>{' '}
       {!limit && (
         <div className="align-middle inline-block min-w-full overflow-hidden ">
