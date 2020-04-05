@@ -24,7 +24,7 @@ export default [
     type: 'Face Shields'
   },
   {
-    count: 20200,
+    count: 200,
     date: '04/04/2020',
     hospital: 'Queens',
     type: 'Face Shields'
@@ -42,7 +42,7 @@ export default [
     type: 'Sewn Masks'
   },
   {
-    count: 20200,
+    count: 200,
     date: '04/03/2020',
     hospital: 'Queens',
     type: 'Face Shields'
@@ -54,7 +54,7 @@ export default [
     type: 'Face Shields'
   },
   {
-    count: 20200,
+    count: 200,
     date: '04/03/2020',
     hospital: 'UWS',
     type: 'Face Shields'
@@ -66,7 +66,7 @@ export default [
     type: 'Face Shields'
   },
   {
-    count: 22020,
+    count: 220,
     date: '04/02/2020',
     hospital: 'Bronx',
     type: 'Hand Sanitizer'
