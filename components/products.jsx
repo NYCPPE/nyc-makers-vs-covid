@@ -27,6 +27,23 @@ const product = [
     title: '100% Cotton Masks',
     text:
       'Intended to be worn over existing PPE to prolong the life of surgical/N95 masks.'
+  },
+  {
+    href: '/open-fold-face-shield.html',
+    label: 'Face Shield',
+    image: 'img/openfold.png',
+    title: 'Open Fold Face Shield',
+    text:
+      'These designs can be used to make ‘Face-shields’ using only thin plastic materials and some folding.'
+  },
+  {
+    href: '/fast-face-shield.html',
+    label: 'Fast Face Shield',
+    image: 'img/fastface.png',
+    title: 'Fast Face Shield',
+    text:
+      'The Fast Face Shield is a suggested design for healthcare workers with no other options.    ',
+    button: 'View Design'
   }
 ]
 const community = [
@@ -52,7 +69,7 @@ const community = [
 export default () => (
   <>
     <div className="mt-12 mb-2 py-2 px-4 text-xl font-bold text-gray-900">
-      Currently in production
+      Supported PPE Designs
     </div>
     <div className=" flex flex-row flex-wrap justify rounded-lg">
       {product.map(({ href, label, title, text, button, image }, i) => (
@@ -76,7 +93,7 @@ export default () => (
         </a>
       ))}
     </div>
-
+    {/* 
     <div className="mt-12 mb-2 py-2 px-4 text-xl font-bold text-gray-900">
       Community designs
     </div>
@@ -102,6 +119,6 @@ export default () => (
           </div>
         </a>
       ))}
-    </div>
+    </div> */}
   </>
 )
