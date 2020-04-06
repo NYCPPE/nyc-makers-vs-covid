@@ -6,7 +6,7 @@ export default ({ limit }) => {
   let totalCount = 0
 
   truncatedList = totals
-  totals.map(props => (totalCount = totalCount + props.count))
+  totals.map(items => (totalCount = totalCount + items.count))
 
   return (
     <div className="bg-white sm:rounded-md p-2 h-full hover:no-underline w-full md:w-1/2">
@@ -23,7 +23,7 @@ export default ({ limit }) => {
         </span>
         <div className="flex items-baseline">
           <p className="text-5xl leading-8 mb-1 font-extrabold text-pink-600">
-            {format((totalCount / 100).toFixed() * 100)}
+            {format(totalCount)}
           </p>
         </div>
         <p className="text-base text-pink-600 mb-0 pt-2">
