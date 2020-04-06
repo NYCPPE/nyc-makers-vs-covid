@@ -1,8 +1,28 @@
 import totals from './totals'
-import { isToday, parse, formatDistanceStrict, startOfToday } from 'date-fns'
+import {
+  isYesterday,
+  isToday,
+  parse,
+  formatDistanceStrict,
+  startOfToday
+} from 'date-fns'
 
 export let totalCount = 0
 export let format = num => Intl.NumberFormat('en-US').format(num)
+
+function formatDateDistance(date) {
+  let deliveryDate = parse(date, 'MM/dd/yyyy', new Date())
+  if (isToday(deliveryDate)) {
+    return 'Today'
+  } else if (isYesterday(deliveryDate)) {
+    return 'Yesterday'
+  } else {
+    return formatDistanceStrict(deliveryDate, startOfToday(), {
+      unit: 'day',
+      addSuffix: 'true'
+    })
+  }
+}
 
 export default ({ limit }) => {
   let totalCount = 0
@@ -11,26 +31,26 @@ export default ({ limit }) => {
   let totalN95 = 0
   let totalOther = 0
 
-  totals.map(items => (totalCount = totalCount + items.count))
+  totals.map(item => (totalCount = totalCount + item.count))
   totals
-    .filter(items => items.type === 'Face Shields')
-    .map(items => {
-      totalShields = totalShields + items.count
+    .filter(item => item.type === 'Face Shields')
+    .map(item => {
+      totalShields = totalShields + item.count
     })
   totals
-    .filter(items => items.type === '100% Cotton Masks')
-    .map(items => (totalMasks = totalMasks + items.count))
+    .filter(item => item.type === '100% Cotton Masks')
+    .map(item => (totalMasks = totalMasks + item.count))
   totals
-    .filter(items => items.type === 'N95 Masks')
-    .map(items => (totalN95 = totalN95 + items.count))
+    .filter(item => item.type === 'N95 Masks')
+    .map(item => (totalN95 = totalN95 + item.count))
   totals
     .filter(
-      items =>
-        items.type !== 'Face Shields' &&
-        items.type !== '100% Cotton Masks' &&
-        items.type !== 'N95 Masks'
+      item =>
+        item.type !== 'Face Shields' &&
+        item.type !== '100% Cotton Masks' &&
+        item.type !== 'N95 Masks'
     )
-    .map(items => (totalOther = totalOther + items.count))
+    .map(item => (totalOther = totalOther + item.count))
 
   return (
     <div className={'bg-white sm:rounded-md p-4 h-full hover:no-underline'}>
@@ -38,7 +58,7 @@ export default ({ limit }) => {
         <div className="py-2 border-b mb-4  text-xl leading-6 font-medium text-gray-900">
           Total PPE Delivered
         </div>
-        <div className="flex items-baseline mb-6">
+        <div className="flex item-baseline mb-6">
           <p className="text-6xl leading-8 mb-1 pt-2 font-extrabold text-gray-900">
             {format(totalCount)}
           </p>
@@ -46,7 +66,7 @@ export default ({ limit }) => {
         <div className="mt-6  py-2 border-b mb-4 text-xl leading-6 font-medium text-gray-900">
           Delivery Breakdown
         </div>
-        <div className="flex  items-baseline">
+        <div className="flex  item-baseline">
           <div className="pr-8">
             <div className="text-2xl font-medium text-gray-900">
               {format(totalShields)}
@@ -100,12 +120,12 @@ export default ({ limit }) => {
               </tr>
             </thead>
             <tbody className="border-none">
-              {totals.map((items, i) => (
+              {totals.map((item, i) => (
                 <tr key={i} className="">
                   <td className="border px-4 py-4">
-                    <span className="py-4">{items.count}</span>
+                    <span className="py-4">{item.count}</span>
                   </td>
-                  <td className="border px-4 py-2">{items.type}</td>
+                  <td className="border px-4 py-2">{item.type}</td>
                   <td className="border px-4 py-2">
                     <svg
                       className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400 float-left"
@@ -118,7 +138,7 @@ export default ({ limit }) => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    {items.hospital}
+                    {item.hospital}
                   </td>
                   <td className="border px-4 py-2">
                     <svg
@@ -132,15 +152,7 @@ export default ({ limit }) => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span>
-                      {isToday(parse(items.date, 'MM/dd/yyyy', new Date()))
-                        ? 'Today'
-                        : formatDistanceStrict(
-                            parse(items.date, 'MM/dd/yyyy', new Date()),
-                            startOfToday(),
-                            { unit: 'day', addSuffix: 'true' }
-                          )}
-                    </span>
+                    <span>{formatDateDistance(item.date)}</span>
                   </td>
                 </tr>
               ))}
