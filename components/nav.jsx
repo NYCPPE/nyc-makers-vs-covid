@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Banner from './banner'
 
 const links = [
+  { href: '/instructions#sewn-100-cotton-masks', label: 'Sew' },
   { href: '/instructions', label: 'Make' },
   {
     href: 'https://charity.gofundme.com/o/en/campaign/nyc-makes-ppe-covid-19',
@@ -12,6 +13,7 @@ const links = [
       'https://docs.google.com/forms/d/1eON_mLsFlD1wn_JUDM31IQkamXbBWD8Df6VdYJ9UDWQ/edit?ts=5e7bfed0',
     label: 'Request'
   },
+  { href: '/stats', label: 'Stats', hide: true },
   { href: '/about', label: 'About' }
 ]
 
@@ -33,8 +35,11 @@ export default function Nav() {
             </Link>
           </li>
           <ul className="flex justify-between items-center">
-            {links.map(({ href, label }) => (
-              <li key={`${href}${label}`} className="ml-4">
+            {links.map(({ href, label, hide }) => (
+              <li
+                key={`${href}${label}`}
+                className={hide ? 'ml-4 hidden md:block' : 'ml-4'}
+              >
                 <a href={href} className="btn-blue no-underline text-gray-900">
                   {label}
                 </a>
