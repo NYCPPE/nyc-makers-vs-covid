@@ -22,7 +22,7 @@ export default ({ limit }) => {
         href="https://charity.gofundme.com/o/en/campaign/nyc-makes-ppe-covid-19"
         className="p-4  rounded-lg inline-block w-full hover:no-underline bg-gray-50 hover:bg-gray-100 md:max-w-sm"
       >
-        <span className="flex justify-between ">
+        <span className="flex justify-between">
           <p className="text-base leading-6 font-medium text-pink-600  hover:no-underline">
             Total raised
           </p>

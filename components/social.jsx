@@ -9,7 +9,7 @@ export default ({ limit }) => {
         className="m-2 p-4 rounded-lg inline-block w-full hover:no-underline bg-blue-50 hover:bg-gray-100"
       >
         <div className="flex items-center justify-between">
-          <div className=" text-xl leading-8 font-medium text-blue-500">
+          <div className="text-xl leading-8 font-medium text-blue-500">
             Twitter
           </div>
           <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -26,7 +26,7 @@ export default ({ limit }) => {
         className="m-2 p-4 rounded-lg inline-block w-full hover:no-underline bg-pink-50 hover:bg-gray-100"
       >
         <div className="flex items-center justify-between text-pink-900">
-          <div className=" text-xl leading-8 font-medium text-pink-900">
+          <div className="text-xl leading-8 font-medium text-pink-900">
             Instagram
           </div>
           <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -47,7 +47,7 @@ export default ({ limit }) => {
         className="m-2 p-4 rounded-lg inline-block w-full hover:no-underline bg-gray-50 hover:bg-gray-100 sca"
       >
         <div className="flex items-center justify-between text-gray-600">
-          <div className=" text-xl leading-8 font-medium text-gray-600">
+          <div className="text-xl leading-8 font-medium text-gray-600">
             Github
           </div>
           <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -66,7 +66,7 @@ export default ({ limit }) => {
         className="m-2 p-4 rounded-lg inline-block w-full hover:no-underline bg-indigo-50 hover:bg-gray-100 sca"
       >
         <div className="flex items-center justify-between text-indigo-600">
-          <div className=" text-xl leading-8 font-medium text-indigo-600">
+          <div className="text-xl leading-8 font-medium text-indigo-600">
             Facebook
           </div>
           <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">

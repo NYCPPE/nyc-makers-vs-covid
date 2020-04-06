@@ -7,7 +7,7 @@ export default () => (
           src="distribution/image5.png"
         />
       </span>
-      <span className="w-4 h-4 "></span>
+      <span className="w-4 h-4"></span>
 
       <span className="rounded-lg overflow-hidden">
         <img
@@ -15,7 +15,7 @@ export default () => (
           src="/distribution/image1.jpg"
         />
       </span>
-      <span className="w-4 h-4 "></span>
+      <span className="w-4 h-4"></span>
 
       <span className="rounded-lg overflow-hidden">
         <img
@@ -31,7 +31,7 @@ export default () => (
           src="distribution/image2.jpg"
         />
       </span>
-      <span className="w-2 h-2 "></span>
+      <span className="w-2 h-2"></span>
 
       <span className="rounded-lg overflow-hidden">
         <img

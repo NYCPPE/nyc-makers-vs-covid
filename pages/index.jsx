@@ -43,20 +43,20 @@ export default () => (
           />
         </span> */}
       </div>
-      <span className=" hidden md:block rounded-lg px-4 block md:hidden">
+      <span className="hidden md:block rounded-lg px-4 block md:hidden">
         <img
           className="h-auto w-full mx-auto block md:hidden"
           src="distribution/hero.png"
         />
       </span>
-      <div className="relative mx-auto ">
-        <div className=" flex flex-row flex-wrap md:flex-no-wrap justify-between rounded-lg">
+      <div className="relative mx-auto">
+        <div className="flex flex-row flex-wrap md:flex-no-wrap justify-between rounded-lg">
           {links.map(({ href, label, title, text, button, image }, i) => (
             <div
               key={i}
               className="w-full rounded-lg bg-pink-50 m-2 overflow-hidden flex flex-col justify-between p-6"
             >
-              <div className=" items-baseline ">
+              <div className="items-baseline">
                 <div className="text-pink-600 pb-2 items-baseline text-black text-2xl leading-tight font-semibold">
                   {title}
                 </div>

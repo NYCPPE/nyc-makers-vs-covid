@@ -21,7 +21,7 @@ export default function Nav() {
       {/* <Banner /> */}
 
       <nav>
-        <ul className="w-full flex justify-between items-center px-6 py-4 pt-6 ">
+        <ul className="w-full flex justify-between items-center px-6 py-4 pt-6">
           <li>
             <Link href="/">
               <a className="flex flex-nowrap items-center">
