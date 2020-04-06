@@ -56,6 +56,12 @@ export default [
     type: '100% Cotton Face Masks'
   },
   {
+    count: 100,
+    date: '04/03/2020',
+    hospital: 'Queens',
+    type: '100% Cotton Face Masks'
+  },
+  {
     count: 200,
     date: '04/03/2020',
     hospital: 'Queens',
