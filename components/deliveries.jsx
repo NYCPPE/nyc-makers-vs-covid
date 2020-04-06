@@ -18,7 +18,7 @@ export default ({ limit }) => {
       totalShields = totalShields + items.count
     })
   totals
-    .filter(items => items.type === '100% Cotton Face Masks')
+    .filter(items => items.type === '100% Cotton Masks')
     .map(items => (totalMasks = totalMasks + items.count))
   totals
     .filter(items => items.type === 'N95 Masks')
@@ -27,7 +27,7 @@ export default ({ limit }) => {
     .filter(
       items =>
         items.type !== 'Face Shields' &&
-        items.type !== '100% Cotton Face Masks' &&
+        items.type !== '100% Cotton Masks' &&
         items.type !== 'N95 Masks'
     )
     .map(items => (totalOther = totalOther + items.count))
@@ -57,7 +57,7 @@ export default ({ limit }) => {
             <div className="text-2xl font-medium text-gray-900">
               {format(totalMasks)}
             </div>
-            <p> 100% Cotton Face Masks</p>
+            <p> 100% Cotton Masks</p>
           </div>
           <div className="pr-8">
             <div className="text-2xl font-medium text-gray-900">
