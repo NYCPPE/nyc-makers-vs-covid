@@ -1,5 +1,23 @@
 export default [
   {
+    count: 250,
+    date: '04/06/2020',
+    hospital: 'Brooklyn',
+    type: 'Face Shields'
+  },
+  {
+    count: 50,
+    date: '04/06/2020',
+    hospital: 'Brooklyn',
+    type: 'Face Shields'
+  },
+  {
+    count: 200,
+    date: '04/06/2020',
+    hospital: 'Brooklyn',
+    type: 'Face Shields'
+  },
+  {
     count: 60,
     date: '04/05/2020',
     hospital: 'Manhattan',
