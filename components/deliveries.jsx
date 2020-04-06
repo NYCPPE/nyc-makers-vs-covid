@@ -128,7 +128,7 @@ export default ({ limit }) => {
                   <td className="border px-4 py-2">{item.type}</td>
                   <td className="border px-4 py-2">
                     <svg
-                      className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400 float-left"
+                      className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400 float-left mr-1"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -142,7 +142,7 @@ export default ({ limit }) => {
                   </td>
                   <td className="border px-4 py-2">
                     <svg
-                      className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400 float-left"
+                      className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400 float-left mr-1"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
