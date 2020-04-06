@@ -15,7 +15,6 @@ export default ({ limit }) => {
   totals
     .filter(items => items.type === 'Face Shields')
     .map(items => {
-      console.log(items)
       totalShields = totalShields + items.count
     })
   totals
