@@ -97,7 +97,7 @@ export default ({ limit }) => {
         Latest Deliveries
       </div>{' '}
       <p className="text-base leading-6 text-gray-900  hover:no-underline">
-        We deliver PPE to EMTs, nursing homes, and hospitals. Locations
+        We deliver PPE to EMTs, nursing homes, and locations. Locations
         simplified for privacy.
       </p>{' '}
       {!limit && (
@@ -138,7 +138,7 @@ export default ({ limit }) => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    {item.hospital}
+                    {item.location}
                   </td>
                   <td className="border px-4 py-2">
                     <svg
