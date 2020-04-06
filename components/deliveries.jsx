@@ -58,7 +58,7 @@ export default ({ limit }) => {
             <div className="text-2xl font-medium text-gray-900">
               {format(totalMasks)}
             </div>
-            <p> 100% cotton masks</p>
+            <p> 100% Cotton Masks</p>
           </div>
           <div className="pr-8">
             <div className="text-2xl font-medium text-gray-900">
