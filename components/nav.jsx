@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Banner from './banner'
 
 const links = [
-  { href: '/instructions#sewn-100-cotton-masks', label: 'Sew' },
+  { href: '/sew', label: 'Sew' },
   { href: '/instructions', label: 'Make' },
   {
     href: 'https://charity.gofundme.com/o/en/campaign/nyc-makes-ppe-covid-19',

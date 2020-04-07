@@ -8,10 +8,6 @@ export default () => {
   })
   return (
     <>
-      <iframe
-        className="w-full h-full"
-        src="https://docs.google.com/document/d/1ZaKMhbZuQhKtEFLjgZBmOwH9hNSOdEz2jTONqMp7WbM/edit"
-      />
       <div className="py-6 text-3xl text-center">You are being redirected</div>
     </>
   )
