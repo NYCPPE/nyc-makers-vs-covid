@@ -1,5 +1,11 @@
 export default [
   {
+    count: 300,
+    date: '04/06/2020',
+    location: 'Manhattan',
+    type: 'Face Shields'
+  },
+  {
     count: 150,
     date: '04/06/2020',
     location: 'Manhattan',
