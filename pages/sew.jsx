@@ -3,8 +3,7 @@ import Router from 'next/router'
 
 export default () => {
   useEffect(() => {
-    window.location.href =
-      'https://docs.google.com/document/d/1ZaKMhbZuQhKtEFLjgZBmOwH9hNSOdEz2jTONqMp7WbM/'
+    window.location.href = 'https://bit.ly/SewnMasksNYC'
   })
   return (
     <>
