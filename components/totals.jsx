@@ -1,6 +1,30 @@
 export default [
   {
-    count: 250,
+    count: 150,
+    date: '04/06/2020',
+    location: 'Manhattan',
+    type: 'Face Shields'
+  },
+  {
+    count: 20,
+    date: '04/06/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  },
+  {
+    count: 100,
+    date: '04/06/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  },
+  {
+    count: 50,
+    date: '04/06/2020',
+    location: 'Manhattan',
+    type: 'Face Shields'
+  },
+  {
+    count: 215,
     date: '04/06/2020',
     location: 'Brooklyn',
     type: 'Face Shields'
@@ -36,7 +60,6 @@ export default [
     location: 'UES',
     type: 'Face Shields'
   },
-
   {
     count: 100,
     date: '04/04/2020',
