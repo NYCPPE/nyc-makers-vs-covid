@@ -8,6 +8,11 @@ export default () => {
   return (
     <>
       <div className="py-6 text-3xl text-center">You are being redirected</div>
+      <center>
+        <p>
+          Not working? <a href="https://bit.ly/SewnMasksNYC">Click here</a>
+        </p>
+      </center>
     </>
   )
 }
