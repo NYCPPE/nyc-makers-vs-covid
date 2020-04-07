@@ -66,7 +66,7 @@ export default ({ limit }) => {
         <div className="mt-6  py-2 border-b mb-4 text-xl leading-6 font-medium text-gray-900">
           Delivery Breakdown
         </div>
-        <div className="flex  item-baseline">
+        <div className="flex item-baseline">
           <div className="pr-8">
             <div className="text-2xl font-medium text-gray-900">
               {format(totalShields)}
