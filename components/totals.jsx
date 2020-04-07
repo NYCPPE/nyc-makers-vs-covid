@@ -1,5 +1,17 @@
 export default [
   {
+    count: 50,
+    date: '04/07/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  },
+  {
+    count: 200,
+    date: '04/07/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  },
+  {
     count: 300,
     date: '04/06/2020',
     location: 'Manhattan',
