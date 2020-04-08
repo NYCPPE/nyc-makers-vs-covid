@@ -1,6 +1,12 @@
 export default [
   {
     count: 100,
+    date: '04/08/2020',
+    location: 'Manhattan',
+    type: 'Face Shields'
+  }, // delivered by ron koder
+  {
+    count: 100,
     date: '04/07/2020',
     location: 'Manhattan',
     type: 'Surgical Masks'
