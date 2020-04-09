@@ -13,8 +13,8 @@ export default ({ children }) => (
 
         <div className="px-5 py-2">
           <a
-            href="mailto:jake.h.lee@columbia.edu"
-            className="text-base leading-6 text-gray-500 hover:text-gray-900"
+            href="mailto:mediainfo@nycmakesppe.com"
+            className="text-base leading-6 text-g gray-500 hover:text-gray-900"
           >
             Press
           </a>

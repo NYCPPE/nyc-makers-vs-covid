@@ -103,7 +103,7 @@ export default () => (
       </a>
       <a
         className="text-base text-pink-600 rounded-lg"
-        href="mailto:jake.h.lee@columbia.edu"
+        href="mailto:nycmakesppe@gmail.com"
       >
         Get involved
       </a>
