@@ -1,5 +1,5 @@
 import totals from './totals'
-import { format } from './deliveries'
+import { format } from '../utils/utils'
 
 export default ({ limit }) => {
   let truncatedList = []

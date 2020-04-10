@@ -93,23 +93,22 @@ export default () => (
         production in NYC.
       </p>
       <p className="text-md leading-normal text-gray-700">
-        Our represented organizations include: Columbia University, Weill
-        Cornell Medicine, NYC Resistor, Hack Manhattan, fat cat FAB LAB,
-        Makerspace NYC, CCNY CUNY ASRC, Columbia Zuckerman Institute and Bjarke
-        Ingels Group, Matterhackers, and others.
+        Our represented organizations include: Columbia University, Columbia
+        University Makerspace, Columbia Zuckerman Institute, Weill Cornell
+        Medicine, NYC Resistor, Hack Manhattan, fat cat FAB LAB, Makerspace NYC,
+        CCNY CUNY ASRC, and Bjarke Ingels Group, Matterhackers, and others.
       </p>
       <a className="text-base text-pink-600 rounded-lg mr-4" href="/about">
         Learn more
       </a>
       <a
         className="text-base text-pink-600 rounded-lg"
-        href="mailto:jake.h.lee@columbia.edu"
+        href="mailto:nycmakesppe@nycmakesppe.com"
       >
         Get involved
       </a>
     </div>
 
-    <Media />
     <div className="mt-12 mb-4 px-4 text-xl font-bold text-gray-900">
       Find us online
     </div>
