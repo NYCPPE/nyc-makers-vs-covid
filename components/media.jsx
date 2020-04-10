@@ -38,7 +38,7 @@ export default () => (
           className="block w-full rounded-lg over:bg-gray-100 text-base text-pink-600 overflow-hidden flex flex-col justify-between px-4 py-2"
         >
           <img
-            className="object-left object-scale-down h-15 w-full"
+            className="mb-1 object-left object-scale-down h-15 w-full"
             src={logo}
           />
           <div className="text-xl font-medium hover:underline">{title}</div>
