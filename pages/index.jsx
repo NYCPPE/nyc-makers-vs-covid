@@ -103,13 +103,12 @@ export default () => (
       </a>
       <a
         className="text-base text-pink-600 rounded-lg"
-        href="mailto:jake.h.lee@columbia.edu"
+        href="mailto:nycmakesppe@nycmakesppe.com"
       >
         Get involved
       </a>
     </div>
 
-    <Media />
     <div className="mt-12 mb-4 px-4 text-xl font-bold text-gray-900">
       Find us online
     </div>

@@ -14,6 +14,7 @@ const links = [
     label: 'Request'
   },
   { href: '/stats', label: 'Stats', hide: true },
+  { href: '/press', label: 'Press' },
   { href: '/about', label: 'About' }
 ]
 
