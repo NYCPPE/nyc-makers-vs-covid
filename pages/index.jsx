@@ -96,7 +96,8 @@ export default () => (
         Our represented organizations include: Columbia University, Columbia
         University Makerspace, Columbia Zuckerman Institute, Weill Cornell
         Medicine, NYC Resistor, Hack Manhattan, fat cat FAB LAB, Makerspace NYC,
-        CCNY CUNY ASRC, and Bjarke Ingels Group, Matterhackers, and others.
+        CCNY CUNY ASRC, and Bjarke Ingels Group, Matterhackers, Alternew/NYC
+        Face Mask Initiative, and others.
       </p>
       <a className="text-base text-pink-600 rounded-lg mr-4" href="/about">
         Learn more
