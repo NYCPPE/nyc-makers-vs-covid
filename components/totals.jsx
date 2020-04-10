@@ -1,6 +1,36 @@
 export default [
   {
     count: 100,
+    date: '04/09/2020',
+    location: 'Manhattan',
+    type: 'Surgical Masks'
+  },
+  {
+    count: 100,
+    date: '04/09/2020',
+    location: 'Bronx',
+    type: '100% Cotton Masks'
+  },
+  {
+    count: 100,
+    date: '04/09/2020',
+    location: 'Manhattan',
+    type: '100% Cotton Masks'
+  },
+  {
+    count: 265,
+    date: '04/09/2020',
+    location: 'Bronx',
+    type: '100% Cotton Masks'
+  },
+  {
+    count: 100,
+    date: '04/09/2020',
+    location: 'Manhattan',
+    type: 'Face Shields'
+  },
+  {
+    count: 100,
     date: '04/08/2020',
     location: 'Brooklyn',
     type: 'Face Shields'
