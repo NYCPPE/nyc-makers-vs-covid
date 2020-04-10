@@ -35,4 +35,4 @@ This project comes with tailwindcss to make styling faster. It also includes the
 
 Sometimes formatting gets off but fear not we have added a script -- simply run `yarn format` and it will format any code that you have modified to our consistent style.
 
-There is a .prettierrc file which specifies the configuration for [prettier](https://prettier.io/). We use another package, [pretty-quick](https://github.com/azz/pretty-quick#readme) to run thr formatter on files you've modified.
+There is a .prettierrc file which specifies the configuration for [prettier](https://prettier.io/). We use another package, [pretty-quick](https://github.com/azz/pretty-quick#readme) to run the formatter on files you've modified.
