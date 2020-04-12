@@ -22,6 +22,15 @@ const coverage = [
     logo: 'media_logos/make_community.png',
     title: 'Makers Wanted: Print PPE for NYC Now',
     date: '4/3/2020'
+  },
+  {
+    href:
+      'https://nycmakesppe.reportablenews.com/pr/everyday-new-yorkers-are-making-ppe-to-protect-healthcare-workers-and-giving-them-away-for-free',
+    logo: 'NYCMakesPPELogo.svg',
+    organization: 'NYC Makes PPE',
+    title:
+      'Everyday New Yorkers are making PPE to protect healthcare workers - and giving them away for free',
+    date: '4/9/2020'
   }
 ]
 
