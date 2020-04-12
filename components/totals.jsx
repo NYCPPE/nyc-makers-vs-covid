@@ -1,9 +1,57 @@
 export default [
   {
+    count: 150,
+    date: '04/11/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  },
+  {
+    count: 100,
+    date: '04/11/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  },
+  {
+    count: 200,
+    date: '04/11/2020',
+    location: 'Queens',
+    type: 'Face Shields'
+  }, // 51 -- unsure but entering anyways
+  {
+    count: 500,
+    date: '04/11/2020',
+    location: 'Queens',
+    type: 'Face Shields'
+  },
+  {
+    count: 10,
+    date: '04/11/2020',
+    location: 'Queens',
+    type: 'Face Shields'
+  },
+  {
+    count: 10,
+    date: '04/11/2020',
+    location: 'Brooklyn/Manhattan',
+    type: 'Face Shields'
+  },
+  {
+    count: 30,
+    date: '04/11/2020',
+    location: 'Brooklyn/Manhattan',
+    type: '100% Cotton Masks'
+  },
+  {
+    count: 136,
+    date: '04/11/2020',
+    location: 'Manhattan',
+    type: '100% Cotton Masks'
+  },
+  {
     count: 100,
     date: '04/10/2020',
     location: 'Manhattan',
-    type: '100% Cotton Masks'
+    type: 'Face Shields'
   },
   {
     count: 100,
@@ -47,6 +95,25 @@ export default [
     location: 'Queens',
     type: 'Face Shields'
   },
+  {
+    count: 40,
+    date: '04/10/2020',
+    location: 'Bronx',
+    type: 'N95 Masks'
+  },
+  {
+    count: 100,
+    date: '04/10/2019',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // order 114
+  {
+    count: 100,
+    date: '04/10/2020',
+    location: 'Manhattan',
+    type: 'Face Shields'
+  },
+
   {
     count: 100,
     date: '04/09/2020',
