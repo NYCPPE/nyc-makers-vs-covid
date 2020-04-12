@@ -16,7 +16,7 @@ export default [
     date: '04/11/2020',
     location: 'Queens',
     type: 'Face Shields'
-  }, // 51 -- unsure but entering anyways
+  },
   {
     count: 500,
     date: '04/11/2020',
@@ -42,7 +42,7 @@ export default [
     type: '100% Cotton Masks'
   },
   {
-    count: 136,
+    count: 134,
     date: '04/11/2020',
     location: 'Manhattan',
     type: '100% Cotton Masks'
@@ -106,7 +106,7 @@ export default [
     date: '04/10/2019',
     location: 'Brooklyn',
     type: '100% Cotton Masks'
-  }, // order 114
+  },
   {
     count: 100,
     date: '04/10/2020',
