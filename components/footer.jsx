@@ -51,6 +51,14 @@ export default ({ children }) => (
             Facebook
           </a>
         </div>
+        <div className="block">
+          <a href="https://madeinnyc.org/resource/covid-19-database">
+            <img
+              src="madeinnyc.svg"
+              className="object-scale-down w-9/12 h-9/12 object-center"
+            />
+          </a>
+        </div>
       </nav>
     </div>
   </div>
