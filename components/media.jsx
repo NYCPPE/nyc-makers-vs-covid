@@ -1,6 +1,14 @@
 const coverage = [
   {
     href:
+      'http://tribecatrib.com/content/coronavirus-crisis-community-daily-downtown-updates',
+    organization: 'The Tribeca Trib',
+    logo: 'media_logos/the_tribeca_trib.jpg',
+    title: 'The Coronavirus Crisis in the Community: Daily Downtown Updates',
+    date: '3/28/2020'
+  },
+  {
+    href:
       'https://spectrum.ieee.org/tech-talk/biomedical/devices/lessons-learned-nyc-makers-producing-personal-protective-equipment-medics',
     organization: 'IEEE Spectrum',
     logo: 'media_logos/ieee_spectrum.png',
