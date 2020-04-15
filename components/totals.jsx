@@ -121,7 +121,7 @@ export default [
   },
   {
     count: 100,
-    date: '04/10/2019',
+    date: '04/10/2020',
     location: 'Brooklyn',
     type: '100% Cotton Masks'
   },
