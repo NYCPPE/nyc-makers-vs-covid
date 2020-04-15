@@ -20,16 +20,17 @@ Anything you place in pages, will be compiled into html.
 
 This site uses next.js and mdx to build pages. This allows people to write raw markdown in the pages directory to make new pages, write react inside of `.mdx` files to make custom markdown pages, or just write raw react for super custom pages and data stuff.
 
-If you are writing raw `.html` files, place them in the public folder.
+If you are writing raw `.html` files, place them in the `public` folder.
 
 ## How to make new pages
 
-Make a new file ending in `.md` or `.mdx` in the pages directory. Nesting directories works.
+Make a new file ending in `.mdx` in the pages directory. Nesting directories works.
+
 You can also write `.jsx` files in pages and use react.
 
 ## How to style the layouts
 
-This project comes with tailwindcss to make styling faster. It also includes the github markdown standard css file. You can also just add classes to html files via `styles/index.css` and write css how you usually would. If you are writing using .md or .mdx there is not a lot of customization, but there are a few included blocks like: `[[info]] , [[alert]] , [[warning]], [[success]]` which will style your markdown.
+This project comes with tailwindcss to make styling faster. It also includes the github markdown standard css file. You can also just add classes to html files via `styles/index.css` and write css how you usually would. If you are writing using.mdx there is not a lot of customization, but there are a few included blocks like: `[[info]] , [[alert]] , [[warning]], [[success]]` which will style your markdown.
 
 ## Formatting your changes
 
