@@ -45,7 +45,7 @@ export default function Header(props) {
 
       <link rel="icon" type="image/png" href="/fav.png" />
 
-      <link rel="stylesheet" href="/github-markdown.css" />
+      <link rel="stylesheet" href="/css/github-markdown.css" />
       <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
         rel="stylesheet"
