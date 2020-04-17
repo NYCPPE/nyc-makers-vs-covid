@@ -1,5 +1,60 @@
 export default [
   {
+    count: 250,
+    date: '04/16/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  },
+  {
+    count: 100,
+    date: '04/16/2020',
+    location: 'Manhattam',
+    type: 'Face Shields'
+  },
+  {
+    count: 100,
+    date: '04/16/2020',
+    location: 'Bronx',
+    type: 'Face Shields'
+  },
+  {
+    count: 100,
+    date: '04/16/2020',
+    location: 'Bronx',
+    type: '100% Cotton Masks'
+  },
+  {
+    count: 100,
+    date: '04/16/2020',
+    location: 'Bronx',
+    type: '100% Cotton Masks'
+  },
+  {
+    count: 100,
+    date: '04/16/2020',
+    location: 'Bronx',
+    type: 'Face Shields'
+  }, // 166
+  {
+    count: 100,
+    date: '04/16/2020',
+    location: 'Bronx',
+    type: '100% Cotton Masks'
+  }, // 160
+  {
+    count: 90,
+    date: '04/16/2020',
+    location: 'Bronx',
+    type: 'Face Shields'
+  }, // 89
+  {
+    count: 50,
+    date: '04/16/2020',
+    location: 'Bronx',
+    type: '100% Cotton Masks'
+  }, // 89
+
+  {
     count: 100,
     date: '04/15/2020',
     location: 'Queens',
@@ -18,9 +73,9 @@ export default [
     type: 'Face Shields'
   }, //135
   {
-    count: 300,
+    count: 200,
     date: '04/15/2020',
-    location: 'Queens',
+    location: 'Manhattan',
     type: '100% Cotton Masks'
   }, // 135
   {
@@ -28,7 +83,7 @@ export default [
     date: '04/15/2020',
     location: 'Manhattan',
     type: 'Face Shields'
-  }, // 99a
+  },
   {
     count: 100,
     date: '04/15/2020',
