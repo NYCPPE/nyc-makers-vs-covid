@@ -1,5 +1,78 @@
 export default [
   {
+    count: 100,
+    date: '04/17/2020',
+    location: 'Manhattan',
+    type: '100% Cotton Masks'
+  },
+  // {
+  //   count: 20,
+  //   date: '04/17/2020',
+  //   location: 'Manhattan',
+  //   type: 'Face Shields'
+  // }, // 133
+  // {
+  //   count: 100,
+  //   date: '04/17/2020',
+  //   location: 'Bronx',
+  //   type: 'Face Shields'
+  // }, // 182a
+  // {
+  //   count: 100,
+  //   date: '04/17/2020',
+  //   location: 'Bronx',
+  //   type: '100% Cotton Masks'
+  // }, // 182b
+  // {
+  //   count: 100,
+  //   date: '04/17/2020',
+  //   location: 'Manhattan',
+  //   type: '100% Cotton Masks'
+  // }, // 4/7/2020 0:37:31 (2)
+  // {
+  //   count: 100,
+  //   date: '04/17/2020',
+  //   location: 'Bronx',
+  //   type: 'Face Shields'
+  // }, // 183a
+  // {
+  //   count: 100,
+  //   date: '04/17/2020',
+  //   location: 'Bronx',
+  //   type: '100% Cotton Masks'
+  // }, // 183b
+  // {
+  //   count: 10,
+  //   date: '04/17/2020',
+  //   location: 'Bronx',
+  //   type: 'Face Shields'
+  // }, // 93
+  // {
+  //   count: 10,
+  //   date: '04/17/2020',
+  //   location: 'Bronx',
+  //   type: '100% Cotton Masks'
+  // }, // 93
+  // {
+  //   count: 100,
+  //   date: '04/17/2020',
+  //   location: 'Bronx',
+  //   type: 'Face Shields'
+  // }, // 97
+  // {
+  //   count: 100,
+  //   date: '04/17/2020',
+  //   location: 'Bronx',
+  //   type: 'Face Shields'
+  // }, // 172
+  // {
+  //   count: 100,
+  //   date: '04/17/2020',
+  //   location: 'Bronx',
+  //   type: 'Face Shields'
+  // }, // 127
+
+  {
     count: 250,
     date: '04/16/2020',
     location: 'Brooklyn',
