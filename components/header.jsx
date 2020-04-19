@@ -32,20 +32,20 @@ export default function Header(props) {
 
       <meta
         property="article:publisher"
-        content="http://facebook.com/fatcatFABLAB"
+        content="http://facebook.com/NYCMakesPPE"
       />
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:title" content={title} />
-      <meta name="twitter:site" content="@fatcatFABLAB" />
+      <meta name="twitter:site" content="@NYCMakesPPE" />
       <meta name="twitter:domain" content="NYC Makes PPE" />
       <meta name="twitter:image" content={image} />
-      <meta name="twitter:creator" content="@fatcatFABLAB" />
+      <meta name="twitter:creator" content="@NYCMakesPPE" />
 
       <link rel="icon" type="image/png" href="/fav.png" />
 
-      <link rel="stylesheet" href="/github-markdown.css" />
+      <link rel="stylesheet" href="/css/github-markdown.css" />
       <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
         rel="stylesheet"

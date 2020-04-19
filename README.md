@@ -20,13 +20,20 @@ Anything you place in pages, will be compiled into html.
 
 This site uses next.js and mdx to build pages. This allows people to write raw markdown in the pages directory to make new pages, write react inside of `.mdx` files to make custom markdown pages, or just write raw react for super custom pages and data stuff.
 
-If you are writing raw `.html` files, place them in the public folder.
+If you are writing raw `.html` files, place them in the `public` folder.
 
 ## How to make new pages
 
-Make a new file ending in `.md` or `.mdx` in the pages directory. Nesting directories works.
-You can also write `.js` files in pages and use react.
+Make a new file ending in `.mdx` in the pages directory. Nesting directories works.
+
+You can also write `.jsx` files in pages and use react.
 
 ## How to style the layouts
 
-This project comes with tailwindcss to make styling faster. It also includes the github markdown standard css file. You can also just add classes to html files via `styles/index.css` and write css how you usually would. If you are writing using .md or .mdx there is not a lot of customization, but there are a few included blocks like: `[[info]] , [[alert]] , [[warning]], [[success]]` which will style your markdown.
+This project comes with tailwindcss to make styling faster. It also includes the github markdown standard css file. You can also just add classes to html files via `styles/index.css` and write css how you usually would. If you are writing using.mdx there is not a lot of customization, but there are a few included blocks like: `[[info]] , [[alert]] , [[warning]], [[success]]` which will style your markdown.
+
+## Formatting your changes
+
+Sometimes formatting gets off but fear not we have added a script -- simply run `yarn format` and it will format any code that you have modified to our consistent style.
+
+There is a .prettierrc file which specifies the configuration for [prettier](https://prettier.io/). We use another package, [pretty-quick](https://github.com/azz/pretty-quick#readme) to run the formatter on files you've modified.

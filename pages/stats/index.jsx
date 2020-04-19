@@ -1,4 +1,4 @@
-import Deliveries from '../components/deliveries'
+import Deliveries from '../../components/deliveries'
 
 export default () => {
   return (

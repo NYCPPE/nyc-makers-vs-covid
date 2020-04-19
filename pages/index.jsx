@@ -32,7 +32,7 @@ export default () => (
   <>
     <div>
       <div className="flex justify-between max-w-4xl items-start mt-0 md:mt-8 p-4">
-        <div className="text-2xl md:text-4xl leading-tight font-black flex items-start flex-wrap text-gay-700 mb-4 mr-8 main-title ">
+        <div className="text-2xl md:text-4xl leading-tight font-black flex items-start flex-wrap text-gay-700 mb-4 mr-8 main-title">
           Providing PPE to underserved healthcare workers and organizations in
           NYC.
         </div>
@@ -43,20 +43,20 @@ export default () => (
           />
         </span> */}
       </div>
-      <span className=" hidden md:block rounded-lg px-4 block md:hidden">
+      <span className="hidden md:block rounded-lg px-4 block md:hidden">
         <img
           className="h-auto w-full mx-auto block md:hidden"
           src="distribution/hero.png"
         />
       </span>
-      <div className="relative mx-auto ">
-        <div className=" flex flex-row flex-wrap md:flex-no-wrap justify-between rounded-lg">
+      <div className="relative mx-auto">
+        <div className="flex flex-row flex-wrap md:flex-no-wrap justify-between rounded-lg">
           {links.map(({ href, label, title, text, button, image }, i) => (
             <div
               key={i}
               className="w-full rounded-lg bg-pink-50 m-2 overflow-hidden flex flex-col justify-between p-6"
             >
-              <div className=" items-baseline ">
+              <div className="items-baseline">
                 <div className="text-pink-600 pb-2 items-baseline text-black text-2xl leading-tight font-semibold">
                   {title}
                 </div>
@@ -85,32 +85,30 @@ export default () => (
     <div className="mt-12 mb-2 py-2 px-4 text-xl font-bold text-gray-700">
       About
     </div>
-    <div className="flex-1 mb-6 bg-gray-50 p-6 rounded-lg">
+    <Photos />
+    <div className="flex-1 mt-4 mb-6 bg-gray-50 p-4 rounded-lg">
       <p className="text-md leading-normal text-gray-700">
-        NYC Makes PPE is a group of engineers, makers, and healthcare
+        <b>NYC Makes PPE</b> is a group of engineers, makers, and healthcare
         professionals leveraging DIY manufacturing technology to support PPE
         production in NYC.
       </p>
       <p className="text-md leading-normal text-gray-700">
-        Our represented organizations include: Columbia University, Weill
-        Cornell Medicine, NYC Resistor, Hack Manhattan, fat cat FAB LAB,
-        Makerspace NYC, CCNY CUNY ASRC, and others.
+        Columbia University, Weill Cornell Medicine, NYC Resistor, Hack
+        Manhattan, fat cat FAB LAB, Makerspace NYC, CCNY CUNY ASRC, and Bjarke
+        Ingels Group, Matterhackers, Alternew/NYC Face Mask Initiative, and
+        others.
       </p>
       <a className="text-base text-pink-600 rounded-lg mr-4" href="/about">
         Learn more
       </a>
       <a
         className="text-base text-pink-600 rounded-lg"
-        href="mailto:jake.h.lee@columbia.edu"
+        href="mailto:nycmakesppe@nycmakesppe.com"
       >
         Get involved
       </a>
     </div>
-    <div className="mt-12 mb-4 px-4 text-xl font-bold text-gray-900">
-      Photos
-    </div>
-    <Photos />
-    <Media/>
+
     <div className="mt-12 mb-4 px-4 text-xl font-bold text-gray-900">
       Find us online
     </div>

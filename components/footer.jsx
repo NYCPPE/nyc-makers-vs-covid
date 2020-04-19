@@ -13,7 +13,7 @@ export default ({ children }) => (
 
         <div className="px-5 py-2">
           <a
-            href="mailto:jake.h.lee@columbia.edu"
+            href="/press"
             className="text-base leading-6 text-gray-500 hover:text-gray-900"
           >
             Press
@@ -49,6 +49,14 @@ export default ({ children }) => (
             className="text-base leading-6 text-gray-500 hover:text-gray-900"
           >
             Facebook
+          </a>
+        </div>
+        <div className="block">
+          <a href="https://madeinnyc.org/resource/covid-19-database">
+            <img
+              src="madeinnyc.svg"
+              className="object-scale-down w-9/12 h-9/12 object-center"
+            />
           </a>
         </div>
       </nav>
