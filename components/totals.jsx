@@ -78,7 +78,7 @@ export default [
     type: '100% Cotton Masks'
   }, // 182b
   {
-    count: 100
+    count: 100,
     date: '04/17/2020',
     location: 'Bronx',
     type: 'Face Shields'
@@ -114,13 +114,13 @@ export default [
     type: '100% Cotton Masks'
   }, // 200
   {
-    count: 100
+    count: 100,
     date: '04/16/2020',
     location: 'Brooklyn',
     type: '100% Cotton Masks'
   }, // 177b
   {
-    count: 50
+    count: 50,
     date: '04/16/2020',
     location: 'Brooklyn',
     type: '100% Cotton Masks'
