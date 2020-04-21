@@ -1,5 +1,5 @@
 import totals from './totals'
-import { format } from '../utils/utils'
+import { format, formatDate } from '../utils/utils'
 
 export default ({ limit }) => {
   let truncatedList = []
@@ -16,7 +16,7 @@ export default ({ limit }) => {
       >
         <span className="flex justify-between">
           <p className="text-base leading-6 font-medium text-pink-600  hover:no-underline">
-            Total PPE Delivered
+            Total PPE Delivered as of {formatDate(totals[0].date)}
           </p>
 
           <p className="text-base font-normal text-pink-600 ml-2">&rarr;</p>
