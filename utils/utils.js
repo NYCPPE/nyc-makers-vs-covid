@@ -2,6 +2,7 @@ import {
   isYesterday,
   isToday,
   parse,
+  format as _formatDate,
   formatDistanceStrict,
   startOfToday
 } from 'date-fns'
@@ -20,4 +21,9 @@ export function formatDateDistance(date) {
       addSuffix: 'true'
     })
   }
+}
+
+export let formatDate = date => {
+  let latest = parse(date, 'MM/dd/yyyy', new Date())
+  return _formatDate(latest, 'MMMM d, yyyy')
 }
