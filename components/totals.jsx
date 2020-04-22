@@ -1,6 +1,120 @@
 export default [
   {
     count: 100,
+    date: '04/21/2020',
+    location: 'Manhattan',
+    type: 'Face Shields'
+  }, // 142
+  {
+    count: 36,
+    date: '04/21/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 140a
+  {
+    count: 100,
+    date: '04/21/2020',
+    location: 'Manhattan',
+    type: '100% Cotton Masks'
+  }, // 217
+  {
+    count: 20,
+    date: '04/20/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  }, // 216
+  {
+    count: 100,
+    date: '04/20/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  }, // 218
+  {
+    count: 32,
+    date: '04/20/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  }, // 220
+  {
+    count: 200,
+    date: '04/20/2020',
+    location: 'Queens',
+    type: 'Face Shields'
+  }, // 219
+  {
+    count: 100,
+    date: '04/20/2020',
+    location: 'Bronx',
+    type: 'Face Shields'
+  }, // 137
+  {
+    count: 100,
+    date: '04/20/2020',
+    location: 'Manhattan',
+    type: 'Face Shields'
+  }, // 233
+  {
+    count: 50,
+    date: '04/20/2020',
+    location: 'NYC',
+    type: '100% Cotton Masks'
+  }, // 215
+  {
+    count: 50,
+    date: '04/20/2020',
+    location: 'Queens',
+    type: 'Face Shields'
+  }, // 206
+  {
+    count: 300,
+    date: '04/20/2020',
+    location: 'Hempstead',
+    type: 'Face Shields'
+  }, // line 14
+  {
+    count: 10,
+    date: '04/20/2020',
+    location: 'Bronx',
+    type: '100% Cotton Masks'
+  }, // 211
+  {
+    count: 200,
+    date: '04/20/2020',
+    location: 'NYC',
+    type: '100% Cotton Masks'
+  }, // 213
+  {
+    count: 20,
+    date: '04/20/2020',
+    location: 'Manhasset',
+    type: '100% Cotton Masks'
+  }, // 203
+  {
+    count: 100,
+    date: '04/18/2020',
+    location: 'Manhattan',
+    type: '100% Cotton Masks'
+  }, // line 18
+  {
+    count: 190,
+    date: '04/18/2020',
+    location: 'Brooklyn',
+    type: 'N95 Masks'
+  }, // line 20
+  {
+    count: 190,
+    date: '04/18/2020',
+    location: 'Brooklyn',
+    type: 'N95 Masks'
+  }, // 1
+  {
+    count: 363,
+    date: '04/18/2020',
+    location: 'NYC',
+    type: 'Face Shields'
+  }, // FDNY
+  {
+    count: 100,
     date: '04/18/2020',
     location: 'Brooklyn',
     type: 'Face Shields'
@@ -29,6 +143,12 @@ export default [
     location: 'Manhattan',
     type: '100% Cotton Masks'
   }, // 117
+  {
+    count: 50,
+    date: '04/18/2020',
+    location: 'Manhattan',
+    type: 'Face Shields'
+  }, // 216
   {
     count: 20,
     date: '04/18/2020',
@@ -101,6 +221,12 @@ export default [
     location: 'Manhattan',
     type: '100% Cotton Masks'
   }, // 202
+  {
+    count: 100,
+    date: '04/17/2020',
+    location: 'Manhattan',
+    type: '100% Cotton Masks'
+  }, // 201
   {
     count: 100,
     date: '04/16/2020',
