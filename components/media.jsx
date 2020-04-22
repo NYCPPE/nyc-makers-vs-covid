@@ -42,12 +42,20 @@ const coverage = [
   },
   {
     href:
-      'http://www1.cuny.edu/mu/forum/2020/04/16/cuny-colleges-harness-3d-printers-to-provide-crucial-protective-equipment-for-frontline-medical-workers/?utm_source=hootsuite&utm_medium=twitter&utm_term=cuny&utm_content=b09d14ce-f0cd-456a-b2e9-0ef86eb21bb1&utm_campaign=',
+      'http://www1.cuny.edu/mu/forum/2020/04/16/cuny-colleges-harness-3d-printers-to-provide-crucial-protective-equipment-for-frontline-medical-workers/',
     logo: 'media_logos/cuny.png',
     organization: 'City University of New York (CUNY)',
     title:
       'CUNY Colleges Harness 3D Printers To Provide Crucial Protective Equipment For Frontline Medical Workers',
     date: '4/16/2020'
+  },
+  {
+    href:
+      'https://www.bxtimes.com/cuny-schools-3d-print-ppe-face-shields-for-nyc-health-workers/',
+    logo: 'media_logos/bronx_times.png',
+    organization: 'Bronx Times',
+    title: 'CUNY schools 3D-print PPE face shields for NYC health workers',
+    date: '4/17/2020'
   }
 ]
 
