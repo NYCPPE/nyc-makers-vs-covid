@@ -93,7 +93,7 @@ export default () => (
         </a>
       ))}
     </div>
-    {/* 
+    {/*
     <div className="mt-12 mb-2 py-2 px-4 text-xl font-bold text-gray-900">
       Community designs
     </div>
