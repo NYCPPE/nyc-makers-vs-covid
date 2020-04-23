@@ -1,5 +1,23 @@
 export default [
   {
+    count: 67,
+    date: '04/22/2020',
+    location: 'Bronx',
+    type: 'Face Shields'
+  }, // 266 -- double check for which date this was done
+  {
+    count: 10,
+    date: '04/22/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  }, // 234
+  {
+    count: 250,
+    date: '04/22/2020',
+    location: 'Bronx',
+    type: 'Face Shields'
+  }, // 225
+  {
     count: 100,
     date: '04/22/2020',
     location: 'Manhattan',
