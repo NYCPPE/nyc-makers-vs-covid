@@ -1,6 +1,30 @@
 export default [
   {
     count: 100,
+    date: '04/22/2020',
+    location: 'Manhattan',
+    type: 'Face Shields'
+  }, // 205
+  {
+    count: 100,
+    date: '04/22/2020',
+    location: 'Bronx',
+    type: 'Face Shields'
+  }, // 227
+  {
+    count: 50,
+    date: '04/22/2020',
+    location: 'Bronx',
+    type: 'Face Shields'
+  }, // 237
+  {
+    count: 100,
+    date: '04/22/2020',
+    location: 'Bronx',
+    type: 'Face Shields'
+  }, // 209
+  {
+    count: 100,
     date: '04/21/2020',
     location: 'Manhattan',
     type: 'Face Shields'
