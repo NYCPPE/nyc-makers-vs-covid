@@ -29,7 +29,7 @@ const product = [
       'Intended to be worn over existing PPE to prolong the life of surgical/N95 masks.'
   },
   {
-    href: '/open-fold-face-shield',
+    href: '/open-fold-face-shield.html',
     label: 'Face Shield',
     image: 'img/openfold.png',
     title: 'Open Fold Face Shield',
@@ -37,7 +37,7 @@ const product = [
       'These designs can be used to make ‘Face-shields’ using only thin plastic materials and some folding.'
   },
   {
-    href: '/fast-face-shield',
+    href: '/fast-face-shield.html',
     label: 'Fast Face Shield',
     image: 'img/fastface.png',
     title: 'Fast Face Shield',
@@ -93,7 +93,7 @@ export default () => (
         </a>
       ))}
     </div>
-    {/*
+    {/* 
     <div className="mt-12 mb-2 py-2 px-4 text-xl font-bold text-gray-900">
       Community designs
     </div>
