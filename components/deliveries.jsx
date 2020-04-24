@@ -74,11 +74,11 @@ export default ({ limit }) => {
       <div className="mt-2 py-2 border-b mb-4 text-xl leading-6 font-medium text-gray-900">
         Latest Deliveries as of {formatDate(totals[0].date)}
       </div>{' '}
-      <p className="text-base leading-6 text-gray-900  hover:no-underline">
+      <p className="text-base leading-6 text-gray-900 hover:no-underline">
         We deliver PPE to EMTs, nursing homes, and locations. Locations
         simplified for privacy.
       </p>{' '}
-      <p className="text-base leading-6 text-gray-900  hover:no-underline">
+      <p className="text-base leading-6 text-gray-900 hover:no-underline">
         We try to provide an accurate count of deliveries, and sometimes it
         takes a day or two to reconcile reports from our volunteer couriers.
       </p>{' '}
