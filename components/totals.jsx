@@ -42,6 +42,42 @@ export default [
     type: 'Face Shields'
   }, // 209
   {
+    count: 300,
+    date: '04/21/2020',
+    location: 'Manhattan',
+    type: 'Surgical Masks'
+  }, // 195
+  {
+    count: 129,
+    date: '04/21/2020',
+    location: 'Bronx',
+    type: 'N95 Masks'
+  }, // 174
+  {
+    count: 200,
+    date: '04/21/2020',
+    location: 'Bronx',
+    type: '100% Cotton Masks'
+  }, // 210
+  {
+    count: 100,
+    date: '04/21/2020',
+    location: 'Queens',
+    type: 'Face Shields'
+  }, // 239
+  {
+    count: 100,
+    date: '04/21/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  }, // 265
+  {
+    count: 50,
+    date: '04/21/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  }, // 264
+  {
     count: 100,
     date: '04/21/2020',
     location: 'Manhattan',
@@ -98,7 +134,7 @@ export default [
   {
     count: 50,
     date: '04/20/2020',
-    location: 'NYC',
+    location: 'Queens',
     type: '100% Cotton Masks'
   }, // 215
   {
@@ -110,9 +146,9 @@ export default [
   {
     count: 300,
     date: '04/20/2020',
-    location: 'Hempstead',
+    location: 'Queens',
     type: 'Face Shields'
-  }, // line 14
+  }, // line 151 Sort A-Z on delivery date
   {
     count: 10,
     date: '04/20/2020',
@@ -122,13 +158,13 @@ export default [
   {
     count: 200,
     date: '04/20/2020',
-    location: 'NYC',
+    location: 'Queens',
     type: '100% Cotton Masks'
   }, // 213
   {
     count: 20,
     date: '04/20/2020',
-    location: 'Manhasset',
+    location: 'Queens',
     type: '100% Cotton Masks'
   }, // 203
   {
@@ -152,7 +188,7 @@ export default [
   {
     count: 363,
     date: '04/18/2020',
-    location: 'NYC',
+    location: 'Queens',
     type: 'Face Shields'
   }, // FDNY
   {
