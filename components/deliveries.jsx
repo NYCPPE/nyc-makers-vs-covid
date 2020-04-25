@@ -27,7 +27,7 @@ export default ({ limit }) => {
     .filter(item => item.type === 'Surgical Masks')
     .map(item => (totalSurgicalMasks = totalSurgicalMasks + item.count))
   totals
-    .filter(item => item.type === 'Hand Sanitizer')
+    .filter(item => item.type === 'Hand Sanitizers')
     .map(item => (totalHandSanitizer = totalHandSanitizer + item.count))
 
   // totals
