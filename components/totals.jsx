@@ -1,5 +1,41 @@
 export default [
   {
+    count: 75,
+    date: '04/24/2020',
+    location: 'Manhattan',
+    type: '100% Cotton Masks'
+  }, // 194
+  {
+    count: 75,
+    date: '04/24/2020',
+    location: 'Manhattan',
+    type: '100% Cotton Masks'
+  }, // 196
+  {
+    count: 25,
+    date: '04/24/2020',
+    location: 'Manhattan',
+    type: '100% Cotton Masks'
+  }, // 214
+  {
+    count: 50,
+    date: '04/24/2020',
+    location: 'Manhattan',
+    type: '100% Cotton Masks'
+  }, // 258
+  {
+    count: 50,
+    date: '04/24/2020',
+    location: 'Manhattan',
+    type: '100% Cotton Masks'
+  }, // 226
+  {
+    count: 50,
+    date: '04/24/2020',
+    location: 'Manhattan',
+    type: '100% Cotton Masks'
+  }, // 238
+  {
     count: 67,
     date: '04/22/2020',
     location: 'Bronx',
