@@ -83,7 +83,7 @@ export default ({ limit }) => {
             <div className="text-2xl font-medium text-gray-900">
               {format(totalHandSanitizer)}
             </div>
-            <p> Hand Sanitizer</p>
+            <p> Hand Sanitizers</p>
           </div>
         </div>
       </div>
