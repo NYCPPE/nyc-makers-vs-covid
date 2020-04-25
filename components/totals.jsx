@@ -1005,7 +1005,7 @@ export default [
     count: 220,
     date: '04/02/2020',
     location: 'Bronx',
-    type: 'Hand Sanitizer'
+    type: 'Hand Sanitizers'
   },
   {
     count: 56,
