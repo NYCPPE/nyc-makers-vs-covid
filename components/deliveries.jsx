@@ -7,7 +7,9 @@ export default ({ limit }) => {
   let totalShields = 0
   let totalMasks = 0
   let totalN95 = 0
-  let totalOther = 0
+  let totalSurgicalMasks = 0
+  let totalHandSanitizer = 0
+  // let totalOther = 0
 
   totals.map(item => (totalCount = totalCount + item.count))
   totals
@@ -22,13 +24,21 @@ export default ({ limit }) => {
     .filter(item => item.type === 'N95 Masks')
     .map(item => (totalN95 = totalN95 + item.count))
   totals
-    .filter(
-      item =>
-        item.type !== 'Face Shields' &&
-        item.type !== '100% Cotton Masks' &&
-        item.type !== 'N95 Masks'
-    )
-    .map(item => (totalOther = totalOther + item.count))
+    .filter(item => item.type === 'Surgical Masks')
+    .map(item => (totalSurgicalMasks = totalSurgicalMasks + item.count))
+  totals
+    .filter(item => item.type === 'Hand Sanitizer')
+    .map(item => (totalHandSanitizer = totalHandSanitizer + item.count))
+
+  // totals
+  //   .filter(
+  //     item =>
+  //       item.type !== 'Face Shields' &&
+  //       item.type !== '100% Cotton Masks' &&
+  //       item.type !== 'Surgical Masks' &&
+  //       item.type !== 'N95 Masks'
+  //   )
+  //   .map(item => (totalOther = totalOther + item.count))
 
   return (
     <div className={'bg-white sm:rounded-md p-4 h-full hover:no-underline'}>
@@ -65,9 +75,15 @@ export default ({ limit }) => {
           </div>
           <div className="pr-8">
             <div className="text-2xl font-medium text-gray-900">
-              {format(totalOther)}
+              {format(totalSurgicalMasks)}
             </div>
-            <p> Other</p>
+            <p> Surgical Masks</p>
+          </div>
+          <div className="pr-8">
+            <div className="text-2xl font-medium text-gray-900">
+              {format(totalHandSanitizer)}
+            </div>
+            <p> Hand Sanitizer</p>
           </div>
         </div>
       </div>
