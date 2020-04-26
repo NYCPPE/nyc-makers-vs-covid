@@ -10,7 +10,7 @@ const links = [
   },
   {
     href:
-      'https://docs.google.com/forms/d/1eON_mLsFlD1wn_JUDM31IQkamXbBWD8Df6VdYJ9UDWQ/edit?ts=5e7bfed0',
+      'https://docs.google.com/forms/d/e/1FAIpQLScwaPIokgEel7exfRQMBEuQlOUTdYCc4UOhKelGtUwKms8ytg/viewform',
     label: 'Request'
   },
   { href: '/stats', label: 'Stats', hide: true },
