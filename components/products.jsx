@@ -1,5 +1,13 @@
 const product = [
   {
+    href: '/instructions#vase-mode-inhaler-spacer-by-pink_vampire',
+    label: 'Vase mode Inhaler Spacer',
+    image: 'img/vase_mode_inhaler_spacer.png',
+    title: 'Vase mode Inhaler Spacer',
+    text:
+      'Inhaler spacer tube printed using "Vase mode" without any sharp edges and is easy to clean. Designed by Pink_Vampire.'
+  },
+  {
     href: '/instructions#wisc',
     label: 'Face Shield',
     image: 'img/wisc.png',
@@ -76,7 +84,7 @@ export default () => (
         <a
           href={href}
           key={i}
-          className="block w-full md:w-1/3 rounded-lg over:bg-gray-100 text-gray-900 overflow-hidden flex flex-col justify-between p-4"
+          className="block w-full md:w-1/4 rounded-lg over:bg-gray-100 text-gray-900 overflow-hidden flex flex-col justify-between p-4"
         >
           <div className=" items-baseline">
             <span className="rounded-lg">
