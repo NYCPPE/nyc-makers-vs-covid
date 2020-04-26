@@ -1,8 +1,9 @@
 import Link from 'next/link'
+import { useModal } from 'react-modal-hook'
+
 import Banner from './banner'
 
 const links = [
-  { href: '/sew', label: 'Sew' },
   { href: '/instructions', label: 'Make' },
   {
     href: 'https://charity.gofundme.com/o/en/campaign/nyc-makes-ppe-covid-19',
@@ -13,23 +14,20 @@ const links = [
       'https://docs.google.com/forms/d/e/1FAIpQLScwaPIokgEel7exfRQMBEuQlOUTdYCc4UOhKelGtUwKms8ytg/viewform',
     label: 'Request'
   },
-  { href: '/stats', label: 'Stats', hide: true },
   { href: '/press', label: 'Press' },
   { href: '/about', label: 'About' }
 ]
 
-export default function Nav() {
+export default function Nav({ home }) {
   return (
     <>
-      {/* <Banner /> */}
-
-      <nav>
+      <nav className={home ? 'bg-cool-gray-900' : 'bg-cool-gray-900 mb-8'}>
         <ul className="w-full flex justify-between items-center px-6 py-4 pt-6">
           <li>
             <Link href="/">
               <a className="flex flex-nowrap items-center">
                 <img src="NYCMakesPPELogo.svg" className="mr-3 w-10" />
-                <span className="text-gray-900 font-semibold hidden md:block">
+                <span className="text-white font-semibold hidden md:block">
                   NYCMakesPPE
                 </span>
               </a>
@@ -41,7 +39,7 @@ export default function Nav() {
                 key={`${href}${label}`}
                 className={hide ? 'ml-4 hidden md:block' : 'ml-4'}
               >
-                <a href={href} className="btn-blue no-underline text-gray-900">
+                <a href={href} className="btn-blue no-underline text-white">
                   {label}
                 </a>
               </li>

@@ -1,5 +1,5 @@
 export default () => (
-  <div className="flex flex-col">
+  <div className="flex flex-col p-4">
     <div className="flex flex-wrap md:flex-no-wrap justify-start">
       <span className="rounded-lg overflow-hidden">
         <img
