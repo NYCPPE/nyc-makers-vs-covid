@@ -65,7 +65,7 @@ export default () => (
         <a
           href={href}
           key={i}
-          className="block w-full md:w-1/3 rounded-lg over:bg-gray-100 text-gray-900 overflow-hidden flex flex-col justify-between p-4"
+          className="block w-full md:w-1/4 rounded-lg over:bg-gray-100 text-gray-900 overflow-hidden flex flex-col justify-between p-4"
         >
           <div className=" items-baseline">
             <span className="rounded-lg">
