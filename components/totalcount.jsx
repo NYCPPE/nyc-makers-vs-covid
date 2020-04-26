@@ -9,26 +9,24 @@ export default ({ limit }) => {
   totals.map(items => (totalCount = totalCount + items.count))
 
   return (
-    <div className="bg-white sm:rounded-md p-2 h-full hover:no-underline w-full md:w-1/2">
+    <div className="sm:rounded-md p-2 hover:no-underline">
       <a
         href="/stats"
-        className="p-4 rounded-lg inline-block w-full hover:no-underline bg-gray-50 hover:bg-gray-100 md:max-w-sm"
+        className="rounded-lg inline-block w-full hover:no-underline hover:opacity-75 md:max-w-sm"
       >
-        <span className="flex justify-between">
-          <p className="text-base leading-6 font-medium text-pink-600  hover:no-underline">
-            Total PPE Delivered as of {formatDate(totals[0].date)}
-          </p>
-
-          <p className="text-base font-normal text-pink-600 ml-2">&rarr;</p>
-        </span>
         <div className="flex items-baseline">
-          <p className="text-5xl leading-8 mb-1 font-extrabold text-pink-600">
+          <p className="text-4xl leading-8 mb-1 font-medium text-white">
             {format(totalCount)}
           </p>
         </div>
-        <p className="text-base text-pink-600 mb-0 pt-2">
-          Face Shields, Masks and more...
-        </p>
+        <span className="flex justify-between flex-col flex-wrap">
+          <span className="text-base w-48 leading-6 p-0 m-0 font-medium text-white hover:no-underline">
+            Total PPE Delivered &rarr;
+          </span>
+          <span className="text-xs text-cool-gray-500 font-hairline p-0 m-0">
+            Last updated {formatDate(totals[0].date)}
+          </span>
+        </span>
       </a>
     </div>
   )

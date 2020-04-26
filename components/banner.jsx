@@ -6,8 +6,8 @@ export default function Banner() {
           <p className="font-bold text-white">
             {/* <span className="hidden md:inline">COVID-19 ALERT:</span> */}
             <span className="mr-2 text-gray-900">
-              Know how to sew? NYC Makes PPE is seeking volunteers to produce
-              100% cotton face masks.
+              NYC Makes PPE is seeking volunteers to produce 100% cotton face
+              masks.
             </span>
             <span className="block inline-block">
               <a

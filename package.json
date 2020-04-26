@@ -20,6 +20,7 @@
     "next": "^9.2.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-modal-hook": "^3.0.0",
     "remark": "^11.0.2",
     "remark-autolink-headings": "^6.0.0",
     "remark-custom-blocks": "^2.5.0",
