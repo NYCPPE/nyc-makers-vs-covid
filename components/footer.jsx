@@ -51,6 +51,14 @@ export default ({ children }) => (
             Facebook
           </a>
         </div>
+        <div className="px-5 py-2">
+          <a
+            href="https://www.instagram.com/nycmakesppe"
+            className="text-base leading-6 text-gray-500 hover:text-gray-900"
+          >
+            Instagram
+          </a>
+        </div>
         <div className="block">
           <a href="https://madeinnyc.org/resource/covid-19-database">
             <img
