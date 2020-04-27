@@ -25,14 +25,15 @@ export default () => (
               </div>
               <div className="rounded-md ">
                 <a
-                  href="https://bit.ly/nycmakesppe"
+                  href="https://bit.ly/nycmakesppe-request"
                   className=" flex items-center justify-center text-white px-2 py-3 bg-cool-gray-900 text-white font-medium rounded-lg"
                 >
                   Request PPE
                 </a>
               </div>
               <span className="text-sm pt-4">
-                For organizations requesting 500+ pieces of PPE{' '}
+                If your organization is requesting 500+ pieces for
+                redistribution,
                 <a
                   href="https://bit.ly/nycmakesppe-grant"
                   className="font-medium"

@@ -10,8 +10,7 @@ const links = [
     label: 'Donate'
   },
   {
-    href:
-      'https://docs.google.com/forms/d/e/1FAIpQLScwaPIokgEel7exfRQMBEuQlOUTdYCc4UOhKelGtUwKms8ytg/viewform',
+    href: 'https://bit.ly/nycmakesppe-request',
     label: 'Request'
   },
   { href: '/press', label: 'Press' },
