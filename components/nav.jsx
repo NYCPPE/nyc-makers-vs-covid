@@ -9,10 +9,6 @@ const links = [
     href: 'https://charity.gofundme.com/o/en/campaign/nyc-makes-ppe-covid-19',
     label: 'Donate'
   },
-  {
-    href: 'https://bit.ly/nycmakesppe-request',
-    label: 'Request'
-  },
   { href: '/press', label: 'Press' },
   { href: '/about', label: 'About' }
 ]
