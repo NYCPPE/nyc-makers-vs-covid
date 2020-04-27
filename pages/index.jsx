@@ -32,8 +32,7 @@ export default () => (
                 </a>
               </div>
               <span className="text-sm pt-4">
-                If your organization is requesting 500+ pieces for
-                redistribution,
+                For organizations requesting 500+ pieces of PPE,{' '}
                 <a
                   href="https://bit.ly/nycmakesppe-grant"
                   className="font-medium"
