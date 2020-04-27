@@ -1,7 +1,6 @@
 import TotalCount from '../components/totalcount'
 import Donations from '../components/donations'
 import Social from '../components/social'
-import Media from '../components/media'
 import Photos from '../components/photos'
 import RequestButton from '../components/modal'
 import Footer from '../components/footer'
@@ -63,22 +62,14 @@ export default () => (
           Ingels Group, Matterhackers, Alternew/NYC Face Mask Initiative, and
           others.
         </p>
-        <a className="text-base  rounded-lg mr-4" href="/about">
-          Learn more
+        <a className="text-base mr-4" href="/about">
+          Learn More
         </a>
-        <a
-          className="text-base pr-4 rounded-lg"
-          href="mailto:nycmakesppe@nycmakesppe.com"
-        >
-          Get involved
+        <a className="text-base" href="/instructions#in-use">
+          Supported Designs
         </a>
-        <Link href="/instructions">
-          <a>View community designs</a>
-        </Link>
       </div>
       <Photos />
-
-      {/* <Products /> */}
     </div>
   </div>
 )

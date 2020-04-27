@@ -65,7 +65,7 @@ export default () => (
         <a
           href={href}
           key={i}
-          className="block w-full md:w-1/4 rounded-lg over:bg-gray-100 text-gray-900 overflow-hidden flex flex-col justify-between p-4"
+          className="block w-full md:w-1/4 sm:w/2 rounded-lg over:bg-gray-100 text-gray-900 overflow-hidden flex flex-col justify-between p-4"
         >
           <div className=" items-baseline">
             <span className="rounded-lg">
@@ -77,7 +77,7 @@ export default () => (
             <div className="pt-4 text-2xl leading-7 font-extrabold mb-2">
               {title}
             </div>
-            <div className="text-sm leading-5  mt-4">{text}</div>
+            <div className="text-sm leading-5 mt-4">{text}</div>
           </div>
         </a>
       ))}
