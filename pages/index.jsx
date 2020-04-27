@@ -8,13 +8,17 @@ import Link from 'next/link'
 
 export default () => (
   <div className="w-full" id="home">
-    <div>
-      <div className="flex justify-start lg:justify-center flex-wrap mt-0 p-4 md:px-12 md:py-12 bg-cool-gray-900">
-        <div className="text-3xl max-w-3xl md:text-5xl leading-tight md:font-black flex items-start flex-wrap text-gray-50 mb-4 mr-8">
+    <div className="mt-0 p-8 sm:px-12 sm:py-12 md:pb-20 bg-cool-gray-900">
+      <div className="mx-auto max-w-screen-md xl:max-w-screen-xl w-full flex justify-start xl:justify-around items-start flex-wrap ">
+        <div className="text-3xl mx-auto md:m-0 md:max-w-3xl md:text-5xl leading-tight font-black flex items-start flex-wrap text-gray-50 mb-4 sm:mb-12 ">
           Providing PPE to underserved healthcare workers and organizations in
           NYC.
+          <div className="hidden md:flex pt-12 w-full mx-auto flex-wrap justify-start md:flex-nowrap">
+            <TotalCount />
+            <Donations />
+          </div>
         </div>
-        <div className="relative m-0 lg:mx-auto w-full max-w-md md:max-w-sm mb-8 p-0">
+        <div className="relative m-0 w-full lg:max-w-sm mb-8 p-0 md:pt-12 lg:p-0">
           <div className="flex flex-row flex-wrap md:flex-no-wrap justify-between rounded-lg">
             <div className="w-full rounded-lg bg-cool-gray-50 m-2 overflow-hidden flex flex-col justify-between p-6">
               <div className="items-baseline">
@@ -42,10 +46,10 @@ export default () => (
               </span>
             </div>
           </div>
-        </div>
-        <div className="w-full mx-auto flex flex-wrap justify-start md:flex-nowrap">
-          <TotalCount />
-          <Donations />
+          <div className="visible md:hidden pt-12 w-full mx-auto flex flex-wrap justify-start md:flex-nowrap">
+            <TotalCount />
+            <Donations />
+          </div>
         </div>
       </div>
     </div>
