@@ -35,7 +35,6 @@ export default [
     location: 'Bronx',
     type: 'Face Shields'
   }, // 266
-
   {
     count: 50,
     date: '04/28/2020',
@@ -66,7 +65,6 @@ export default [
     location: 'Manhattan',
     type: '100% Cotton Masks'
   }, // 243
-
   {
     count: 50,
     date: '04/25/2020',
@@ -115,7 +113,6 @@ export default [
     location: 'Paramus, NJ',
     type: 'Face Shields'
   }, // Paramus
-
   {
     count: 10,
     date: '04/24/2020',
