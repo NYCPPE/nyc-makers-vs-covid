@@ -61,10 +61,10 @@ export default () => (
           production in NYC.
         </p>
         <p className="text-md leading-normal text-gray-700">
-          Columbia University, Weill Cornell Medicine, NYC Resistor, Hack
-          Manhattan, fat cat FAB LAB, Makerspace NYC, CCNY CUNY ASRC, and Bjarke
-          Ingels Group, Matterhackers, Alternew/NYC Face Mask Initiative, and
-          others.
+          Organizations participating include: Columbia University, Weill
+          Cornell Medicine, NYC Resistor, Hack Manhattan, fat cat FAB LAB,
+          Makerspace NYC, CCNY CUNY ASRC, and Bjarke Ingels Group,
+          Matterhackers, Alternew/NYC Face Mask Initiative, and others.
         </p>
         <a className="text-base mr-4" href="/about">
           Learn More
