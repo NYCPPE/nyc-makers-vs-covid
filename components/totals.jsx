@@ -92,12 +92,36 @@ export default [
     type: 'Face Shields'
   }, // 270
   {
+    count: 300,
+    date: '04/24/2020',
+    location: 'Wayne, NJ',
+    type: 'Face Shields'
+  }, // Wayne
+  {
+    count: 300,
+    date: '04/24/2020',
+    location: 'Newark, NJ',
+    type: 'Face Shields'
+  }, // Newark
+  {
+    count: 200,
+    date: '04/24/2020',
+    location: 'Jersey City, NJ',
+    type: 'Face Shields'
+  }, // Jersey City
+  {
+    count: 200,
+    date: '04/24/2020',
+    location: 'Paramus, NJ',
+    type: 'Face Shields'
+  }, // Paramus
+
+  {
     count: 10,
     date: '04/24/2020',
     location: 'Queens',
     type: 'Face Shields'
   }, //191
-
   {
     count: 75,
     date: '04/24/2020',
