@@ -1,5 +1,24 @@
 export default [
   {
+    count: 50,
+    date: '04/30/2020',
+    location: 'Queens',
+    type: 'Face Shields'
+  }, // 298
+
+  {
+    count: 100,
+    date: '04/30/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 221
+  {
+    count: 150,
+    date: '04/30/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 236
+  {
     count: 150,
     date: '04/29/2020',
     location: 'Queens',
@@ -210,6 +229,30 @@ export default [
     type: '100% Cotton Masks'
   }, // 238
   {
+    count: 70,
+    date: '04/23/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 228
+  {
+    count: 80,
+    date: '04/23/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 240
+  {
+    count: 100,
+    date: '04/22/2020',
+    location: 'Manhattan',
+    type: 'Inhaler Spacers'
+  }, // 205
+  {
+    count: 100,
+    date: '04/22/2020',
+    location: 'Bronx',
+    type: 'Inhaler Spacers'
+  }, // 227
+  {
     count: 67,
     date: '04/22/2020',
     location: 'Bronx',
@@ -305,6 +348,30 @@ export default [
     location: 'Manhattan',
     type: '100% Cotton Masks'
   }, // 217
+  {
+    count: 100,
+    date: '04/21/2020',
+    location: 'Brooklyn',
+    type: 'Inhaler Spacers'
+  }, // 265
+  {
+    count: 20,
+    date: '04/20/2020',
+    location: 'Brooklyn',
+    type: 'Inhaler Spacers'
+  }, // 216
+  {
+    count: 50,
+    date: '04/20/2020',
+    location: 'Brooklyn',
+    type: 'Inhaler Spacers'
+  }, // 223
+  {
+    count: 15,
+    date: '04/20/2020',
+    location: 'Queens',
+    type: 'Inhaler Spacers'
+  }, // 207
   {
     count: 20,
     date: '04/20/2020',
