@@ -20,10 +20,10 @@ export default ({ limit }) => {
     <div className="sm:rounded-md p-2  hover:no-underline">
       <a
         href="https://charity.gofundme.com/o/en/campaign/nyc-makes-ppe-covid-19"
-        className=" rounded-lg inline-block w-full hover:no-underline md:max-w-sm  hover:opacity-75"
+        className="rounded-lg inline-block w-full hover:no-underline md:max-w-sm  hover:opacity-75"
       >
         <div className="flex items-baseline">
-          <p className="text-4xl leading-8 mb-1 font-medium text-white ">
+          <p className="text-4xl leading-8 mb-1 font-medium text-white">
             {data.raised ? data.raised : hasError ? '$40,000' : 'Loading...'}
           </p>
         </div>

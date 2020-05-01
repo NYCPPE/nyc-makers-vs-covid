@@ -60,14 +60,14 @@ export default () => (
     <div className="mt-12 mb-2 text-xl font-bold text-gray-900">
       Supported PPE Designs
     </div>
-    <div className=" flex flex-row flex-wrap justify rounded-lg">
+    <div className="flex flex-row flex-wrap justify rounded-lg">
       {product.map(({ href, label, title, text, button, image }, i) => (
         <a
           href={href}
           key={i}
           className="block w-full md:w-1/4 sm:w/2 rounded-lg over:bg-gray-100 text-gray-900 overflow-hidden flex flex-col justify-between p-4"
         >
-          <div className=" items-baseline">
+          <div className="items-baseline">
             <span className="rounded-lg">
               <img
                 className="h-auto w-full mx-auto hidden md:block"

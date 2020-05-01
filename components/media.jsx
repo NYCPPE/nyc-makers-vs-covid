@@ -82,7 +82,7 @@ export default () => (
     <div className="mt-12 mb-2 py-2 px-4 text-xl font-bold text-gray-900">
       Press
     </div>
-    <div className=" flex flex-col flex-nowrap justify rounded-lg">
+    <div className="flex flex-col flex-nowrap justify rounded-lg">
       {coverage.map(({ href, organization, logo, title, date }, i) => (
         <a
           href={href}

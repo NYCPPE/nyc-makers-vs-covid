@@ -7,10 +7,10 @@ const RequestButton = ({}) => {
         className="fixed w-full h-full flex justify-center items-center text-gray-50 top-0 left-0"
         style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}
       >
-        <div className="rounded-lg bg-pink-50 m-2 flex flex-col justify-between p-6 max-w-sm ">
+        <div className="rounded-lg bg-pink-50 m-2 flex flex-col justify-between p-6 max-w-sm">
           <div className="m-2">
             <div className="items-baseline">
-              <div className=" flex items-center justify-center pb-4 leading-tight  text-3xl font-bold text-pink-600">
+              <div className="flex items-center justify-center pb-4 leading-tight  text-3xl font-bold text-pink-600">
                 Looking for face shields, hand sanitizer, masks and more?{' '}
               </div>
             </div>
@@ -25,14 +25,14 @@ const RequestButton = ({}) => {
           </div>
           <div className="m-2 mt-4">
             <div className="items-baseline">
-              <p className="text-pink-600 pb-4 items-baseline text-black text-base leading-tight ">
+              <p className="text-pink-600 pb-4 items-baseline text-black text-base leading-tight">
                 For requests larger than 200 units please fill out this form:
               </p>
             </div>
-            <div className="rounded-md ">
+            <div className="rounded-md">
               <a
                 href=""
-                className=" flex items-center justify-center border-pink-500 border text-white bg-pink-50 px-2 py-3 text-pink-600 font-medium rounded-lg"
+                className="flex items-center justify-center border-pink-500 border text-white bg-pink-50 px-2 py-3 text-pink-600 font-medium rounded-lg"
               >
                 Large scale PPE request
               </a>

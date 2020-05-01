@@ -1,7 +1,7 @@
 export default function Banner() {
   return (
-    <div className="w-full relative bg-yellow-200 ">
-      <div className="max-w-screen-xl mx-auto py-4 px-4 ">
+    <div className="w-full relative bg-yellow-200">
+      <div className="max-w-screen-xl mx-auto py-4 px-4">
         <div className="pr-16 sm:text-center sm:px-16 mx-auto">
           <p className="font-bold text-white">
             {/* <span className="hidden md:inline">COVID-19 ALERT:</span> */}

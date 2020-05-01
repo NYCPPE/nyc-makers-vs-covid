@@ -24,7 +24,7 @@ export default ({ Component, pageProps, router, ...rest }) => {
         {router.pathname === '/' ? (
           <>
             <Nav home={true} />
-            <div className="markdown-body ">
+            <div className="markdown-body">
               <Component {...pageProps} />
             </div>
           </>
