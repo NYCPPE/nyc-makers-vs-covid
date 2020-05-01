@@ -59,6 +59,15 @@ const coverage = [
   },
   {
     href:
+      'https://ssa.ccny.cuny.edu/blog/2020/04/17/bond-center-steps-up-for-ppe-production-effort/',
+    logo: 'media_logos/the_bernard_and_anne_spitzer_school_of_architecture.svg',
+    organization:
+      'The Bernard and Anne Spitzer School of Architecture at City College of New York (CCNY)',
+    title: 'Bond Center Steps Up for PPE Production Effort',
+    date: '4/17/2020'
+  },
+  {
+    href:
       'https://www.nydailynews.com/coronavirus/hometown-helpers/ny-coronavirus-covid-damon-hamm-artists-assembly-line-face-shields-20200430-cn6nr3pftnahhgvi3qzdzifveu-story.html',
     logo: 'media_logos/ny_daily_news.png',
     organization: 'New York Daily News',
