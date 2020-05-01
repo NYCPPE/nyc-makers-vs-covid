@@ -56,6 +56,15 @@ const coverage = [
     organization: 'Bronx Times',
     title: 'CUNY schools 3D-print PPE face shields for NYC health workers',
     date: '4/17/2020'
+  },
+  {
+    href:
+      'https://www.nydailynews.com/coronavirus/hometown-helpers/ny-coronavirus-covid-damon-hamm-artists-assembly-line-face-shields-20200430-cn6nr3pftnahhgvi3qzdzifveu-story.html',
+    logo: 'media_logos/ny_daily_news.png',
+    organization: 'New York Daily News',
+    title:
+      'Downtown NYC artists convert studio into assembly line in coronavirus effort',
+    date: '4/30/2020'
   }
 ]
 
