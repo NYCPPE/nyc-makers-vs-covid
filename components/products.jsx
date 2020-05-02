@@ -1,5 +1,14 @@
 const product = [
   {
+    href:
+      '/instructions#surgical-mask-tension-release-band-for-ear-comfort--extended-use-ear-savers',
+    label: 'Ear Savers',
+    image: 'img/ear_savers3.jpg',
+    title: 'Ear Savers',
+    text:
+      'Ear Savers help release the tension behind the ears to prevent chafing and move the tension behind the head, where is more comfortable for long-term  wear by healthcare and frontline essential workers.'
+  },
+  {
     href: '/instructions#vase-mode-inhaler-spacer-by-pink_vampire',
     label: 'Vase mode Inhaler Spacer',
     image: 'img/vase_mode_inhaler_spacer.png',
