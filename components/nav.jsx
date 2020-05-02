@@ -5,6 +5,7 @@ import Banner from './banner'
 
 const links = [
   { href: '/instructions', label: 'Make' },
+  { href: 'https://bit.ly/nycmakesppe-request', label: 'Request' },
   {
     href: 'https://charity.gofundme.com/o/en/campaign/nyc-makes-ppe-covid-19',
     label: 'Donate'
