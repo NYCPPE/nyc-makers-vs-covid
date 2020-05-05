@@ -8,41 +8,31 @@ export default ({ limit }) => {
   let totalMasks = 0
   let totalN95 = 0
   let totalSurgicalMasks = 0
-  let totalHandSanitizer = 0
+  let totalGallonsHandSanitizer = 0
   let totalInhalerSpacer = 0
   // let totalEarSaver = 0
 
-  totals.map(item => (totalCount = totalCount + item.count))
+  totals.map(item => {
+    totalGallonsHandSanitizer += item.gallons ? item.gallons : 0
+    totalCount += item.count ? item.count : 0
+  })
   totals
     .filter(item => item.type === 'Face Shields')
     .map(item => {
-      totalShields = totalShields + item.count
+      totalShields += item.count
     })
   totals
     .filter(item => item.type === '100% Cotton Masks')
     .map(item => (totalMasks = totalMasks + item.count))
   totals
     .filter(item => item.type === 'N95 Masks')
-    .map(item => (totalN95 = totalN95 + item.count))
+    .map(item => (totalN95 += item.count))
   totals
     .filter(item => item.type === 'Surgical Masks')
-    .map(item => (totalSurgicalMasks = totalSurgicalMasks + item.count))
-  totals
-    .filter(item => item.type === 'Hand Sanitizers')
-    .map(item => (totalHandSanitizer = totalHandSanitizer + item.count))
+    .map(item => (totalSurgicalMasks += item.count))
   totals
     .filter(item => item.type === 'Inhaler Spacers')
-    .map(item => (totalInhalerSpacer = totalInhalerSpacer + item.count))
-
-  // totals
-  //   .filter(
-  //     item =>
-  //       item.type !== 'Face Shields' &&
-  //       item.type !== '100% Cotton Masks' &&
-  //       item.type !== 'Surgical Masks' &&
-  //       item.type !== 'N95 Masks'
-  //   )
-  //   .map(item => (totalOther = totalOther + item.count))
+    .map(item => (totalInhalerSpacer += item.count))
 
   return (
     <div className={'bg-white sm:rounded-md p-4 h-full hover:no-underline'}>
@@ -50,9 +40,17 @@ export default ({ limit }) => {
         <div className="py-2 border-b mb-4  text-xl leading-6 font-medium text-gray-900">
           Total PPE Delivered
         </div>
-        <div className="flex item-baseline mb-6">
-          <p className="text-6xl leading-8 mb-1 pt-2 font-extrabold text-gray-900">
+        <div className="flex item-baseline">
+          <p className="text-6xl leading-8 pt-2 font-extrabold text-gray-900">
             {format(totalCount)}
+          </p>
+        </div>
+        <div className="flex item-baseline mb-6">
+          <p className="text-3xl leading-8 mb-1 pt-2 font-extrabold text-gray-00">
+            + {format(totalGallonsHandSanitizer)} gallons of Hand Sanitizer
+            <a href="#note">
+              <sup>†</sup>
+            </a>
           </p>
         </div>
         <div className="mt-6  py-2 border-b mb-4 text-xl leading-6 font-medium text-gray-900">
@@ -85,12 +83,6 @@ export default ({ limit }) => {
           </div>
           <div className="pr-8">
             <div className="text-2xl font-medium text-gray-900">
-              {format(totalHandSanitizer)}
-            </div>
-            <p> Hand Sanitizers</p>
-          </div>
-          <div className="pr-8">
-            <div className="text-2xl font-medium text-gray-900">
               {format(totalInhalerSpacer)}
             </div>
             <p>Inhaler Spacers</p>
@@ -110,6 +102,13 @@ export default ({ limit }) => {
       </p>{' '}
       {!limit && (
         <div className="align-middle inline-block min-w-full overflow-hidden">
+          <p
+            id="note"
+            className="text-base leading-6 text-gray-900 hover:no-underline"
+          >
+            † Deliveries of Hand Sanitizer are in gallons and counted
+            separately.
+          </p>
           <table className="min-w-full">
             <thead>
               <tr className="align-top">
@@ -131,7 +130,13 @@ export default ({ limit }) => {
               {totals.map((item, i) => (
                 <tr key={i} className="">
                   <td className="border px-4 py-4">
-                    <span className="py-4">{item.count}</span>
+                    <span className="py-4">
+                      {item.count ? item.count : ''}
+                      {item.gallons ? item.gallons + ' gals' : ''}
+                      <a className={!item.gallons ? 'hidden' : ''} href="#note">
+                        <sup>†</sup>
+                      </a>
+                    </span>
                   </td>
                   <td className="border px-4 py-2">{item.type}</td>
                   <td className="border px-4 py-2">

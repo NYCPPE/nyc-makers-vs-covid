@@ -386,6 +386,13 @@ export default [
     type: 'Inhaler Spacers'
   }, // 265
   {
+    gallons: 6,
+    date: '04/20/2020',
+    location: 'Bronx',
+    type: 'Hand Sanitizer'
+  },
+
+  {
     count: 20,
     date: '04/20/2020',
     location: 'Brooklyn',
@@ -1274,7 +1281,7 @@ export default [
     type: 'Face Shields'
   },
   {
-    count: 220,
+    gallons: 3,
     date: '04/02/2020',
     location: 'Bronx',
     type: 'Hand Sanitizers'
