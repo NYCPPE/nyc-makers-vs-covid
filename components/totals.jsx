@@ -1,5 +1,119 @@
 export default [
   {
+    count: 100,
+    date: '05/05/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 320
+  {
+    count: 200,
+    date: '05/05/2020',
+    location: 'Englewood, NJ',
+    type: 'Face Shields'
+  }, // Ing
+  {
+    count: 100,
+    date: '05/05/2020',
+    location: 'New Brunswick, NY',
+    type: 'Face Shields'
+  }, // RWJ
+  {
+    count: 100,
+    date: '05/05/2020',
+    location: 'Secaucus, NJ',
+    type: 'Face Shields'
+  }, // OBGYN
+  {
+    count: 300,
+    date: '05/05/2020',
+    location: 'New Brunswick, NJ',
+    type: 'Face Shields'
+  }, // Peter's
+  {
+    count: 300,
+    date: '05/05/2020',
+    location: 'Hackensack,NY',
+    type: 'Face Shields'
+  }, // Hackensack
+  {
+    count: 4,
+    date: '05/05/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 283
+  {
+    count: 500,
+    date: '05/05/2020',
+    location: 'Queens',
+    type: 'Face Shields'
+  }, // 313
+  {
+    count: 10,
+    date: '05/05/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  }, // 345b
+  {
+    count: 5,
+    date: '05/05/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 345a
+  {
+    count: 20,
+    date: '05/05/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 280
+  {
+    count: 5,
+    date: '05/05/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 344
+  {
+    count: 20,
+    date: '05/05/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 306
+  {
+    count: 4,
+    date: '05/05/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 297
+  {
+    count: 30,
+    date: '05/05/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 285
+  {
+    count: 100,
+    date: '05/05/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // I
+  {
+    count: 20,
+    date: '05/05/2020',
+    location: 'Brooklyn',
+    type: 'Face Shield'
+  }, // I
+  {
+    count: 20,
+    date: '05/05/2020',
+    location: 'Brooklyn',
+    type: 'Face Shield'
+  }, // 296b
+  {
+    count: 20,
+    date: '05/05/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 296a
+  {
     count: 300,
     date: '05/04/2020',
     location: 'Queens',
@@ -217,6 +331,12 @@ export default [
     location: 'Queens',
     type: 'Face Shields'
   }, // 268
+  {
+    count: 300,
+    date: '04/27/2020',
+    location: 'Queens',
+    type: 'Face Shields'
+  }, // FD
   {
     count: 100,
     date: '04/25/2020',
