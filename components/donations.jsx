@@ -29,7 +29,7 @@ export default ({ limit }) => {
         </div>
         <span className="flex justify-between">
           <p className="text-base leading-6 font-medium text-white hover:no-underline">
-            Total raised &rarr;
+            Total raised. Donate &rarr;
           </p>
         </span>
       </a>
