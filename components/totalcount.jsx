@@ -13,28 +13,24 @@ export default ({ limit }) => {
   })
 
   return (
-    <div className="sm:rounded-md p-2 hover:no-underline">
+    <div className="sm:rounded-md p-2 mr-3 hover:no-underline">
       <a
         href="/stats"
-        className="rounded-lg inline-block w-full hover:no-underline hover:opacity-75 md:max-w-sm"
+        className="rounded-lg inline-block w-full hover:no-underline md:max-w-sm  hover:opacity-75"
       >
-        <div className="flex item-baseline">
-          <p className="text-6xl leading-8 pt-2 font-extrabold text-white">
+        <div className="flex items-baseline">
+          <p className="text-4xl leading-8 mb-1 font-medium text-white">
             {format(totalCount)}
           </p>
         </div>
-        <span className="mt-3 flex justify-between flex-col flex-wrap">
-          <span className="text-base w-48 leading-6 p-0 m-0 font-medium text-white hover:no-underline">
+        <div className="flex justify-between">
+          <p className="text-base leading-6 mb-0 font-medium text-white hover:no-underline">
             Total PPE Delivered &rarr;
-          </span>
-          <span className="text-xs text-cool-gray-500 font-hairline p-0 m-0">
+          </p>
+        </div>
+        <div className="flex justify-between">
+          <span className="text-xs leading-6 text-cool-gray-500 font-hairline">
             Last updated {formatDate(totals[0].date)}
-          </span>
-        </span>
-
-        <div className="flex item-baseline mb-0">
-          <span className="text-2xl leading-8 mb-0 pt-2 font-medium text-white">
-            + {format(totalGallonsHandSanitizer)} Gallons of Hand Sanitizer
           </span>
         </div>
       </a>
