@@ -45,18 +45,19 @@ export default ({ limit }) => {
             {format(totalCount)}
           </p>
         </div>
-        <div className="flex item-baseline mb-6">
-          <p className="text-3xl leading-8 mb-1 pt-2 font-extrabold text-gray-00">
-            + {format(totalGallonsHandSanitizer)} gallons of Hand Sanitizer
-            <a href="#note">
-              <sup>†</sup>
-            </a>
-          </p>
-        </div>
         <div className="mt-6  py-2 border-b mb-4 text-xl leading-6 font-medium text-gray-900">
           Delivery Breakdown
         </div>
         <div className="flex flex-wrap item-baseline">
+          <div className="pr-8">
+            <div className="text-2xl font-medium text-gray-900">
+              {format(totalGallonsHandSanitizer)} gallons
+              <a href="#note">
+                <sup>†</sup>
+              </a>
+            </div>
+            <p>Hand Sanitizer</p>
+          </div>
           <div className="pr-8">
             <div className="text-2xl font-medium text-gray-900">
               {format(totalShields)}

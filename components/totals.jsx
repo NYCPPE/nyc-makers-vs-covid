@@ -1,5 +1,11 @@
 export default [
   {
+    gallons: 2.7,
+    date: '05/07/2020',
+    location: 'Staten Island',
+    type: 'Hand Sanitizer'
+  }, // 6:39p 5/6/2020, DM with guan
+  {
     count: 30,
     date: '05/06/2020',
     location: 'Brooklyn',
@@ -222,6 +228,12 @@ export default [
     type: 'Face Shields'
   }, // 317
   {
+    gallons: 5.9,
+    date: '05/01/2020',
+    location: 'Brooklyn',
+    type: 'Hand Sanitizer'
+  }, // 6:39p 5/6/2020, DM with guan
+  {
     count: 10,
     date: '05/01/2020',
     location: 'Brooklyn',
@@ -403,6 +415,18 @@ export default [
     location: 'Bronx',
     type: 'Face Shields'
   }, // 270
+  {
+    gallons: 10,
+    date: '04/24/2020',
+    location: 'Manhattan',
+    type: 'Hand Sanitizer'
+  }, // 6:39p 5/6/2020, DM with guan
+  {
+    gallons: 5.9,
+    date: '04/24/2020',
+    location: 'Brooklyn',
+    type: 'Hand Sanitizer'
+  }, // 6:39p 5/6/2020, DM with guan
   {
     count: 300,
     date: '04/24/2020',
@@ -596,7 +620,7 @@ export default [
     type: 'Inhaler Spacers'
   }, // 265
   {
-    gallons: 6,
+    gallons: 5.9,
     date: '04/20/2020',
     location: 'Bronx',
     type: 'Hand Sanitizer'
@@ -1491,7 +1515,7 @@ export default [
     type: 'Face Shields'
   },
   {
-    gallons: 3,
+    gallons: 2.9,
     date: '04/02/2020',
     location: 'Bronx',
     type: 'Hand Sanitizers'
