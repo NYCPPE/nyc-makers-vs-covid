@@ -87,7 +87,7 @@ export default () => (
         <a
           href={href}
           key={i}
-          className="block w-full rounded-lg over:bg-gray-100 text-base text-pink-600 overflow-hidden flex flex-col justify-between px-4 py-2"
+          className="block w-full rounded-lg over:bg-gray-100 text-base text-cool-gray-600 overflow-hidden flex flex-col justify-between px-4 py-2"
         >
           <img
             className="mb-1 object-left object-scale-down h-15 w-full"
@@ -101,7 +101,7 @@ export default () => (
         For media inquires contact us at{' '}
         <a
           href="mailto:mediainfo@nycmakesppe.com"
-          className="block w-full rounded-lg over:bg-gray-100 text-pink-600 overflow-hidden flex flex-col justify-between px-4 py-2"
+          className="block w-full rounded-lg over:bg-gray-100 text-cool-grey-600 overflow-hidden flex flex-col justify-between px-4 py-2"
         >
           mediainfo@nycmakesppe.com
         </a>
