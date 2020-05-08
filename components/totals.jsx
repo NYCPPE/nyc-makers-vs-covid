@@ -1,5 +1,35 @@
 export default [
   {
+    count: 75,
+    date: '05/07/2020',
+    location: 'Manhattan',
+    type: 'Face Shields'
+  }, // 299
+  {
+    count: 1000,
+    date: '05/07/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  }, // 347
+  {
+    count: 25,
+    date: '05/07/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 347
+  {
+    count: 300,
+    date: '05/07/2020',
+    location: 'Manhattan',
+    type: 'Face Shields'
+  }, // 315
+  {
+    count: 75,
+    date: '05/07/2020',
+    location: 'Manhattan',
+    type: 'Face Shields'
+  }, // 290
+  {
     gallons: 2.7,
     date: '05/07/2020',
     location: 'Staten Island',
