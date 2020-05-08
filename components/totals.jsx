@@ -74,7 +74,7 @@ export default [
   {
     count: 100,
     date: '05/05/2020',
-    location: 'New Brunswick, NY',
+    location: 'New Brunswick, NJ',
     type: 'Face Shields'
   }, // RWJ
   {
@@ -92,7 +92,7 @@ export default [
   {
     count: 300,
     date: '05/05/2020',
-    location: 'Hackensack,NY',
+    location: 'Hackensack,NJ',
     type: 'Face Shields'
   }, // Hackensack
   {
