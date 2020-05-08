@@ -1,6 +1,14 @@
 const coverage = [
   {
     href:
+      'https://www.wienerzeitung.at/nachrichten/chronik/wien/2059191-Ein-Wiener-hilft-in-New-York-mit-Visieren-aus-3D-Druck.html',
+    logo: 'media_logos/WZ-Logo.svg',
+    organization: 'Stadtleben in Wien - Wiener Zeitung Online',
+    title: 'Ein Wiener hilft in New York mit Visieren aus 3D-Druck',
+    date: '5/01/2020'
+  },
+  {
+    href:
       'https://www.nydailynews.com/coronavirus/hometown-helpers/ny-coronavirus-covid-damon-hamm-artists-assembly-line-face-shields-20200430-cn6nr3pftnahhgvi3qzdzifveu-story.html',
     logo: 'media_logos/ny_daily_news.png',
     organization: 'New York Daily News',
