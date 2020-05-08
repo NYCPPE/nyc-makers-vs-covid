@@ -6,7 +6,7 @@ export default ({ limit }) => {
   let totalCount = 0
   let totalShields = 0
   let totalMasks = 0
-  let totalN95 = 0
+  let totalKN95 = 0
   let totalSurgicalMasks = 0
   let totalGallonsHandSanitizer = 0
   let totalInhalerSpacer = 0
@@ -25,8 +25,8 @@ export default ({ limit }) => {
     .filter(item => item.type === '100% Cotton Masks')
     .map(item => (totalMasks = totalMasks + item.count))
   totals
-    .filter(item => item.type === 'N95 Masks')
-    .map(item => (totalN95 += item.count))
+    .filter(item => item.type === 'KN95 Masks')
+    .map(item => (totalKN95 += item.count))
   totals
     .filter(item => item.type === 'Surgical Masks')
     .map(item => (totalSurgicalMasks += item.count))
@@ -51,15 +51,6 @@ export default ({ limit }) => {
         <div className="flex flex-wrap item-baseline">
           <div className="pr-8">
             <div className="text-2xl font-medium text-gray-900">
-              {format(totalGallonsHandSanitizer)} gallons
-              <a href="#note">
-                <sup>†</sup>
-              </a>
-            </div>
-            <p>Hand Sanitizer</p>
-          </div>
-          <div className="pr-8">
-            <div className="text-2xl font-medium text-gray-900">
               {format(totalShields)}
             </div>
             <p> Face Shields</p>
@@ -72,9 +63,18 @@ export default ({ limit }) => {
           </div>
           <div className="pr-8">
             <div className="text-2xl font-medium text-gray-900">
-              {format(totalN95)}
+              {format(totalGallonsHandSanitizer)} gallons
+              <a href="#note">
+                <sup>†</sup>
+              </a>
             </div>
-            <p> N95 Masks</p>
+            <p>Hand Sanitizer</p>
+          </div>
+          <div className="pr-8">
+            <div className="text-2xl font-medium text-gray-900">
+              {format(totalKN95)}
+            </div>
+            <p> KN95 Masks</p>
           </div>
           <div className="pr-8">
             <div className="text-2xl font-medium text-gray-900">

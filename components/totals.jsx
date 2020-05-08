@@ -425,7 +425,7 @@ export default [
     count: 50,
     date: '04/25/2020',
     location: 'Bronx',
-    type: 'N95 Masks'
+    type: 'KN95 Masks'
   }, // 267
   {
     count: 50,
@@ -599,7 +599,7 @@ export default [
     count: 129,
     date: '04/21/2020',
     location: 'Bronx',
-    type: 'N95 Masks'
+    type: 'KN95 Masks'
   }, // 174
   {
     count: 200,
@@ -756,13 +756,13 @@ export default [
     count: 190,
     date: '04/18/2020',
     location: 'Brooklyn',
-    type: 'N95 Masks'
+    type: 'KN95 Masks'
   }, // line 20
   {
     count: 190,
     date: '04/18/2020',
     location: 'Brooklyn',
-    type: 'N95 Masks'
+    type: 'KN95 Masks'
   }, // 1
   {
     count: 363,
@@ -786,13 +786,13 @@ export default [
     count: 95,
     date: '04/18/2020',
     location: 'Queens',
-    type: 'N95 Masks'
+    type: 'KN95 Masks'
   }, // 216
   {
     count: 95,
     date: '04/18/2020',
     location: 'Queens',
-    type: 'N95 Masks'
+    type: 'KN95 Masks'
   }, // 2
   {
     count: 70,
@@ -1266,7 +1266,7 @@ export default [
     count: 40,
     date: '04/10/2020',
     location: 'Bronx',
-    type: 'N95 Masks'
+    type: 'KN95 Masks'
   }, // 111
   {
     count: 100,
@@ -1578,7 +1578,7 @@ export default [
     count: 440,
     date: '04/01/2020',
     location: 'UES',
-    type: 'N95 Masks'
+    type: 'KN95 Masks'
   },
   {
     count: 10,
