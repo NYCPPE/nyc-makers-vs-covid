@@ -1,5 +1,41 @@
 export default [
   {
+    count: 1050,
+    date: '05/11/2020',
+    location: 'Connecticut',
+    type: 'Face Shields'
+  }, // 364
+  {
+    count: 25,
+    date: '05/11/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 212
+  {
+    count: 10,
+    date: '05/11/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 212
+  {
+    count: 3,
+    date: '05/11/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 212
+  {
+    count: 30,
+    date: '05/11/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 212
+  {
+    count: 100,
+    date: '05/11/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 212
+  {
     count: 150,
     date: '05/10/2020',
     location: 'Brooklyn',
