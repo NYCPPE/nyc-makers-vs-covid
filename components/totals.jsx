@@ -1,5 +1,47 @@
 export default [
   {
+    count: 2500,
+    date: '05/13/2020',
+    location: 'Manhattan',
+    type: 'Face Shields'
+  }, // from Guan
+  {
+    count: 100,
+    date: '05/13/2020',
+    location: 'Queens',
+    type: '100% Cotton Mask'
+  }, // 367a
+  {
+    count: 12,
+    date: '05/13/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  }, // 389b
+  {
+    count: 1500,
+    date: '05/13/2020',
+    location: 'Manhattan',
+    type: 'KN95 Masks'
+  }, // 286a
+  {
+    count: 36,
+    date: '05/13/2020',
+    location: 'Manhattan',
+    type: '100% Cotton Masks'
+  }, // 276
+  {
+    count: 100,
+    date: '05/13/2020',
+    location: 'Manhattan',
+    type: '100% Cotton Masks'
+  }, // 333
+  {
+    count: 20,
+    date: '05/13/2020',
+    location: 'Manhattan',
+    type: '100% Cotton Masks'
+  }, // 352
+  {
     count: 450,
     date: '05/12/2020',
     location: 'Queens',
@@ -95,6 +137,48 @@ export default [
     location: 'Brooklyn',
     type: '100% Cotton Masks'
   }, // 212
+  {
+    count: 10,
+    date: '05/11/2020',
+    location: 'Queens',
+    type: 'Face Shields'
+  }, // 355
+  {
+    count: 25,
+    date: '05/11/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 318
+  {
+    count: 50,
+    date: '05/11/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 284
+  {
+    count: 20,
+    date: '05/11/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 281
+  {
+    count: 15,
+    date: '05/11/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 232
+  {
+    count: 12,
+    date: '05/11/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 278
+  {
+    count: 40,
+    date: '05/11/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 327
   {
     count: 150,
     date: '05/10/2020',
