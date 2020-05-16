@@ -1,6 +1,36 @@
 export default [
   {
     count: 50,
+    date: '05/15/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 353
+  {
+    count: 70,
+    date: '05/15/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 382
+  {
+    count: 100,
+    date: '05/15/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 377
+  {
+    count: 20,
+    date: '05/15/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 395
+  {
+    count: 50,
+    date: '05/15/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 349a
+  {
+    count: 50,
     date: '05/14/2020',
     location: 'Queens',
     type: '100% Cotton Masks'
