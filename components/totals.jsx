@@ -1,5 +1,41 @@
 export default [
   {
+    count: 100,
+    date: '05/17/2020',
+    location: 'Manhattan',
+    type: '100% Cotton Masks'
+  }, // 361
+  {
+    count: 20,
+    date: '05/17/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  }, // 414
+  {
+    count: 10,
+    date: '05/17/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 417
+  {
+    count: 50,
+    date: '05/17/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 428
+  {
+    count: 20,
+    date: '05/17/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  }, // 429
+  {
+    count: 20,
+    date: '05/17/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 429a
+  {
     count: 1000,
     date: '05/16/2020',
     location: 'Detroit',
@@ -29,6 +65,12 @@ export default [
     location: 'Manhattan',
     type: '100% Cotton Masks'
   }, // 409a
+  {
+    count: 300,
+    date: '05/16/2020',
+    location: 'Staten Island',
+    type: 'Face Shields'
+  }, // SI Univ. Hosp
   {
     count: 50,
     date: '05/15/2020',
