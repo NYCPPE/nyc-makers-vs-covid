@@ -165,7 +165,7 @@ export default [
     count: 100,
     date: '05/13/2020',
     location: 'Queens',
-    type: '100% Cotton Mask'
+    type: '100% Cotton Masks'
   }, // 367a
   {
     count: 12,
@@ -537,13 +537,13 @@ export default [
     count: 20,
     date: '05/05/2020',
     location: 'Brooklyn',
-    type: 'Face Shield'
+    type: 'Face Shields'
   }, // I
   {
     count: 20,
     date: '05/05/2020',
     location: 'Brooklyn',
-    type: 'Face Shield'
+    type: 'Face Shields'
   }, // 296b
   {
     count: 20,
@@ -1926,7 +1926,7 @@ export default [
     gallons: 2.9,
     date: '04/02/2020',
     location: 'Bronx',
-    type: 'Hand Sanitizers'
+    type: 'Hand Sanitizer'
   },
   {
     count: 56,
