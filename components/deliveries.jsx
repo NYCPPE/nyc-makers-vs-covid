@@ -10,7 +10,7 @@ export default ({ limit }) => {
   let totalSurgicalMasks = 0
   let totalGallonsHandSanitizer = 0
   let totalInhalerSpacer = 0
-  // let totalEarSaver = 0
+  let totalEarSaver = 0
 
   totals.map(item => {
     totalGallonsHandSanitizer += item.gallons ? item.gallons : 0
@@ -33,6 +33,9 @@ export default ({ limit }) => {
   totals
     .filter(item => item.type === 'Inhaler Spacers')
     .map(item => (totalInhalerSpacer += item.count))
+  totals
+    .filter(item => item.type === 'Ear Savers')
+    .map(item => (totalEarSaver += item.count))
 
   return (
     <div className={'bg-white sm:rounded-md p-4 h-full hover:no-underline'}>
@@ -87,6 +90,12 @@ export default ({ limit }) => {
               {format(totalInhalerSpacer)}
             </div>
             <p>Inhaler Spacers</p>
+          </div>
+          <div className="pr-8">
+            <div className="text-2xl font-medium text-gray-900">
+              {format(totalEarSaver)}
+            </div>
+            <p>Ear Savers</p>
           </div>
         </div>
       </div>
