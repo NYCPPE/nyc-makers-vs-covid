@@ -51,6 +51,13 @@ const coverage = [
     date: '4/16/2020'
   },
   {
+    href: 'https://www.gcnyc.com/nyc-face-mask-initiative-led-by-nancy-rhodes/',
+    logo: 'media_logos/glasgow_caledonian_new_york_college.png',
+    organization: 'Glasgow Caledonian New York College',
+    title: 'NYC Face Mask Initiative led by Nancy Rhodes',
+    date: '4/13/2020'
+  },
+  {
     href:
       'https://nycmakesppe.reportablenews.com/pr/everyday-new-yorkers-are-making-ppe-to-protect-healthcare-workers-and-giving-them-away-for-free',
     logo: 'NYCMakesPPELogo.svg',
@@ -58,6 +65,15 @@ const coverage = [
     title:
       'Everyday New Yorkers are making PPE to protect healthcare workers - and giving them away for free',
     date: '4/9/2020'
+  },
+  {
+    href:
+      'https://nypost.com/2020/04/03/meet-4-budding-designers-making-coronavirus-face-masks-for-nyc-first-responders/',
+    organization: 'New York Post',
+    logo: 'media_logos/nypost.svg',
+    title:
+      'Meet 4 budding designers making face masks for NYC first responders',
+    date: '4/3/2020'
   },
   {
     href:
@@ -90,6 +106,15 @@ const coverage = [
     logo: 'media_logos/the_tribeca_trib.jpg',
     title: 'The Coronavirus Crisis in the Community: Daily Downtown Updates',
     date: '3/28/2020'
+  },
+  {
+    href:
+      'https://anchor.fm/the-reset-podcast/episodes/Episode-88-Creating-Masks-for-Doctors-during-Coronavirus-with-Nancy-Rhodes-ebssoj',
+    organization: 'The Reset Podcast',
+    logo: 'media_logos/the_reset_podcast.jpeg',
+    title:
+      'Episode 88: Creating Masks for Doctors during #Coronavirus with Nancy Rhodes',
+    date: '3/24/2020'
   }
 ]
 
