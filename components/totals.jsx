@@ -1,5 +1,65 @@
 export default [
   {
+    count: 40,
+    date: '05/19/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 439
+  {
+    count: 40,
+    date: '05/19/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 254a
+  {
+    count: 50,
+    date: '05/19/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 425
+  {
+    count: 36,
+    date: '05/19/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 416
+  {
+    count: 30,
+    date: '05/19/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 418
+  {
+    count: 10,
+    date: '05/19/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 420
+  {
+    count: 30,
+    date: '05/19/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 444
+  {
+    count: 10,
+    date: '05/19/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 415
+  {
+    count: 30,
+    date: '05/19/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 445
+  {
+    count: 10,
+    date: '05/19/2020',
+    location: 'Brookln',
+    type: 'Face Shields'
+  }, // 417a
+  {
     count: 7,
     date: '05/18/2020',
     location: 'Queens',
