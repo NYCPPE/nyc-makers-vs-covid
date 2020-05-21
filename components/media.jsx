@@ -1,6 +1,14 @@
 const coverage = [
   {
     href:
+      'https://www.health.com/condition/infectious-diseases/coronavirus/unsung-heroes-nyc-makes-ppe',
+    logo: 'media_logos/healthcom.svg',
+    organization: 'Health.com',
+    title: 'This Volunteer Group Is Making Free PPE for Health Care Workers',
+    date: '5/20/2020'
+  },
+  {
+    href:
       'https://www.wienerzeitung.at/nachrichten/chronik/wien/2059191-Ein-Wiener-hilft-in-New-York-mit-Visieren-aus-3D-Druck.html',
     logo: 'media_logos/WZ-Logo.svg',
     organization: 'Stadtleben in Wien - Wiener Zeitung Online',
