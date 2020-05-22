@@ -1,5 +1,47 @@
 export default [
   {
+    count: 36,
+    date: '05/21/2020',
+    location: 'Brooklyn',
+    type: 'Ear Savers'
+  }, // 416b
+  {
+    count: 30,
+    date: '05/21/2020',
+    location: 'Brooklyn',
+    type: 'Ear Savers'
+  }, // 418b
+  {
+    count: 10,
+    date: '05/21/2020',
+    location: 'Brooklyn',
+    type: 'Ear Savers'
+  }, // 429b
+  {
+    count: 20,
+    date: '05/21/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  }, // 448
+  {
+    count: 50,
+    date: '05/21/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 436
+  {
+    count: 100,
+    date: '05/21/2020',
+    location: 'Manhattan',
+    type: '100% Cotton Masks'
+  }, // 441
+  {
+    count: 125,
+    date: '05/21/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 446
+  {
     count: 50,
     date: '05/20/2020',
     location: 'Queens',
@@ -479,12 +521,12 @@ export default [
     location: 'Queens',
     type: '100% Cotton Masks'
   }, // 278
-  {
-    count: 40,
-    date: '05/11/2020',
-    location: 'Queens',
-    type: '100% Cotton Masks'
-  }, // 327
+  // {
+  //   count: 40,
+  //   date: '05/11/2020',
+  //   location: 'Queens',
+  //   type: '100% Cotton Masks'
+  // }, // 327
   {
     count: 150,
     date: '05/10/2020',
