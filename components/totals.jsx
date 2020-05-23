@@ -1,5 +1,41 @@
 export default [
   {
+    count: 75,
+    date: '05/22/2020',
+    location: 'Bronx',
+    type: '100% Cotton Masks'
+  }, // 407
+  {
+    count: 100,
+    date: '05/22/2020',
+    location: 'Bronx',
+    type: 'Face Shields'
+  }, // 407a
+  {
+    count: 75,
+    date: '05/22/2020',
+    location: 'Bronx',
+    type: 'Ear Savers'
+  }, // 407b
+  {
+    count: 40,
+    date: '05/22/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 423
+  {
+    count: 200,
+    date: '05/22/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 430
+  {
+    count: 200,
+    date: '05/22/2020',
+    location: 'Queens',
+    type: 'Face Shields'
+  }, // 430
+  {
     count: 36,
     date: '05/21/2020',
     location: 'Brooklyn',
