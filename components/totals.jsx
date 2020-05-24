@@ -1,5 +1,59 @@
 export default [
   {
+    count: 20,
+    date: '05/24/2020',
+    location: 'Brooklyn',
+    type: 'Ear Savers'
+  }, // 349a
+  {
+    count: 50,
+    date: '05/24/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  }, //349
+  {
+    count: 100,
+    date: '05/24/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  }, // 371
+  {
+    count: 40,
+    date: '05/24/2020',
+    location: 'Brooklyn',
+    type: '100% Cotton Masks'
+  }, // 372a
+  {
+    count: 30,
+    date: '05/24/2020',
+    location: 'Bronx',
+    type: '100% Cotton Masks'
+  }, // 459
+  {
+    count: 10,
+    date: '05/24/2020',
+    location: 'Bronx',
+    type: 'Ear Savers'
+  }, // 459a
+  {
+    count: 15,
+    date: '05/24/2020',
+    location: 'Bronx',
+    type: '100% Cotton Masks'
+  }, // 461
+  {
+    count: 5,
+    date: '05/24/2020',
+    location: 'Bronx',
+    type: 'Ear Savers'
+  }, // 461a
+  {
+    count: 5,
+    date: '05/24/2020',
+    location: 'Bronx',
+    type: '100% Cotton Masks'
+  }, // 435
+  {
     count: 100,
     date: '05/23/2020',
     location: 'Yonkers',
