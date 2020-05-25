@@ -103,7 +103,7 @@ export default ({ limit }) => {
         Latest Deliveries as of {formatDate(totals[0].date)}
       </div>{' '}
       <p className="text-base leading-6 text-gray-900 hover:no-underline">
-        We deliver PPE to EMTs, nursing homes, and locations. Locations
+        We deliver PPE to EMTs, nursing homes, and other locations. Locations
         simplified for privacy.
       </p>{' '}
       <p className="text-base leading-6 text-gray-900 hover:no-underline">
