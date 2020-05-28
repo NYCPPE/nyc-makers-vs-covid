@@ -1,5 +1,77 @@
 export default [
   {
+    count: 4500,
+    date: '05/26/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  }, // 412
+  {
+    count: 100,
+    date: '05/26/2020',
+    location: 'Manhattan',
+    type: '100% Cotton Masks'
+  }, // 464
+  {
+    count: 20,
+    date: '05/26/2020',
+    location: 'Manhattan',
+    type: 'Ear Savers'
+  }, // 464a
+  {
+    count: 50,
+    date: '05/26/2020',
+    location: 'Queens',
+    type: 'Face Shields'
+  }, // 452
+  {
+    count: 50,
+    date: '05/26/2020',
+    location: 'Queens',
+    type: '100% Cotton Masks'
+  }, // 452a
+  {
+    count: 50,
+    date: '05/26/2020',
+    location: 'Queens',
+    type: 'Ear Savers'
+  }, // 452b
+  {
+    count: 60,
+    date: '05/26/2020',
+    location: 'Queens',
+    type: 'Inhaler Spacers'
+  }, // 452c
+  {
+    count: 20,
+    date: '05/26/2020',
+    location: 'Manhattan',
+    type: 'Inhaler Spacers'
+  }, // 406c
+  {
+    count: 20,
+    date: '05/26/2020',
+    location: 'Manhattan',
+    type: 'Ear Savers'
+  }, // 406b
+  {
+    count: 50,
+    date: '05/26/2020',
+    location: 'Manhattan',
+    type: 'Face Shields'
+  }, // 406a
+  {
+    count: 60,
+    date: '05/26/2020',
+    location: 'Bronx',
+    type: 'Inhaler Spacers'
+  }, // 227
+  {
+    count: 100,
+    date: '05/26/2020',
+    location: 'Queens',
+    type: 'KN95 Masks'
+  }, // 456b
+  {
     count: 100,
     date: '05/25/2020',
     location: 'Bronx',
