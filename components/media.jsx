@@ -1,6 +1,15 @@
 const coverage = [
   {
     href:
+      'https://www.amny.com/coronavirus/gramercy-park-block-association-joins-forces-with-nyc-makes-ppe-to-provide-gear-to-manhattan-precincts/',
+    logo: 'media_logos/amny.png',
+    organization: 'AMNY',
+    title:
+      'Gramercy Park Block Association joins forces with NYC Makes PPE to provide gear to Manhattan precincts',
+    date: '5/27/2020'
+  },
+  {
+    href:
       'https://www.health.com/condition/infectious-diseases/coronavirus/unsung-heroes-nyc-makes-ppe',
     logo: 'media_logos/healthcom.svg',
     organization: 'Health.com',
