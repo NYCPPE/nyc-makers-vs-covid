@@ -1,5 +1,11 @@
 export default [
   {
+    count: 500,
+    date: '05/28/2020',
+    location: 'Brooklyn',
+    type: 'Face Shields'
+  }, // 295
+  {
     count: 50,
     date: '05/27/2020',
     location: 'Queens',
@@ -101,6 +107,18 @@ export default [
     location: 'Queens',
     type: 'KN95 Masks'
   }, // 456b
+  {
+    count: 1500,
+    date: '05/25/2020',
+    location: 'New Jersey',
+    type: 'Face Shields'
+  }, // 485
+  {
+    count: 300,
+    date: '05/25/2020',
+    location: 'Teaneck, New Jersey',
+    type: 'Face Shields'
+  }, // 486
   {
     count: 100,
     date: '05/25/2020',
