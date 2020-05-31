@@ -5,7 +5,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: 'Other Health',
     type: 'Face Shields',
-    comment: '425a'
+    comment: '',
+    order_number: '425a'
   },
   {
     count: 10,
@@ -13,7 +14,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: 'Other Health',
     type: 'Face Shields',
-    comment: '470'
+    comment: '',
+    order_number: '470'
   },
   {
     count: 20,
@@ -21,7 +23,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: 'Other Health',
     type: 'Ear Savers',
-    comment: '478'
+    comment: '',
+    order_number: '478'
   },
   {
     count: 25,
@@ -29,7 +32,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: 'Other Health',
     type: 'KN95 Masks',
-    comment: '478'
+    comment: '',
+    order_number: '478'
   },
   {
     count: 50,
@@ -37,7 +41,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: 'Other Health',
     type: 'Face Shields',
-    comment: '478a'
+    comment: '',
+    order_number: '478a'
   },
   {
     count: 60,
@@ -45,7 +50,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Inhaler Spacers',
-    comment: '416c'
+    comment: '',
+    order_number: '416c'
   },
   {
     count: 60,
@@ -53,7 +59,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Inhaler Spacers',
-    comment: '265'
+    comment: '',
+    order_number: '265'
   },
   {
     count: 150,
@@ -61,7 +68,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '456'
+    comment: '',
+    order_number: '456'
   },
   {
     count: 100,
@@ -69,7 +77,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Ear Savers',
-    comment: '456a'
+    comment: '',
+    order_number: '456a'
   },
   {
     count: 20,
@@ -77,7 +86,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Ear Savers',
-    comment: '465'
+    comment: '',
+    order_number: '465'
   },
   {
     count: 20,
@@ -85,7 +95,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '465a'
+    comment: '',
+    order_number: '465a'
   },
   {
     count: 20,
@@ -93,7 +104,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '465b'
+    comment: '',
+    order_number: '465b'
   },
   {
     count: 100,
@@ -101,7 +113,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '460'
+    comment: '',
+    order_number: '460'
   },
   {
     count: 85,
@@ -109,7 +122,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Ear Savers',
-    comment: '460a'
+    comment: '',
+    order_number: '460a'
   },
   {
     count: 10,
@@ -117,7 +131,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '468'
+    comment: '',
+    order_number: '468'
   },
   {
     count: 10,
@@ -125,7 +140,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '468a'
+    comment: '',
+    order_number: '468a'
   },
   {
     count: 10,
@@ -133,7 +149,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Ear Savers',
-    comment: '417b'
+    comment: '',
+    order_number: '417b'
   },
   {
     count: 500,
@@ -141,7 +158,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '295'
+    comment: '',
+    order_number: '295'
   },
   {
     count: 50,
@@ -149,7 +167,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '453'
+    comment: '',
+    order_number: '453'
   },
   {
     count: 40,
@@ -157,7 +176,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '327'
+    comment: '',
+    order_number: '327'
   },
   {
     count: 75,
@@ -165,7 +185,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Mask',
-    comment: '372'
+    comment: '',
+    order_number: '372'
   },
   {
     count: 15,
@@ -173,7 +194,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Ear Savers',
-    comment: '372a'
+    comment: '',
+    order_number: '372a'
   },
   {
     count: 50,
@@ -181,7 +203,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '372b'
+    comment: '',
+    order_number: '372b'
   },
   {
     count: 4500,
@@ -189,7 +212,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '412'
+    comment: '',
+    order_number: '412'
   },
   {
     count: 100,
@@ -197,7 +221,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '464'
+    comment: '',
+    order_number: '464'
   },
   {
     count: 20,
@@ -205,7 +230,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Ear Savers',
-    comment: '464a'
+    comment: '',
+    order_number: '464a'
   },
   {
     count: 50,
@@ -213,7 +239,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '452'
+    comment: '',
+    order_number: '452'
   },
   {
     count: 50,
@@ -221,7 +248,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '452a'
+    comment: '',
+    order_number: '452a'
   },
   {
     count: 50,
@@ -229,7 +257,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Ear Savers',
-    comment: '452b'
+    comment: '',
+    order_number: '452b'
   },
   {
     count: 60,
@@ -237,7 +266,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Inhaler Spacers',
-    comment: '452c'
+    comment: '',
+    order_number: '452c'
   },
   {
     count: 20,
@@ -245,7 +275,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Inhaler Spacers',
-    comment: '406c'
+    comment: '',
+    order_number: '406c'
   },
   {
     count: 20,
@@ -253,7 +284,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Ear Savers',
-    comment: '406b'
+    comment: '',
+    order_number: '406b'
   },
   {
     count: 50,
@@ -261,7 +293,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '406a'
+    comment: '',
+    order_number: '406a'
   },
   {
     count: 60,
@@ -269,7 +302,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Inhaler Spacers',
-    comment: '227'
+    comment: '',
+    order_number: '227'
   },
   {
     count: 100,
@@ -277,7 +311,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'KN95 Masks',
-    comment: '456b'
+    comment: '',
+    order_number: '456b'
   },
   {
     count: 1500,
@@ -285,7 +320,8 @@ export default [
     location: 'New Jersey',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '485'
+    comment: '',
+    order_number: '485'
   },
   {
     count: 300,
@@ -293,7 +329,8 @@ export default [
     location: 'Teaneck, New Jersey',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '486'
+    comment: '',
+    order_number: '486'
   },
   {
     count: 100,
@@ -301,7 +338,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '433'
+    comment: '',
+    order_number: '433'
   },
   {
     count: 30,
@@ -309,7 +347,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '432'
+    comment: '',
+    order_number: '432'
   },
   {
     count: 6,
@@ -317,7 +356,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '447'
+    comment: '',
+    order_number: '447'
   },
   {
     count: 100,
@@ -325,7 +365,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '434'
+    comment: '',
+    order_number: '434'
   },
   {
     count: 40,
@@ -333,7 +374,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '437'
+    comment: '',
+    order_number: '437'
   },
   {
     count: 20,
@@ -341,7 +383,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Ear Savers',
-    comment: '349a'
+    comment: '',
+    order_number: '349a'
   },
   {
     count: 50,
@@ -356,7 +399,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '371'
+    comment: '',
+    order_number: '371'
   },
   {
     count: 40,
@@ -364,7 +408,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '372a'
+    comment: '',
+    order_number: '372a'
   },
   {
     count: 30,
@@ -372,7 +417,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '459'
+    comment: '',
+    order_number: '459'
   },
   {
     count: 10,
@@ -380,7 +426,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Ear Savers',
-    comment: '459a'
+    comment: '',
+    order_number: '459a'
   },
   {
     count: 15,
@@ -388,7 +435,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '461'
+    comment: '',
+    order_number: '461'
   },
   {
     count: 5,
@@ -396,7 +444,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Ear Savers',
-    comment: '461a'
+    comment: '',
+    order_number: '461a'
   },
   {
     count: 5,
@@ -404,7 +453,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '435'
+    comment: '',
+    order_number: '435'
   },
   {
     count: 100,
@@ -412,7 +462,8 @@ export default [
     location: 'Yonkers',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '451'
+    comment: '',
+    order_number: '451'
   },
   {
     count: 150,
@@ -420,7 +471,8 @@ export default [
     location: 'Yonkers',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '443'
+    comment: '',
+    order_number: '443'
   },
   {
     count: 30,
@@ -428,7 +480,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '417a'
+    comment: '',
+    order_number: '417a'
   },
   {
     count: 2,
@@ -436,7 +489,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '397a'
+    comment: '',
+    order_number: '397a'
   },
   {
     count: 40,
@@ -444,7 +498,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '423a'
+    comment: '',
+    order_number: '423a'
   },
   {
     count: 30,
@@ -452,7 +507,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '445a'
+    comment: '',
+    order_number: '445a'
   },
   {
     count: 75,
@@ -460,7 +516,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '407'
+    comment: '',
+    order_number: '407'
   },
   {
     count: 100,
@@ -468,7 +525,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '407a'
+    comment: '',
+    order_number: '407a'
   },
   {
     count: 75,
@@ -476,7 +534,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Ear Savers',
-    comment: '407b'
+    comment: '',
+    order_number: '407b'
   },
   {
     count: 40,
@@ -484,7 +543,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '423'
+    comment: '',
+    order_number: '423'
   },
   {
     count: 200,
@@ -492,7 +552,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '430'
+    comment: '',
+    order_number: '430'
   },
   {
     count: 200,
@@ -500,7 +561,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '430'
+    comment: '',
+    order_number: '430'
   },
   {
     count: 36,
@@ -508,7 +570,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Ear Savers',
-    comment: '416b'
+    comment: '',
+    order_number: '416b'
   },
   {
     count: 30,
@@ -516,7 +579,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Ear Savers',
-    comment: '418b'
+    comment: '',
+    order_number: '418b'
   },
   {
     count: 10,
@@ -524,7 +588,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Ear Savers',
-    comment: '429b'
+    comment: '',
+    order_number: '429b'
   },
   {
     count: 20,
@@ -532,7 +597,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '448'
+    comment: '',
+    order_number: '448'
   },
   {
     count: 50,
@@ -540,7 +606,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '436'
+    comment: '',
+    order_number: '436'
   },
   {
     count: 100,
@@ -548,7 +615,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '441'
+    comment: '',
+    order_number: '441'
   },
   {
     count: 125,
@@ -556,7 +624,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '446'
+    comment: '',
+    order_number: '446'
   },
   {
     count: 50,
@@ -564,7 +633,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '373'
+    comment: '',
+    order_number: '373'
   },
   {
     count: 100,
@@ -572,7 +642,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '350'
+    comment: '',
+    order_number: '350'
   },
   {
     count: 50,
@@ -580,7 +651,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '379'
+    comment: '',
+    order_number: '379'
   },
   {
     count: 3,
@@ -588,7 +660,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '380'
+    comment: '',
+    order_number: '380'
   },
   {
     count: 12,
@@ -596,7 +669,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '383'
+    comment: '',
+    order_number: '383'
   },
   {
     count: 40,
@@ -604,7 +678,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '439'
+    comment: '',
+    order_number: '439'
   },
   {
     count: 40,
@@ -612,7 +687,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '254a'
+    comment: '',
+    order_number: '254a'
   },
   {
     count: 50,
@@ -620,7 +696,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '425'
+    comment: '',
+    order_number: '425'
   },
   {
     count: 36,
@@ -628,7 +705,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '416'
+    comment: '',
+    order_number: '416'
   },
   {
     count: 30,
@@ -636,7 +714,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '418'
+    comment: '',
+    order_number: '418'
   },
   {
     count: 10,
@@ -644,7 +723,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '420'
+    comment: '',
+    order_number: '420'
   },
   {
     count: 30,
@@ -652,7 +732,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '444'
+    comment: '',
+    order_number: '444'
   },
   {
     count: 10,
@@ -660,7 +741,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '415'
+    comment: '',
+    order_number: '415'
   },
   {
     count: 30,
@@ -668,7 +750,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '445'
+    comment: '',
+    order_number: '445'
   },
   {
     count: 10,
@@ -676,7 +759,8 @@ export default [
     location: 'Brookln',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '417a'
+    comment: '',
+    order_number: '417a'
   },
   {
     count: 7,
@@ -684,7 +768,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '254a'
+    comment: '',
+    order_number: '254a'
   },
   {
     count: 10,
@@ -692,7 +777,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'KN95 Masks',
-    comment: '390'
+    comment: '',
+    order_number: '390'
   },
   {
     count: 10,
@@ -700,7 +786,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'KN95 Masks',
-    comment: '400'
+    comment: '',
+    order_number: '400'
   },
   {
     count: 10,
@@ -708,7 +795,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'KN95 Masks',
-    comment: '389'
+    comment: '',
+    order_number: '389'
   },
   {
     count: 10,
@@ -716,7 +804,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'KN95 Masks',
-    comment: '402'
+    comment: '',
+    order_number: '402'
   },
   {
     count: 10,
@@ -724,7 +813,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'KN95 Masks',
-    comment: '397b'
+    comment: '',
+    order_number: '397b'
   },
   {
     count: 100,
@@ -732,7 +822,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '416a'
+    comment: '',
+    order_number: '416a'
   },
   {
     count: 30,
@@ -740,7 +831,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '418a'
+    comment: '',
+    order_number: '418a'
   },
   {
     count: 100,
@@ -748,7 +840,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Ear Savers',
-    comment: '440a'
+    comment: '',
+    order_number: '440a'
   },
   {
     count: 89,
@@ -756,7 +849,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '440'
+    comment: '',
+    order_number: '440'
   },
   {
     count: 100,
@@ -764,7 +858,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '361'
+    comment: '',
+    order_number: '361'
   },
   {
     count: 20,
@@ -772,7 +867,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '414'
+    comment: '',
+    order_number: '414'
   },
   {
     count: 10,
@@ -780,7 +876,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '417'
+    comment: '',
+    order_number: '417'
   },
   {
     count: 50,
@@ -788,7 +885,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '428'
+    comment: '',
+    order_number: '428'
   },
   {
     count: 20,
@@ -796,7 +894,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '429'
+    comment: '',
+    order_number: '429'
   },
   {
     count: 20,
@@ -804,7 +903,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '429a'
+    comment: '',
+    order_number: '429a'
   },
   {
     count: 1000,
@@ -812,7 +912,8 @@ export default [
     location: 'Detroit',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '411'
+    comment: '',
+    order_number: '411'
   },
   {
     count: 115,
@@ -820,7 +921,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '399a'
+    comment: '',
+    order_number: '399a'
   },
   {
     count: 30,
@@ -828,7 +930,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '424'
+    comment: '',
+    order_number: '424'
   },
   {
     count: 50,
@@ -836,7 +939,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '426'
+    comment: '',
+    order_number: '426'
   },
   {
     count: 180,
@@ -844,7 +948,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '409a'
+    comment: '',
+    order_number: '409a'
   },
   {
     count: 300,
@@ -860,7 +965,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '353'
+    comment: '',
+    order_number: '353'
   },
   {
     count: 70,
@@ -868,7 +974,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '382'
+    comment: '',
+    order_number: '382'
   },
   {
     count: 100,
@@ -876,7 +983,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '377'
+    comment: '',
+    order_number: '377'
   },
   {
     count: 20,
@@ -884,7 +992,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '395'
+    comment: '',
+    order_number: '395'
   },
   {
     count: 50,
@@ -892,7 +1001,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '349a'
+    comment: '',
+    order_number: '349a'
   },
   {
     count: 50,
@@ -900,7 +1010,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '351'
+    comment: '',
+    order_number: '351'
   },
   {
     count: 50,
@@ -908,7 +1019,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '354'
+    comment: '',
+    order_number: '354'
   },
   {
     count: 15,
@@ -916,7 +1028,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '250'
+    comment: '',
+    order_number: '250'
   },
   {
     count: 100,
@@ -924,7 +1037,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '254'
+    comment: '',
+    order_number: '254'
   },
   {
     count: 10,
@@ -932,7 +1046,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '384'
+    comment: '',
+    order_number: '384'
   },
   {
     count: 30,
@@ -940,7 +1055,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '385'
+    comment: '',
+    order_number: '385'
   },
   {
     count: 50,
@@ -948,7 +1064,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '392'
+    comment: '',
+    order_number: '392'
   },
   {
     count: 50,
@@ -956,7 +1073,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '406'
+    comment: '',
+    order_number: '406'
   },
   {
     count: 5,
@@ -964,7 +1082,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '408'
+    comment: '',
+    order_number: '408'
   },
   {
     count: 2500,
@@ -980,7 +1099,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '367a'
+    comment: '',
+    order_number: '367a'
   },
   {
     count: 12,
@@ -988,7 +1108,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '389b'
+    comment: '',
+    order_number: '389b'
   },
   {
     count: 1500,
@@ -996,7 +1117,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'KN95 Masks',
-    comment: '286a'
+    comment: '',
+    order_number: '286a'
   },
   {
     count: 36,
@@ -1004,7 +1126,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '276'
+    comment: '',
+    order_number: '276'
   },
   {
     count: 100,
@@ -1012,7 +1135,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '333'
+    comment: '',
+    order_number: '333'
   },
   {
     count: 20,
@@ -1020,7 +1144,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '352'
+    comment: '',
+    order_number: '352'
   },
   {
     count: 450,
@@ -1028,7 +1153,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '365'
+    comment: '',
+    order_number: '365'
   },
   {
     count: 400,
@@ -1036,7 +1162,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '370'
+    comment: '',
+    order_number: '370'
   },
   {
     count: 50,
@@ -1044,7 +1171,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '374'
+    comment: '',
+    order_number: '374'
   },
   {
     count: 100,
@@ -1052,7 +1180,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '366'
+    comment: '',
+    order_number: '366'
   },
   {
     count: 75,
@@ -1060,7 +1189,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '328'
+    comment: '',
+    order_number: '328'
   },
   {
     count: 100,
@@ -1068,7 +1198,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '342'
+    comment: '',
+    order_number: '342'
   },
   {
     count: 45,
@@ -1076,7 +1207,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '329'
+    comment: '',
+    order_number: '329'
   },
   {
     count: 40,
@@ -1084,7 +1216,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '375'
+    comment: '',
+    order_number: '375'
   },
   {
     count: 50,
@@ -1092,7 +1225,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '369'
+    comment: '',
+    order_number: '369'
   },
   {
     count: 75,
@@ -1100,7 +1234,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '360'
+    comment: '',
+    order_number: '360'
   },
   {
     count: 1050,
@@ -1108,7 +1243,8 @@ export default [
     location: 'Connecticut',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '364'
+    comment: '',
+    order_number: '364'
   },
   {
     count: 25,
@@ -1116,7 +1252,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '212'
+    comment: '',
+    order_number: '212'
   },
   {
     count: 10,
@@ -1124,7 +1261,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '212'
+    comment: '',
+    order_number: '212'
   },
   {
     count: 3,
@@ -1132,7 +1270,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '212'
+    comment: '',
+    order_number: '212'
   },
   {
     count: 30,
@@ -1140,7 +1279,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '212'
+    comment: '',
+    order_number: '212'
   },
   {
     count: 100,
@@ -1148,7 +1288,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '212'
+    comment: '',
+    order_number: '212'
   },
   {
     count: 10,
@@ -1156,7 +1297,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '355'
+    comment: '',
+    order_number: '355'
   },
   {
     count: 25,
@@ -1164,7 +1306,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '318'
+    comment: '',
+    order_number: '318'
   },
   {
     count: 50,
@@ -1172,7 +1315,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '284'
+    comment: '',
+    order_number: '284'
   },
   {
     count: 20,
@@ -1180,7 +1324,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '281'
+    comment: '',
+    order_number: '281'
   },
   {
     count: 15,
@@ -1188,7 +1333,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '232'
+    comment: '',
+    order_number: '232'
   },
   {
     count: 12,
@@ -1196,7 +1342,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '278'
+    comment: '',
+    order_number: '278'
   },
   // {
   //   count: 40,
@@ -1204,7 +1351,8 @@ export default [
   //   location: 'Queens',
   //   org_catagory: '',
   //   type: '100% Cotton Masks',
-  //   comment: '327',
+  //   comment: '',
+  //   order_number: '327'
   // },
   {
     count: 150,
@@ -1212,7 +1360,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '376'
+    comment: '',
+    order_number: '376'
   },
   {
     count: 20,
@@ -1220,7 +1369,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '358'
+    comment: '',
+    order_number: '358'
   },
   {
     count: 35,
@@ -1228,7 +1378,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '363'
+    comment: '',
+    order_number: '363'
   },
   {
     count: 25,
@@ -1236,7 +1387,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '357'
+    comment: '',
+    order_number: '357'
   },
   {
     count: 60,
@@ -1244,7 +1396,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '251'
+    comment: '',
+    order_number: '251'
   },
   {
     count: 72,
@@ -1260,7 +1413,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '212'
+    comment: '',
+    order_number: '212'
   },
   {
     count: 75,
@@ -1268,7 +1422,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '299'
+    comment: '',
+    order_number: '299'
   },
   {
     count: 1000,
@@ -1276,7 +1431,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '347'
+    comment: '',
+    order_number: '347'
   },
   {
     count: 25,
@@ -1284,7 +1440,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '347'
+    comment: '',
+    order_number: '347'
   },
   {
     count: 300,
@@ -1292,7 +1449,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '315'
+    comment: '',
+    order_number: '315'
   },
   {
     count: 75,
@@ -1300,7 +1458,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '290'
+    comment: '',
+    order_number: '290'
   },
   {
     gallons: 2.7,
@@ -1316,7 +1475,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '245'
+    comment: '',
+    order_number: '245'
   },
   {
     count: 16,
@@ -1324,7 +1484,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '296'
+    comment: '',
+    order_number: '296'
   },
   {
     count: 10,
@@ -1332,7 +1493,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '300'
+    comment: '',
+    order_number: '300'
   },
   {
     count: 30,
@@ -1340,7 +1502,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '337'
+    comment: '',
+    order_number: '337'
   },
   {
     count: 100,
@@ -1348,7 +1511,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '320'
+    comment: '',
+    order_number: '320'
   },
   {
     count: 200,
@@ -1396,7 +1560,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '283'
+    comment: '',
+    order_number: '283'
   },
   {
     count: 500,
@@ -1404,7 +1569,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '313'
+    comment: '',
+    order_number: '313'
   },
   {
     count: 10,
@@ -1412,7 +1578,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '345b'
+    comment: '',
+    order_number: '345b'
   },
   {
     count: 5,
@@ -1420,7 +1587,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '345a'
+    comment: '',
+    order_number: '345a'
   },
   {
     count: 20,
@@ -1428,7 +1596,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '280'
+    comment: '',
+    order_number: '280'
   },
   {
     count: 5,
@@ -1436,7 +1605,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '344'
+    comment: '',
+    order_number: '344'
   },
   {
     count: 20,
@@ -1444,7 +1614,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '306'
+    comment: '',
+    order_number: '306'
   },
   {
     count: 4,
@@ -1452,7 +1623,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '297'
+    comment: '',
+    order_number: '297'
   },
   {
     count: 30,
@@ -1460,7 +1632,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '285'
+    comment: '',
+    order_number: '285'
   },
   {
     count: 100,
@@ -1484,7 +1657,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '296b'
+    comment: '',
+    order_number: '296b'
   },
   {
     count: 20,
@@ -1492,7 +1666,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '296a'
+    comment: '',
+    order_number: '296a'
   },
   {
     count: 300,
@@ -1500,7 +1675,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '336a'
+    comment: '',
+    order_number: '336a'
   },
   {
     count: 100,
@@ -1508,7 +1684,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '338'
+    comment: '',
+    order_number: '338'
   },
   {
     count: 50,
@@ -1516,7 +1693,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '303'
+    comment: '',
+    order_number: '303'
   },
   {
     count: 100,
@@ -1524,7 +1702,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '319'
+    comment: '',
+    order_number: '319'
   },
   {
     count: 50,
@@ -1532,7 +1711,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '325'
+    comment: '',
+    order_number: '325'
   },
   {
     count: 20,
@@ -1540,7 +1720,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '324'
+    comment: '',
+    order_number: '324'
   },
   {
     count: 124,
@@ -1548,7 +1729,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '316'
+    comment: '',
+    order_number: '316'
   },
   {
     count: 80,
@@ -1556,7 +1738,8 @@ export default [
     location: 'Brooklyn, Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '331'
+    comment: '',
+    order_number: '331'
   },
   {
     count: 10,
@@ -1564,7 +1747,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '323'
+    comment: '',
+    order_number: '323'
   },
   {
     count: 20,
@@ -1572,7 +1756,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '322'
+    comment: '',
+    order_number: '322'
   },
   {
     count: 80,
@@ -1580,7 +1765,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '246'
+    comment: '',
+    order_number: '246'
   },
   {
     count: 3,
@@ -1588,7 +1774,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '305'
+    comment: '',
+    order_number: '305'
   },
   {
     count: 4,
@@ -1596,7 +1783,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '314'
+    comment: '',
+    order_number: '314'
   },
   {
     count: 30,
@@ -1604,7 +1792,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '317'
+    comment: '',
+    order_number: '317'
   },
   {
     gallons: 5.9,
@@ -1620,7 +1809,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '275'
+    comment: '',
+    order_number: '275'
   },
   {
     count: 150,
@@ -1628,7 +1818,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '316'
+    comment: '',
+    order_number: '316'
   },
 
   {
@@ -1637,7 +1828,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '298'
+    comment: '',
+    order_number: '298'
   },
 
   {
@@ -1646,7 +1838,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '221'
+    comment: '',
+    order_number: '221'
   },
   {
     count: 150,
@@ -1654,7 +1847,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '236'
+    comment: '',
+    order_number: '236'
   },
   {
     count: 150,
@@ -1662,7 +1856,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '241'
+    comment: '',
+    order_number: '241'
   },
   {
     count: 100,
@@ -1670,7 +1865,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '293'
+    comment: '',
+    order_number: '293'
   },
   {
     count: 50,
@@ -1678,7 +1874,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '291'
+    comment: '',
+    order_number: '291'
   },
   {
     count: 30,
@@ -1686,7 +1883,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '256'
+    comment: '',
+    order_number: '256'
   },
   {
     count: 40,
@@ -1694,7 +1892,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '244'
+    comment: '',
+    order_number: '244'
   },
   {
     count: 200,
@@ -1702,7 +1901,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '222'
+    comment: '',
+    order_number: '222'
   },
   {
     count: 50,
@@ -1710,7 +1910,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '252'
+    comment: '',
+    order_number: '252'
   },
   {
     count: 50,
@@ -1718,7 +1919,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '249'
+    comment: '',
+    order_number: '249'
   },
   {
     count: 30,
@@ -1726,7 +1928,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '262'
+    comment: '',
+    order_number: '262'
   },
   {
     count: 300,
@@ -1734,7 +1937,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '294'
+    comment: '',
+    order_number: '294'
   },
   {
     count: 100,
@@ -1742,7 +1946,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '224'
+    comment: '',
+    order_number: '224'
   },
   {
     count: 246,
@@ -1750,7 +1955,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '229'
+    comment: '',
+    order_number: '229'
   },
   {
     count: 100,
@@ -1758,7 +1964,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '231'
+    comment: '',
+    order_number: '231'
   },
   {
     count: 25,
@@ -1766,7 +1973,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '279'
+    comment: '',
+    order_number: '279'
   },
   {
     count: 100,
@@ -1774,7 +1982,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '266'
+    comment: '',
+    order_number: '266'
   },
   {
     count: 50,
@@ -1782,7 +1991,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '288'
+    comment: '',
+    order_number: '288'
   },
   {
     count: 50,
@@ -1790,7 +2000,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '268'
+    comment: '',
+    order_number: '268'
   },
   {
     count: 300,
@@ -1806,7 +2017,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '235'
+    comment: '',
+    order_number: '235'
   },
   {
     count: 100,
@@ -1814,7 +2026,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '247'
+    comment: '',
+    order_number: '247'
   },
   {
     count: 25,
@@ -1822,7 +2035,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '243'
+    comment: '',
+    order_number: '243'
   },
   {
     count: 50,
@@ -1830,7 +2044,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'KN95 Masks',
-    comment: '267'
+    comment: '',
+    order_number: '267'
   },
   {
     count: 50,
@@ -1838,7 +2053,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '267'
+    comment: '',
+    order_number: '267'
   },
   {
     count: 150,
@@ -1846,7 +2062,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '269'
+    comment: '',
+    order_number: '269'
   },
   {
     count: 50,
@@ -1854,7 +2071,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '270'
+    comment: '',
+    order_number: '270'
   },
   {
     gallons: 10,
@@ -1917,7 +2135,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '194'
+    comment: '',
+    order_number: '194'
   },
   {
     count: 75,
@@ -1925,7 +2144,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '196'
+    comment: '',
+    order_number: '196'
   },
   {
     count: 25,
@@ -1933,7 +2153,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '214'
+    comment: '',
+    order_number: '214'
   },
   {
     count: 50,
@@ -1941,7 +2162,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '258'
+    comment: '',
+    order_number: '258'
   },
   {
     count: 50,
@@ -1949,7 +2171,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '226'
+    comment: '',
+    order_number: '226'
   },
   {
     count: 50,
@@ -1957,7 +2180,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '238'
+    comment: '',
+    order_number: '238'
   },
   {
     count: 70,
@@ -1965,7 +2189,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '228'
+    comment: '',
+    order_number: '228'
   },
   {
     count: 80,
@@ -1973,7 +2198,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '240'
+    comment: '',
+    order_number: '240'
   },
   {
     count: 100,
@@ -1981,7 +2207,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Inhaler Spacers',
-    comment: '205'
+    comment: '',
+    order_number: '205'
   },
   {
     count: 100,
@@ -1989,7 +2216,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Inhaler Spacers',
-    comment: '227'
+    comment: '',
+    order_number: '227'
   },
   {
     count: 67,
@@ -1997,7 +2225,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '266'
+    comment: '',
+    order_number: '266'
   },
   {
     count: 10,
@@ -2005,7 +2234,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '234'
+    comment: '',
+    order_number: '234'
   },
   {
     count: 250,
@@ -2013,7 +2243,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '225'
+    comment: '',
+    order_number: '225'
   },
   {
     count: 100,
@@ -2021,7 +2252,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '205'
+    comment: '',
+    order_number: '205'
   },
   {
     count: 100,
@@ -2029,7 +2261,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '227'
+    comment: '',
+    order_number: '227'
   },
   {
     count: 50,
@@ -2037,7 +2270,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '237'
+    comment: '',
+    order_number: '237'
   },
   {
     count: 100,
@@ -2045,7 +2279,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '209'
+    comment: '',
+    order_number: '209'
   },
   {
     count: 300,
@@ -2053,7 +2288,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Surgical Masks',
-    comment: '195'
+    comment: '',
+    order_number: '195'
   },
   {
     count: 129,
@@ -2061,7 +2297,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'KN95 Masks',
-    comment: '174'
+    comment: '',
+    order_number: '174'
   },
   {
     count: 200,
@@ -2069,7 +2306,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '210'
+    comment: '',
+    order_number: '210'
   },
   {
     count: 100,
@@ -2077,7 +2315,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '239'
+    comment: '',
+    order_number: '239'
   },
   {
     count: 100,
@@ -2085,7 +2324,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '265'
+    comment: '',
+    order_number: '265'
   },
   {
     count: 50,
@@ -2093,7 +2333,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '264'
+    comment: '',
+    order_number: '264'
   },
   {
     count: 100,
@@ -2101,7 +2342,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '142'
+    comment: '',
+    order_number: '142'
   },
   {
     count: 36,
@@ -2109,7 +2351,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '140a'
+    comment: '',
+    order_number: '140a'
   },
   {
     count: 100,
@@ -2117,7 +2360,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '217'
+    comment: '',
+    order_number: '217'
   },
   {
     count: 100,
@@ -2125,7 +2369,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Inhaler Spacers',
-    comment: '265'
+    comment: '',
+    order_number: '265'
   },
   {
     gallons: 5.9,
@@ -2141,7 +2386,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Inhaler Spacers',
-    comment: '216'
+    comment: '',
+    order_number: '216'
   },
   {
     count: 50,
@@ -2149,7 +2395,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Inhaler Spacers',
-    comment: '223'
+    comment: '',
+    order_number: '223'
   },
   {
     count: 15,
@@ -2157,7 +2404,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Inhaler Spacers',
-    comment: '207'
+    comment: '',
+    order_number: '207'
   },
   {
     count: 20,
@@ -2165,7 +2413,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '216'
+    comment: '',
+    order_number: '216'
   },
   {
     count: 100,
@@ -2173,7 +2422,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '218'
+    comment: '',
+    order_number: '218'
   },
   {
     count: 32,
@@ -2181,7 +2431,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '220'
+    comment: '',
+    order_number: '220'
   },
   {
     count: 200,
@@ -2189,7 +2440,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '219'
+    comment: '',
+    order_number: '219'
   },
   {
     count: 100,
@@ -2197,7 +2449,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '137'
+    comment: '',
+    order_number: '137'
   },
   {
     count: 100,
@@ -2205,7 +2458,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '233'
+    comment: '',
+    order_number: '233'
   },
   {
     count: 50,
@@ -2213,7 +2467,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '215'
+    comment: '',
+    order_number: '215'
   },
   {
     count: 50,
@@ -2221,7 +2476,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '206'
+    comment: '',
+    order_number: '206'
   },
   {
     count: 300,
@@ -2237,7 +2493,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '211'
+    comment: '',
+    order_number: '211'
   },
   {
     count: 200,
@@ -2245,7 +2502,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '213'
+    comment: '',
+    order_number: '213'
   },
   {
     count: 20,
@@ -2253,7 +2511,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '203'
+    comment: '',
+    order_number: '203'
   },
   {
     count: 100,
@@ -2277,7 +2536,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'KN95 Masks',
-    comment: '1'
+    comment: '',
+    order_number: '1'
   },
   {
     count: 363,
@@ -2309,7 +2569,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'KN95 Masks',
-    comment: '216'
+    comment: '',
+    order_number: '216'
   },
   {
     count: 95,
@@ -2317,7 +2578,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'KN95 Masks',
-    comment: '2'
+    comment: '',
+    order_number: '2'
   },
   {
     count: 70,
@@ -2325,7 +2587,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '117'
+    comment: '',
+    order_number: '117'
   },
   {
     count: 50,
@@ -2333,7 +2596,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '216'
+    comment: '',
+    order_number: '216'
   },
   {
     count: 20,
@@ -2341,7 +2605,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '133'
+    comment: '',
+    order_number: '133'
   },
   {
     count: 100,
@@ -2357,7 +2622,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '97'
+    comment: '',
+    order_number: '97'
   },
   {
     count: 10,
@@ -2365,7 +2631,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '93'
+    comment: '',
+    order_number: '93'
   },
   {
     count: 10,
@@ -2373,7 +2640,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '93'
+    comment: '',
+    order_number: '93'
   },
   {
     count: 100,
@@ -2381,7 +2649,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '183b'
+    comment: '',
+    order_number: '183b'
   },
   {
     count: 100,
@@ -2389,7 +2658,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '183a'
+    comment: '',
+    order_number: '183a'
   },
   {
     count: 100,
@@ -2397,7 +2667,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '182b'
+    comment: '',
+    order_number: '182b'
   },
   {
     count: 100,
@@ -2405,7 +2676,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '182a'
+    comment: '',
+    order_number: '182a'
   },
   {
     count: 100,
@@ -2413,7 +2685,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '172'
+    comment: '',
+    order_number: '172'
   },
   {
     count: 100,
@@ -2421,7 +2694,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '127'
+    comment: '',
+    order_number: '127'
   },
   {
     count: 100,
@@ -2429,7 +2703,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '202'
+    comment: '',
+    order_number: '202'
   },
   {
     count: 100,
@@ -2437,7 +2712,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '201'
+    comment: '',
+    order_number: '201'
   },
   {
     count: 100,
@@ -2445,7 +2721,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '55'
+    comment: '',
+    order_number: '55'
   },
   {
     count: 100,
@@ -2453,7 +2730,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '200'
+    comment: '',
+    order_number: '200'
   },
   {
     count: 100,
@@ -2461,7 +2739,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '177b'
+    comment: '',
+    order_number: '177b'
   },
   {
     count: 50,
@@ -2469,7 +2748,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '144'
+    comment: '',
+    order_number: '144'
   },
   {
     count: 250,
@@ -2485,7 +2765,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '89'
+    comment: '',
+    order_number: '89'
   },
   {
     count: 50,
@@ -2493,7 +2774,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '89'
+    comment: '',
+    order_number: '89'
   },
   {
     count: 50,
@@ -2501,7 +2783,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '178'
+    comment: '',
+    order_number: '178'
   },
   {
     count: 50,
@@ -2509,7 +2792,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '178'
+    comment: '',
+    order_number: '178'
   },
   {
     count: 100,
@@ -2517,7 +2801,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '160'
+    comment: '',
+    order_number: '160'
   },
   {
     count: 100,
@@ -2525,7 +2810,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '166'
+    comment: '',
+    order_number: '166'
   },
   {
     count: 100,
@@ -2533,7 +2819,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '166'
+    comment: '',
+    order_number: '166'
   },
   {
     count: 100,
@@ -2541,7 +2828,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '160'
+    comment: '',
+    order_number: '160'
   },
   {
     count: 200,
@@ -2565,7 +2853,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '151b'
+    comment: '',
+    order_number: '151b'
   },
   {
     count: 100,
@@ -2573,7 +2862,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '151a'
+    comment: '',
+    order_number: '151a'
   },
   {
     count: 20,
@@ -2581,7 +2871,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '143'
+    comment: '',
+    order_number: '143'
   },
   {
     count: 80,
@@ -2589,7 +2880,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '122'
+    comment: '',
+    order_number: '122'
   },
   {
     count: 100,
@@ -2597,7 +2889,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '99a'
+    comment: '',
+    order_number: '99a'
   },
   {
     count: 100,
@@ -2605,7 +2898,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '135'
+    comment: '',
+    order_number: '135'
   },
   {
     count: 200,
@@ -2613,7 +2907,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '135'
+    comment: '',
+    order_number: '135'
   },
   {
     count: 100,
@@ -2629,7 +2924,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '187b'
+    comment: '',
+    order_number: '187b'
   },
   {
     count: 50,
@@ -2637,7 +2933,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '187a'
+    comment: '',
+    order_number: '187a'
   },
   {
     count: 100,
@@ -2645,7 +2942,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '175b'
+    comment: '',
+    order_number: '175b'
   },
   {
     count: 200,
@@ -2653,7 +2951,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '175a'
+    comment: '',
+    order_number: '175a'
   },
   {
     count: 70,
@@ -2661,7 +2960,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '149'
+    comment: '',
+    order_number: '149'
   },
   {
     count: 800,
@@ -2677,7 +2977,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '177a'
+    comment: '',
+    order_number: '177a'
   },
   {
     count: 50,
@@ -2685,7 +2986,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '141a'
+    comment: '',
+    order_number: '141a'
   },
   {
     count: 100,
@@ -2693,7 +2995,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '132'
+    comment: '',
+    order_number: '132'
   },
   {
     count: 200,
@@ -2701,7 +3004,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '41'
+    comment: '',
+    order_number: '41'
   },
   {
     count: 50,
@@ -2709,7 +3013,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '189a'
+    comment: '',
+    order_number: '189a'
   },
   {
     count: 50,
@@ -2717,7 +3022,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '189b'
+    comment: '',
+    order_number: '189b'
   },
   {
     count: 100,
@@ -2741,7 +3047,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '52'
+    comment: '',
+    order_number: '52'
   },
   {
     count: 1,
@@ -2749,7 +3056,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '165'
+    comment: '',
+    order_number: '165'
   },
   {
     count: 150,
@@ -2757,7 +3065,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '123'
+    comment: '',
+    order_number: '123'
   },
   {
     count: 10,
@@ -2765,7 +3074,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '84a'
+    comment: '',
+    order_number: '84a'
   },
   {
     count: 50,
@@ -2773,7 +3083,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '84b'
+    comment: '',
+    order_number: '84b'
   },
   {
     count: 1,
@@ -2781,7 +3092,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '121'
+    comment: '',
+    order_number: '121'
   },
   {
     count: 50,
@@ -2805,7 +3117,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '89'
+    comment: '',
+    order_number: '89'
   },
   {
     count: 100,
@@ -2813,7 +3126,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '129'
+    comment: '',
+    order_number: '129'
   },
   {
     count: 100,
@@ -2821,7 +3135,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '136'
+    comment: '',
+    order_number: '136'
   },
   {
     count: 200,
@@ -2829,7 +3144,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '51'
+    comment: '',
+    order_number: '51'
   },
   {
     count: 500,
@@ -2837,7 +3153,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '109b'
+    comment: '',
+    order_number: '109b'
   },
   {
     count: 10,
@@ -2845,7 +3162,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '124'
+    comment: '',
+    order_number: '124'
   },
   {
     count: 10,
@@ -2853,7 +3171,8 @@ export default [
     location: 'Brooklyn/Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '71'
+    comment: '',
+    order_number: '71'
   },
   {
     count: 30,
@@ -2861,7 +3180,8 @@ export default [
     location: 'Brooklyn/Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '71'
+    comment: '',
+    order_number: '71'
   },
   {
     count: 134,
@@ -2877,7 +3197,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '125'
+    comment: '',
+    order_number: '125'
   },
   {
     count: 50,
@@ -2885,7 +3206,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '134'
+    comment: '',
+    order_number: '134'
   },
   {
     count: 100,
@@ -2893,7 +3215,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '95'
+    comment: '',
+    order_number: '95'
   },
   {
     count: 300,
@@ -2901,7 +3224,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '109a'
+    comment: '',
+    order_number: '109a'
   },
   {
     count: 100,
@@ -2909,7 +3233,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '128'
+    comment: '',
+    order_number: '128'
   },
   {
     count: 100,
@@ -2917,7 +3242,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '106'
+    comment: '',
+    order_number: '106'
   },
   {
     count: 100,
@@ -2925,7 +3251,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '106'
+    comment: '',
+    order_number: '106'
   },
   {
     count: 100,
@@ -2933,7 +3260,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '101'
+    comment: '',
+    order_number: '101'
   },
   {
     count: 100,
@@ -2941,7 +3269,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '114'
+    comment: '',
+    order_number: '114'
   },
   {
     count: 40,
@@ -2949,7 +3278,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'KN95 Masks',
-    comment: '111'
+    comment: '',
+    order_number: '111'
   },
   {
     count: 100,
@@ -2957,7 +3287,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '107'
+    comment: '',
+    order_number: '107'
   },
   {
     count: 195,
@@ -2965,7 +3296,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '107'
+    comment: '',
+    order_number: '107'
   },
   {
     count: 100,
@@ -2973,7 +3305,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '108'
+    comment: '',
+    order_number: '108'
   },
   {
     count: 100,
@@ -2981,7 +3314,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '38a'
+    comment: '',
+    order_number: '38a'
   },
   {
     count: 100,
@@ -2989,7 +3323,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Surgical Masks',
-    comment: '11'
+    comment: '',
+    order_number: '11'
   },
   {
     count: 100,
@@ -2997,7 +3332,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '67'
+    comment: '',
+    order_number: '67'
   },
   {
     count: 265,
@@ -3005,7 +3341,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '4'
+    comment: '',
+    order_number: '4'
   },
   {
     count: 100,
@@ -3013,7 +3350,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '37a'
+    comment: '',
+    order_number: '37a'
   },
   {
     count: 30,
@@ -3021,7 +3359,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '59'
+    comment: '',
+    order_number: '59'
   },
   {
     count: 10,
@@ -3029,7 +3368,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '92'
+    comment: '',
+    order_number: '92'
   },
   {
     count: 200,
@@ -3037,7 +3377,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '70'
+    comment: '',
+    order_number: '70'
   },
   {
     count: 10,
@@ -3045,7 +3386,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '58'
+    comment: '',
+    order_number: '58'
   },
   {
     count: 50,
@@ -3053,7 +3395,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '105'
+    comment: '',
+    order_number: '105'
   },
   {
     count: 300,
@@ -3061,7 +3404,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '113'
+    comment: '',
+    order_number: '113'
   },
   {
     count: 100,
@@ -3069,7 +3413,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '57'
+    comment: '',
+    order_number: '57'
   },
   {
     count: 200,
@@ -3077,7 +3422,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '96'
+    comment: '',
+    order_number: '96'
   },
   {
     count: 200,
@@ -3085,7 +3431,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '51'
+    comment: '',
+    order_number: '51'
   },
   {
     count: 50,
@@ -3093,7 +3440,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '9'
+    comment: '',
+    order_number: '9'
   },
   {
     count: 100,
@@ -3101,7 +3449,8 @@ export default [
     location: 'UES',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '33'
+    comment: '',
+    order_number: '33'
   },
   {
     count: 200,
@@ -3117,7 +3466,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Surgical Masks',
-    comment: '10'
+    comment: '',
+    order_number: '10'
   },
   {
     count: 100,
@@ -3125,7 +3475,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Surgical Masks',
-    comment: '2'
+    comment: '',
+    order_number: '2'
   },
   {
     count: 200,
@@ -3133,7 +3484,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '12'
+    comment: '',
+    order_number: '12'
   },
   {
     count: 140,
@@ -3141,7 +3493,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '63'
+    comment: '',
+    order_number: '63'
   },
   {
     count: 165,
@@ -3149,7 +3502,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '63'
+    comment: '',
+    order_number: '63'
   },
   {
     count: 20,
@@ -3157,7 +3511,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '91'
+    comment: '',
+    order_number: '91'
   },
   {
     count: 150,
@@ -3165,7 +3520,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '22'
+    comment: '',
+    order_number: '22'
   },
   {
     count: 50,
@@ -3173,7 +3529,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '53'
+    comment: '',
+    order_number: '53'
   },
   {
     count: 200,
@@ -3181,7 +3538,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '49'
+    comment: '',
+    order_number: '49'
   },
   {
     count: 215,
@@ -3189,7 +3547,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '50'
+    comment: '',
+    order_number: '50'
   },
   {
     count: 200,
@@ -3197,7 +3556,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '24'
+    comment: '',
+    order_number: '24'
   },
   {
     count: 50,
@@ -3205,7 +3565,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '72'
+    comment: '',
+    order_number: '72'
   },
   {
     count: 60,
@@ -3213,7 +3574,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '34'
+    comment: '',
+    order_number: '34'
   },
   {
     count: 100,
@@ -3221,7 +3583,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '31'
+    comment: '',
+    order_number: '31'
   },
   {
     count: 100,
@@ -3229,7 +3592,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '69'
+    comment: '',
+    order_number: '69'
   },
   {
     count: 200,
@@ -3237,7 +3601,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '28'
+    comment: '',
+    order_number: '28'
   },
   {
     count: 100,
@@ -3245,7 +3610,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '66'
+    comment: '',
+    order_number: '66'
   },
   {
     count: 60,
@@ -3253,7 +3619,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '31'
+    comment: '',
+    order_number: '31'
   },
   {
     count: 100,
@@ -3261,7 +3628,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '62'
+    comment: '',
+    order_number: '62'
   },
   {
     count: 100,
@@ -3269,7 +3637,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '35'
+    comment: '',
+    order_number: '35'
   },
   {
     count: 100,
@@ -3277,7 +3646,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '37'
+    comment: '',
+    order_number: '37'
   },
   {
     count: 100,
@@ -3285,7 +3655,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: '1'
+    comment: '',
+    order_number: '1'
   },
   {
     count: 200,
@@ -3293,7 +3664,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '16'
+    comment: '',
+    order_number: '16'
   },
   {
     count: 100,
@@ -3301,7 +3673,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '15'
+    comment: '',
+    order_number: '15'
   },
   {
     count: 200,
@@ -3309,7 +3682,8 @@ export default [
     location: 'UES',
     org_catagory: '',
     type: 'Face Shields',
-    comment: '14'
+    comment: '',
+    order_number: '14'
   },
   {
     count: 90,
@@ -3317,7 +3691,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     gallons: 2.9,
@@ -3325,7 +3700,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Hand Sanitizer',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 56,
@@ -3333,7 +3709,8 @@ export default [
     location: 'LES',
     org_catagory: '',
     type: '100% Cotton Masks',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 25,
@@ -3341,7 +3718,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 50,
@@ -3349,7 +3727,8 @@ export default [
     location: 'UWS',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 125,
@@ -3357,7 +3736,8 @@ export default [
     location: 'UWS',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 440,
@@ -3365,7 +3745,8 @@ export default [
     location: 'UES',
     org_catagory: '',
     type: 'KN95 Masks',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 10,
@@ -3373,7 +3754,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 250,
@@ -3381,7 +3763,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 100,
@@ -3389,7 +3772,8 @@ export default [
     location: 'UWS',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 100,
@@ -3397,7 +3781,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 30,
@@ -3405,7 +3790,8 @@ export default [
     location: 'UES',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 160,
@@ -3413,7 +3799,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 175,
@@ -3421,7 +3808,8 @@ export default [
     location: 'LES',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 50,
@@ -3429,7 +3817,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 30,
@@ -3437,7 +3826,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 10,
@@ -3445,7 +3835,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 175,
@@ -3453,7 +3844,8 @@ export default [
     location: 'Upper West Side',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 300,
@@ -3461,7 +3853,8 @@ export default [
     location: 'Upper West Side',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 100,
@@ -3469,7 +3862,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 150,
@@ -3477,7 +3871,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 30,
@@ -3485,7 +3880,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 100,
@@ -3493,7 +3889,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 115,
@@ -3501,7 +3898,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 50,
@@ -3509,7 +3907,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 100,
@@ -3517,7 +3916,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 40,
@@ -3525,7 +3925,8 @@ export default [
     location: 'Bronx',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 30,
@@ -3533,7 +3934,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 800,
@@ -3541,7 +3943,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 150,
@@ -3549,7 +3952,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 70,
@@ -3557,7 +3961,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 75,
@@ -3565,7 +3970,8 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 150,
@@ -3573,7 +3979,8 @@ export default [
     location: 'Brooklyn',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 50,
@@ -3581,7 +3988,8 @@ export default [
     location: 'Manhattan',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   },
   {
     count: 97,
@@ -3589,6 +3997,7 @@ export default [
     location: 'Queens',
     org_catagory: '',
     type: 'Face Shields',
-    comment: ''
+    comment: '',
+    order_number: ''
   }
 ]
