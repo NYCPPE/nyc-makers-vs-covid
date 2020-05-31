@@ -128,6 +128,9 @@ export default ({ limit }) => {
                 <th className="border px-4 py-3 border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-900 uppercase tracking-wider">
                   Type
                 </th>
+                {/* <th className="border px-4 py-3 border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-900 uppercase tracking-wider"> */}
+                {/*   Catagory */}
+                {/* </th> */}
                 <th className="border px-4 py-3 border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-900 uppercase tracking-wider">
                   Location
                 </th>
@@ -149,6 +152,7 @@ export default ({ limit }) => {
                     </span>
                   </td>
                   <td className="border px-4 py-2">{item.type}</td>
+                  {/* <td className="border px-4 py-2">{item.org_catagory}</td> */}
                   <td className="border px-4 py-2">
                     <svg
                       className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400 float-left mr-1"
