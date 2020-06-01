@@ -107,9 +107,9 @@ export default ({ limit }) => {
         simplified for privacy.
       </p>{' '}
       <p className="text-base leading-6 text-gray-900 hover:no-underline">
-        We are in the process of adding catagorical information about
+        We are in the process of adding categorical information about
         organizations we deliver to. Those categories are: Hospital, Nursing
-        home, Social services, First responders, Daycare, Health(medical
+        home, Social services, First responders, Childcare, Health(medical
         practices, Home Healthcare, etc.), Other.
       </p>
       <p className="text-base leading-6 text-gray-900 hover:no-underline">
@@ -135,7 +135,7 @@ export default ({ limit }) => {
                   Type
                 </th>
                 <th className="border px-4 py-3 border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-900 uppercase tracking-wider">
-                  Org. Catagory
+                  Org. Category
                 </th>
                 <th className="border px-4 py-3 border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-900 uppercase tracking-wider">
                   Location
@@ -158,7 +158,7 @@ export default ({ limit }) => {
                     </span>
                   </td>
                   <td className="border px-4 py-2">{item.type}</td>
-                  <td className="border px-4 py-2">{item.org_catagory}</td>
+                  <td className="border px-4 py-2">{item.org_category}</td>
                   <td className="border px-4 py-2">
                     <svg
                       className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400 float-left mr-1"
