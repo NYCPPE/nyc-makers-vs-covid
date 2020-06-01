@@ -1,9 +1,27 @@
 [
   {
+    "count": 500,
+    "date": "05/31/2020",
+    "location": "Brooklyn",
+    "org_catagory": "Health",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "286b"
+  },
+  {
+    "count": 40,
+    "date": "05/31/2020",
+    "location": "Brooklyn",
+    "org_catagory": "Health",
+    "type": "Inhaler Spacers",
+    "comment": "",
+    "order_number": "216"
+  },
+ {
     "count": 50,
     "date": "05/30/2020",
     "location": "Brooklyn",
-    "org_catagory": "Other Health",
+    "org_catagory": "Health",
     "type": "Face Shields",
     "comment": "",
     "order_number": "425a"
@@ -12,7 +30,7 @@
     "count": 50,
     "date": "05/30/2020",
     "location": "Brooklyn",
-    "org_catagory": "Other Health",
+    "org_catagory": "Health",
     "type": "Face Shields",
     "comment": "",
     "order_number": "425a"
@@ -21,7 +39,7 @@
     "count": 10,
     "date": "05/30/2020",
     "location": "Brooklyn",
-    "org_catagory": "Other Health",
+    "org_catagory": "Health",
     "type": "Face Shields",
     "comment": "",
     "order_number": "470"
@@ -30,7 +48,7 @@
     "count": 20,
     "date": "05/30/2020",
     "location": "Brooklyn",
-    "org_catagory": "Other Health",
+    "org_catagory": "Health",
     "type": "Ear Savers",
     "comment": "",
     "order_number": "478"
@@ -39,7 +57,7 @@
     "count": 25,
     "date": "05/30/2020",
     "location": "Brooklyn",
-    "org_catagory": "Other Health",
+    "org_catagory": "Health",
     "type": "KN95 Masks",
     "comment": "",
     "order_number": "478"
@@ -48,7 +66,7 @@
     "count": 50,
     "date": "05/30/2020",
     "location": "Brooklyn",
-    "org_catagory": "Other Health",
+    "org_catagory": "Health",
     "type": "Face Shields",
     "comment": "",
     "order_number": "478a"
