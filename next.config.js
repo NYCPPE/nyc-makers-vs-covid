@@ -37,7 +37,7 @@ const withMDX = require('@next/mdx')({
 
 module.exports = withMDX({
   target: 'serverless',
-  pageExtensions: ['js', 'jsx', 'mdx'],
+  pageExtensions: ['js', 'jsx', 'json', 'mdx'],
   exportPathMap: function (defaultPathMap) {
     const pathMap = Object.assign({}, defaultPathMap)
     delete pathMap['/index']

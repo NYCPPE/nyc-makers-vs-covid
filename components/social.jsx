@@ -1,5 +1,3 @@
-import totals from './totals'
-
 export default ({ limit }) => {
   return (
     <div className="bg-white sm:rounded-md h-full hover:no-underline flex flex-row flex-wrap md:flex-no-wrap px-2">

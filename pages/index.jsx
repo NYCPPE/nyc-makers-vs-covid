@@ -1,6 +1,5 @@
 import TotalCount from '../components/totalcount'
 import Donations from '../components/donations'
-import Social from '../components/social'
 import Photos from '../components/photos'
 import RequestButton from '../components/modal'
 import Footer from '../components/footer'

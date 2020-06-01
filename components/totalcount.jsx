@@ -1,4 +1,4 @@
-import totals from './totals'
+import totals from '../data/totals'
 import { format, formatDate } from '../utils/utils'
 
 export default ({ limit }) => {
