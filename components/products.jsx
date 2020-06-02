@@ -1,5 +1,21 @@
 const product = [
   {
+    href: '/instructions#3dverkstan-face-shield',
+    label: 'Face Shield',
+    image: 'img/3dverk.png',
+    title: '3DVerkstan',
+    text: 'High-output 3D printed face shield.'
+  },
+  {
+    href: '/instructions#sewn-100-cotton-masks',
+    label: '100% Cotton Masks',
+    image: 'img/mask.jpg',
+    title: '100% Cotton Masks',
+    text:
+      'Intended to be worn over existing PPE to prolong the life of surgical/N95 masks.'
+  },
+
+  {
     href:
       '/instructions#surgical-mask-tension-release-band-for-ear-comfort--extended-use-ear-savers',
     label: 'Ear Savers',
@@ -24,26 +40,11 @@ const product = [
     text: 'A design similar to commercial products.'
   },
   {
-    href: '/instructions#3dverkstan-face-shield',
-    label: 'Face Shield',
-    image: 'img/3dverk.png',
-    title: '3DVerkstan',
-    text: 'High-output 3D printed face shield.'
-  },
-  {
     href: '/instructions#open-source-face-shield',
     label: 'Open Source Face Shield',
     image: 'img/nyu.png',
     title: 'Open Source Face Shield',
     text: "A design that doesn't require foam."
-  },
-  {
-    href: '/instructions#sewn-100-cotton-masks',
-    label: '100% Cotton Masks',
-    image: 'img/mask.jpg',
-    title: '100% Cotton Masks',
-    text:
-      'Intended to be worn over existing PPE to prolong the life of surgical/N95 masks.'
   },
   {
     href: '/open-fold-face-shield.html',
