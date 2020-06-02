@@ -3426,7 +3426,7 @@
     "count": 100,
     "date": "04/09/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Nursing home",
     "type": "100% Cotton Masks",
     "comment": "",
     "order_number": "37a"
@@ -3435,7 +3435,7 @@
     "count": 30,
     "date": "04/08/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Health",
     "type": "Face Shields",
     "comment": "",
     "order_number": "59"
@@ -3444,7 +3444,7 @@
     "count": 10,
     "date": "04/08/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "92"
@@ -3453,7 +3453,7 @@
     "count": 200,
     "date": "04/08/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "First responders",
     "type": "Face Shields",
     "comment": "",
     "order_number": "70"
@@ -3462,7 +3462,7 @@
     "count": 10,
     "date": "04/08/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Health",
     "type": "Face Shields",
     "comment": "",
     "order_number": "58"
@@ -3471,7 +3471,7 @@
     "count": 50,
     "date": "04/08/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "105"
@@ -3480,7 +3480,7 @@
     "count": 300,
     "date": "04/08/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "113"
@@ -3489,7 +3489,7 @@
     "count": 100,
     "date": "04/08/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "57"
@@ -3498,7 +3498,7 @@
     "count": 200,
     "date": "04/08/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "96"
@@ -3507,7 +3507,7 @@
     "count": 200,
     "date": "04/07/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "First responders",
     "type": "Face Shields",
     "comment": "",
     "order_number": "51"
@@ -3516,7 +3516,7 @@
     "count": 50,
     "date": "04/07/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Nursing home",
     "type": "100% Cotton Masks",
     "comment": "",
     "order_number": "9"
@@ -3525,7 +3525,7 @@
     "count": 100,
     "date": "04/07/2020",
     "location": "UES",
-    "org_category": "",
+    "org_category": "Health",
     "type": "Face Shields",
     "comment": "",
     "order_number": "33"
@@ -3542,7 +3542,7 @@
     "count": 100,
     "date": "04/07/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Nursing home",
     "type": "Surgical Masks",
     "comment": "",
     "order_number": "10"
@@ -3551,7 +3551,7 @@
     "count": 100,
     "date": "04/07/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Surgical Masks",
     "comment": "",
     "order_number": "2"
@@ -3560,7 +3560,7 @@
     "count": 200,
     "date": "04/07/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Nursing home",
     "type": "100% Cotton Masks",
     "comment": "",
     "order_number": "12"
@@ -3569,7 +3569,7 @@
     "count": 140,
     "date": "04/07/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "63"
@@ -3578,7 +3578,7 @@
     "count": 165,
     "date": "04/07/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "100% Cotton Masks",
     "comment": "",
     "order_number": "63"
@@ -3587,7 +3587,7 @@
     "count": 20,
     "date": "04/06/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "91"
@@ -3596,7 +3596,7 @@
     "count": 150,
     "date": "04/06/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "22"
@@ -3605,7 +3605,7 @@
     "count": 50,
     "date": "04/06/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "53"
@@ -3614,7 +3614,7 @@
     "count": 200,
     "date": "04/06/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "49"
@@ -3623,7 +3623,7 @@
     "count": 215,
     "date": "04/06/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "First responders",
     "type": "Face Shields",
     "comment": "",
     "order_number": "50"
@@ -3632,7 +3632,7 @@
     "count": 200,
     "date": "04/06/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "24"
@@ -3641,7 +3641,7 @@
     "count": 50,
     "date": "04/06/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "First responders",
     "type": "Face Shields",
     "comment": "",
     "order_number": "72"
@@ -3650,7 +3650,7 @@
     "count": 60,
     "date": "04/05/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "34"
@@ -3659,7 +3659,7 @@
     "count": 100,
     "date": "04/05/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "31"
@@ -3668,7 +3668,7 @@
     "count": 100,
     "date": "04/04/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "First responders",
     "type": "Face Shields",
     "comment": "",
     "order_number": "69"
@@ -3677,7 +3677,7 @@
     "count": 200,
     "date": "04/04/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "28"
@@ -3686,7 +3686,7 @@
     "count": 100,
     "date": "04/04/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "66"
@@ -3695,7 +3695,7 @@
     "count": 60,
     "date": "04/04/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "31"
@@ -3704,7 +3704,7 @@
     "count": 100,
     "date": "04/04/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "First responders",
     "type": "Face Shields",
     "comment": "",
     "order_number": "62"
@@ -3713,7 +3713,7 @@
     "count": 100,
     "date": "04/04/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "35"
@@ -3722,7 +3722,7 @@
     "count": 100,
     "date": "04/04/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "37"
@@ -3740,7 +3740,7 @@
     "count": 200,
     "date": "04/03/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "16"
@@ -3749,7 +3749,7 @@
     "count": 100,
     "date": "04/03/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "15"
@@ -3758,7 +3758,7 @@
     "count": 200,
     "date": "04/03/2020",
     "location": "UES",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "14"
@@ -3767,7 +3767,7 @@
     "count": 90,
     "date": "04/02/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3776,7 +3776,7 @@
     "gallons": 2.9,
     "date": "04/02/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Hand Sanitizer",
     "comment": "",
     "order_number": ""
@@ -3785,7 +3785,7 @@
     "count": 56,
     "date": "04/02/2020",
     "location": "LES",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "100% Cotton Masks",
     "comment": "",
     "order_number": ""
@@ -3794,7 +3794,7 @@
     "count": 25,
     "date": "04/02/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3803,7 +3803,7 @@
     "count": 50,
     "date": "04/02/2020",
     "location": "UWS",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3812,7 +3812,7 @@
     "count": 125,
     "date": "04/02/2020",
     "location": "UWS",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3821,7 +3821,7 @@
     "count": 440,
     "date": "04/01/2020",
     "location": "UES",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "KN95 Masks",
     "comment": "",
     "order_number": ""
@@ -3830,7 +3830,7 @@
     "count": 10,
     "date": "03/31/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3839,7 +3839,7 @@
     "count": 250,
     "date": "03/31/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3848,7 +3848,7 @@
     "count": 100,
     "date": "03/31/2020",
     "location": "UWS",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3857,7 +3857,7 @@
     "count": 100,
     "date": "03/31/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3866,7 +3866,7 @@
     "count": 30,
     "date": "03/30/2020",
     "location": "UES",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3875,7 +3875,7 @@
     "count": 160,
     "date": "03/30/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3884,7 +3884,7 @@
     "count": 175,
     "date": "03/30/2020",
     "location": "LES",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3893,7 +3893,7 @@
     "count": 50,
     "date": "03/30/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3902,7 +3902,7 @@
     "count": 30,
     "date": "03/28/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3911,7 +3911,7 @@
     "count": 10,
     "date": "03/28/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3920,7 +3920,7 @@
     "count": 175,
     "date": "03/27/2020",
     "location": "Upper West Side",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3929,7 +3929,7 @@
     "count": 300,
     "date": "03/27/2020",
     "location": "Upper West Side",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3938,7 +3938,7 @@
     "count": 100,
     "date": "03/27/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3947,7 +3947,7 @@
     "count": 150,
     "date": "03/26/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3956,7 +3956,7 @@
     "count": 30,
     "date": "03/26/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3965,7 +3965,7 @@
     "count": 100,
     "date": "03/26/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3974,7 +3974,7 @@
     "count": 115,
     "date": "03/26/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3983,7 +3983,7 @@
     "count": 50,
     "date": "03/26/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -3992,7 +3992,7 @@
     "count": 100,
     "date": "03/25/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -4001,7 +4001,7 @@
     "count": 40,
     "date": "03/25/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -4010,7 +4010,7 @@
     "count": 30,
     "date": "03/25/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -4019,7 +4019,7 @@
     "count": 800,
     "date": "03/25/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -4028,7 +4028,7 @@
     "count": 150,
     "date": "03/24/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -4037,7 +4037,7 @@
     "count": 70,
     "date": "03/24/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -4046,7 +4046,7 @@
     "count": 75,
     "date": "03/24/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -4055,7 +4055,7 @@
     "count": 150,
     "date": "03/23/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -4064,7 +4064,7 @@
     "count": 50,
     "date": "03/22/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
@@ -4073,7 +4073,7 @@
     "count": 97,
     "date": "03/22/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
