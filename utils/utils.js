@@ -1,4 +1,6 @@
 import {
+  addDays,
+  isBefore,
   isYesterday,
   isToday,
   parse,
@@ -8,7 +10,11 @@ import {
 } from 'date-fns'
 
 export let format = num => Intl.NumberFormat('en-US').format(num)
-
+export function shouldFormatDateDistance(date) {
+  let deliveryDate = parse(date, 'MM/dd/yyyy', new Date())
+  let fourDaysFromDeliveryDate = addDays(deliveryDate, 4)
+  return isBefore(startOfToday(), fourDaysFromDeliveryDate)
+}
 export function formatDateDistance(date) {
   let deliveryDate = parse(date, 'MM/dd/yyyy', new Date())
   if (isToday(deliveryDate)) {

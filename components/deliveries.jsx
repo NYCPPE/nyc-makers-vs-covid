@@ -1,5 +1,10 @@
 import totals from '../data/totals'
-import { format, formatDate, formatDateDistance } from '../utils/utils'
+import {
+  format,
+  formatDate,
+  formatDateDistance,
+  shouldFormatDateDistance
+} from '../utils/utils'
 export let totalCount = 0
 
 export default ({ limit }) => {
@@ -186,7 +191,11 @@ export default ({ limit }) => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span>{formatDateDistance(item.date)}</span>
+                    <span>
+                      {shouldFormatDateDistance(item.date)
+                        ? formatDateDistance(item.date)
+                        : item.date}
+                    </span>
                   </td>
                 </tr>
               ))}
