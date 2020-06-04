@@ -1,6 +1,141 @@
 [
   {
     "count": 20,
+    "date": "06/03/2020",
+    "location": "Brooklyn",
+    "org_category": "Health",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "495a"
+  },
+  {
+    "count": 20,
+    "date": "06/03/2020",
+    "location": "Brooklyn",
+    "org_category": "Health",
+    "type": "Ear Savers",
+    "comment": "",
+    "order_number": "495b"
+  },
+  {
+    "count": 20,
+    "date": "06/03/2020",
+    "location": "Brooklyn",
+    "org_category": "Health",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "501"
+  },
+  {
+    "count": 75,
+    "date": "06/03/2020",
+    "location": "Brooklyn",
+    "org_category": "First responders",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "497"
+  },
+  {
+    "count": 20,
+    "date": "06/03/2020",
+    "location": "Bronx",
+    "org_category": "Childcare",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "457"
+  },
+  {
+    "count": 10,
+    "date": "06/03/2020",
+    "location": "Bronx",
+    "org_category": "Childcare",
+    "type": "Ear Savers",
+    "comment": "",
+    "order_number": "457a"
+  },
+  {
+    "count": 20,
+    "date": "06/03/2020",
+    "location": "Bronx",
+    "org_category": "Social services",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "471"
+  },
+  {
+    "count": 20,
+    "date": "06/03/2020",
+    "location": "Bronx",
+    "org_category": "Childcare",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "482"
+  },
+  {
+    "count": 50,
+    "date": "06/03/2020",
+    "location": "Bronx",
+    "org_category": "Hospital",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "469"
+  },
+  {
+    "count": 10,
+    "date": "06/03/2020",
+    "location": "Bronx",
+    "org_category": "Hospital",
+    "type": "Ear Savers",
+    "comment": "",
+    "order_number": "469a"
+  },
+  {
+    "count": 10,
+    "date": "06/03/2020",
+    "location": "Bronx",
+    "org_category": "Hospital",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "469b"
+  },
+  {
+    "count": 30,
+    "date": "06/03/2020",
+    "location": "Bronx",
+    "org_category": "Childcare",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "476"
+  },
+  {
+    "count": 50,
+    "date": "06/03/2020",
+    "location": "Bronx",
+    "org_category": "Health",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "492"
+  },
+  {
+    "count": 50,
+    "date": "06/03/2020",
+    "location": "Bronx",
+    "org_category": "Health",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "492a"
+  },
+  {
+    "count": 10,
+    "date": "06/03/2020",
+    "location": "Queens",
+    "org_category": "Childcare",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "475"
+  },
+  {
+    "count": 20,
   "date": "06/02/2020",
   "location": "Manhattan",
   "org_category": "Health",
