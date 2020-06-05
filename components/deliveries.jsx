@@ -152,7 +152,7 @@ export default ({ limit }) => {
             </thead>
             <tbody className="border-none">
               {totals.map((item, i) => (
-                <tr key={i} className="">
+                <tr key={i} className={item.count ? '' : 'hidden'}>
                   <td className="border px-4 py-4">
                     <span className="py-4">
                       {item.count ? item.count : ''}

@@ -1,5 +1,68 @@
 [
+   {
+    "count": 20,
+    "date": "06/04/2020",
+    "location": "Manhattan",
+    "org_category": "Hospital",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "499"
+  },
   {
+    "count": 20,
+    "date": "06/04/2020",
+    "location": "Manhattan",
+    "org_category": "Social services",
+    "type": "Ear Savers",
+    "comment": "",
+    "order_number": "489"
+  },
+  {
+    "count": 80,
+    "date": "06/04/2020",
+    "location": "Manhattan",
+    "org_category": "Social services",
+    "type": "Inhaler Spacers",
+    "comment": "",
+    "order_number": "489a"
+  },
+  {
+    "count": 500,
+    "date": "06/04/2020",
+    "location": "Brooklyn",
+    "org_category": "Social services",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "321"
+  },
+  {
+    "count": 10,
+    "date": "06/04/2020",
+    "location": "Manhattan",
+    "org_category": "Hospital",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "359"
+  },
+  {
+    "count": 2,
+    "date": "06/04/2020",
+    "location": "Queens",
+    "org_category": "Hospital",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "397"
+  },
+  {
+    "count": 362,
+    "date": "06/04/2020",
+    "location": "Queens",
+    "org_category": "Prison/Jail",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "378b"
+  },
+ {
     "count": 20,
     "date": "06/03/2020",
     "location": "Brooklyn",
@@ -133,6 +196,33 @@
     "type": "100% Cotton Masks",
     "comment": "",
     "order_number": "475"
+  },
+  {
+    "count": 50,
+    "date": "06/02/2020",
+    "location": "Queens",
+    "org_category": "Hospital",
+    "type": "Ear Savers",
+    "comment": "",
+    "order_number": "401b"
+  },
+  {
+    "count": 50,
+    "date": "06/02/2020",
+    "location": "Queens",
+    "org_category": "Hospital",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "401a"
+  },
+  {
+    "count": 60,
+    "date": "06/02/2020",
+    "location": "Queens",
+    "org_category": "Hospital",
+    "type": "KN95 Masks",
+    "comment": "",
+    "order_number": "401c"
   },
   {
     "count": 20,
