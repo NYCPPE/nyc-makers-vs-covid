@@ -33,16 +33,16 @@ export default () => (
                   Request PPE
                 </a>
               </div>
-              <span className="text-sm pt-4">
-                For organizations requesting 500+ pieces of PPE,{' '}
-                <a
-                  href="https://bit.ly/nycmakesppe-grant"
-                  className="font-medium"
-                >
-                  click here
-                </a>
-                .
-              </span>
+              {/* <span className="text-sm pt-4"> */}
+              {/*   For organizations requesting 500+ pieces of PPE,{' '} */}
+              {/*   <a */}
+              {/*     href="https://bit.ly/nycmakesppe-grant" */}
+              {/*     className="font-medium" */}
+              {/*   > */}
+              {/*     click here */}
+              {/*   </a> */}
+              {/*   . */}
+              {/* </span> */}
             </div>
           </div>
           <div className="visible md:hidden pt-12 w-full mx-auto flex flex-wrap justify-start md:flex-nowrap">
