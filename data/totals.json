@@ -1,5 +1,41 @@
 [
   {
+    "count": 60,
+    "date": "06/13/2020",
+    "location": "Queens",
+    "org_category": "Other",
+    "type": "100% Cotton Masks",
+    "comment": "Handed out at BLM Protest by Guan",
+    "order_number": ""
+  },
+  {
+    "count": 50,
+    "date": "06/13/2020",
+    "location": "Queens",
+    "org_category": "Hospital",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "420a"
+  },
+  {
+    "count": 160,
+    "date": "06/13/2020",
+    "location": "Queens",
+    "org_category": "Hospital",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "519"
+  },
+  {
+    "count": 80,
+    "date": "06/13/2020",
+    "location": "Queens",
+    "org_category": "Hospital",
+    "type": "Ear Savers",
+    "comment": "",
+    "order_number": "519a"
+  },
+  {
     "count": 25,
     "date": "06/10/2020",
     "location": "Bronx",
