@@ -1,6 +1,87 @@
 [
   {
     "count": 60,
+    "date": "06/15/2020",
+    "location": "Brooklyn",
+    "org_category": "Other",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "449"
+  },
+  {
+    "count": 30,
+    "date": "06/15/2020",
+    "location": "Brooklyn",
+    "org_category": "Other",
+    "type": "Ear Savers",
+    "comment": "",
+    "order_number": "449a"
+  },
+  {
+    "count": 10,
+    "date": "06/15/2020",
+    "location": "Staten Island",
+    "org_category": "Social services",
+    "type": "Inhaler Spacers",
+    "comment": "",
+    "order_number": "304"
+  },
+  {
+    "count": 10,
+    "date": "06/15/2020",
+    "location": "Staten Island",
+    "org_category": "Social services",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "326"
+  },
+  {
+    "count": 20,
+    "date": "06/15/2020",
+    "location": "Staten Island",
+    "org_category": "Health",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "455"
+  },
+  {
+    "count": 15,
+    "date": "06/15/2020",
+    "location": "Staten Island",
+    "org_category": "Health",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": " 455a"
+  },
+  {
+    "count": 15,
+    "date": "06/15/2020",
+    "location": "Staten Island",
+    "org_category": "Health",
+    "type": "Ear Savers",
+    "comment": "",
+    "order_number": "455b"
+  },
+  {
+    "count": 80,
+    "date": "06/15/2020",
+    "location": "Staten Island",
+    "org_category": "Hospital",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "473"
+  },
+  {
+    "count": 60,
+    "date": "06/15/2020",
+    "location": "Staten Island",
+    "org_category": "Other",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "513"
+  },
+  {
+    "count": 60,
     "date": "06/13/2020",
     "location": "Queens",
     "org_category": "Other",
