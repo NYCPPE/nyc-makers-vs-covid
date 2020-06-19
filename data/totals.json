@@ -1,5 +1,86 @@
 [
   {
+    "count": 50,
+    "date": "06/18/2020",
+    "location": "Manhattan",
+    "org_category": "Social services",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "566"
+  },
+  {
+    "count": 50,
+    "date": "06/18/2020",
+    "location": "Manhattan",
+    "org_category": "Hospital",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "514"
+  },
+  {
+    "count": 5,
+    "date": "06/18/2020",
+    "location": "Manhattan",
+    "org_category": "Health",
+    "type": "Ear Savers",
+    "comment": "",
+    "order_number": "408b"
+  },
+  {
+    "count": 10,
+    "date": "06/18/2020",
+    "location": "Manhattan",
+    "org_category": "Health",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "408a"
+  },
+  {
+    "count": 300,
+    "date": "06/18/2020",
+    "location": "Manhattan",
+    "org_category": "Home Healthcare",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "286d"
+  },
+  {
+    "count": 50,
+    "date": "06/18/2020",
+    "location": "Manhattan",
+    "org_category": "Health",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "571"
+  },
+  {
+    "count": 50,
+    "date": "06/18/2020",
+    "location": "Manhattan",
+    "org_category": "Health",
+    "type": "Ear Savers",
+    "comment": "",
+    "order_number": "571a"
+  },
+  {
+    "count": 250,
+    "date": "06/18/2020",
+    "location": "Brooklyn",
+    "org_category": "Home Healthcare",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "483M1"
+  },
+  {
+    "count": 61,
+    "date": "06/18/2020",
+    "location": "Brooklyn",
+    "org_category": "Other",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "GY0002"
+  },
+  {
     "count": 20,
     "date": "06/17/2020",
     "location": "Queens",
