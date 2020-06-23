@@ -1,5 +1,23 @@
 [
   {
+    "count": 700,
+    "date": "06/22/2020",
+    "location": "Brooklyn",
+    "org_category": " Hospital",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "510"
+  },
+  {
+    "count": 200,
+    "date": "06/22/2020",
+    "location": "Brooklyn",
+    "org_category": "Home Healthcare",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "483M2"
+  },
+  {
     "count": 2,
     "date": "06/19/2020",
     "location": "Long Beach, CA",
