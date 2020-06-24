@@ -1,5 +1,14 @@
 [
   {
+    "count": 350,
+    "date": "06/23/2020",
+    "location": "Outside NYC",
+    "org_category": "Other",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "577"
+  },
+  {
     "count": 700,
     "date": "06/22/2020",
     "location": "Brooklyn",
@@ -12,7 +21,7 @@
     "count": 200,
     "date": "06/22/2020",
     "location": "Brooklyn",
-    "org_category": "Home Healthcare",
+    "org_category": "Health",
     "type": "100% Cotton Masks",
     "comment": "",
     "order_number": "483M2"
@@ -21,7 +30,7 @@
     "count": 2,
     "date": "06/19/2020",
     "location": "Long Beach, CA",
-    "org_category": "Home Healthcare",
+    "org_category": "Health",
     "type": "Face Shields",
     "comment": "",
     "order_number": "GY0003"
@@ -30,7 +39,7 @@
     "count": 2,
     "date": "06/19/2020",
     "location": "Long Beach, CA",
-    "org_category": "Home Healthcare",
+    "org_category": "Health",
     "type": "KN95 Masks",
     "comment": "",
     "order_number": "GY0003a"
@@ -39,7 +48,7 @@
     "count": 2,
     "date": "06/19/2020",
     "location": "Long Beach, CA",
-    "org_category": "Home Healthcare",
+    "org_category": "Health",
     "type": "100% Cotton Masks",
     "comment": "",
     "order_number": "GY0003b"
@@ -111,7 +120,7 @@
     "count": 300,
     "date": "06/18/2020",
     "location": "Manhattan",
-    "org_category": "Home Healthcare",
+    "org_category": "Health",
     "type": "100% Cotton Masks",
     "comment": "",
     "order_number": "286d"
@@ -138,7 +147,7 @@
     "count": 250,
     "date": "06/18/2020",
     "location": "Brooklyn",
-    "org_category": "Home Healthcare",
+    "org_category": "Health",
     "type": "100% Cotton Masks",
     "comment": "",
     "order_number": "483M1"
