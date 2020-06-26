@@ -1,6 +1,42 @@
 [
   {
     "count": 20,
+    "date": "06/25/2020",
+    "location": "Bronx",
+    "org_category": "Health",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "572"
+  },
+  {
+    "count": 50,
+    "date": "06/25/2020",
+    "location": "Bronx",
+    "org_category": "Health",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "572a"
+  },
+  {
+    "count": 10,
+    "date": "06/25/2020",
+    "location": "Bronx",
+    "org_category": "Health",
+    "type": "Inhaler Spacers",
+    "comment": "",
+    "order_number": "572b"
+  },
+  {
+    "count": 5,
+    "date": "06/25/2020",
+    "location": "Bronx",
+    "org_category": "Health",
+    "type": "Ear Savers",
+    "comment": "",
+    "order_number": "572c"
+  },
+  {
+    "count": 20,
     "date": "06/24/2020",
     "location": "Queens",
     "org_category": "Health",
