@@ -1,5 +1,95 @@
 [
   {
+    "count": 15,
+    "date": "06/28/2020",
+    "location": "Queens",
+    "org_category": "Social services",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "542"
+  },
+  {
+    "count": 10,
+    "date": "06/28/2020",
+    "location": "Queens",
+    "org_category": "Social services",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "542a"
+  },
+  {
+    "count": 15,
+    "date": "06/28/2020",
+    "location": "Queens",
+    "org_category": "Social services",
+    "type": "Ear Savers",
+    "comment": "",
+    "order_number": "542b"
+  },
+  {
+    "count": 10,
+    "date": "06/28/2020",
+    "location": "Queens",
+    "org_category": "Health",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "506"
+  },
+  {
+    "count": 25,
+    "date": "06/28/2020",
+    "location": "Queens",
+    "org_category": "Health",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "506a"
+  },
+  {
+    "count": 15,
+    "date": "06/28/2020",
+    "location": "Queens",
+    "org_category": "Health",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "505"
+  },
+  {
+    "count": 15,
+    "date": "06/28/2020",
+    "location": "Queens",
+    "org_category": "Health",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "505a"
+  },
+  {
+    "count": 15,
+    "date": "06/28/2020",
+    "location": "Queens",
+    "org_category": "Nursing Home",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "507"
+  },
+  {
+    "count": 15,
+    "date": "06/28/2020",
+    "location": "Queens",
+    "org_category": "Nursing Home",
+    "type": "100% Cotton Masks",
+    "comment": "",
+    "order_number": "507a"
+  },
+  {
+    "count": 15,
+    "date": "06/28/2020",
+    "location": "Queens",
+    "org_category": "Nursing Home",
+    "type": "Ear Savers",
+    "comment": "",
+    "order_number": "507b"
+  },
+  {
     "count": 48,
     "date": "06/27/2020",
     "location": "Manhattan",
