@@ -29,10 +29,10 @@ export default ({ limit }) => {
       totalShields += item.count
     })
   totals
-    .filter(item => item.type === '100% Cotton Masks')
+    .filter(item => item.type === 'Reusable Masks')
     .map(item => (totalMasks = totalMasks + item.count))
   totals
-    .filter(item => item.type === 'Kid-sized Cotton Masks')
+    .filter(item => item.type === 'Kids Masks')
     .map(item => (totalKidsMasks = totalKidsMasks + item.count))
   totals
     .filter(item => item.type === 'KN95 Masks')
@@ -75,28 +75,13 @@ export default ({ limit }) => {
             <div className="text-2xl font-medium text-gray-900">
               {format(totalMasks)}
             </div>
-            <p> 100% Cotton Masks</p>
+            <p> Reusable Masks</p>
           </div>
           <div className="pr-8">
             <div className="text-2xl font-medium text-gray-900">
               {format(totalKidsMasks)}
             </div>
-            <p> Kid-sized Masks</p>
-          </div>
-          <div className="pr-8">
-            <div className="text-2xl font-medium text-gray-900">
-              {format(totalGallonsHandSanitizer)} gallons
-              <a href="#note">
-                <sup>†</sup>
-              </a>
-            </div>
-            <p>Hand Sanitizer</p>
-          </div>
-          <div className="pr-8">
-            <div className="text-2xl font-medium text-gray-900">
-              {format(totalKN95)}
-            </div>
-            <p> KN95 Masks</p>
+            <p> Kids Masks</p>
           </div>
           <div className="pr-8">
             <div className="text-2xl font-medium text-gray-900">
@@ -121,6 +106,21 @@ export default ({ limit }) => {
               {format(totalGowns)}
             </div>
             <p>Gowns</p>
+          </div>
+          <div className="pr-8">
+            <div className="text-2xl font-medium text-gray-900">
+              {format(totalGallonsHandSanitizer)} gallons
+              <a href="#note">
+                <sup>†</sup>
+              </a>
+            </div>
+            <p>Hand Sanitizer</p>
+          </div>
+          <div className="pr-8">
+            <div className="text-2xl font-medium text-gray-900">
+              {format(totalKN95)}
+            </div>
+            <p> KN95 Masks</p>
           </div>
         </div>
       </div>
