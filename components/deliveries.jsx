@@ -11,6 +11,7 @@ export default ({ limit }) => {
   let totalCount = 0
   let totalShields = 0
   let totalMasks = 0
+  let totalKidsMasks = 0
   let totalKN95 = 0
   let totalSurgicalMasks = 0
   let totalGallonsHandSanitizer = 0
@@ -30,6 +31,9 @@ export default ({ limit }) => {
   totals
     .filter(item => item.type === '100% Cotton Masks')
     .map(item => (totalMasks = totalMasks + item.count))
+  totals
+    .filter(item => item.type === 'Kid-sized Cotton Masks')
+    .map(item => (totalKidsMasks = totalKidsMasks + item.count))
   totals
     .filter(item => item.type === 'KN95 Masks')
     .map(item => (totalKN95 += item.count))
@@ -72,6 +76,12 @@ export default ({ limit }) => {
               {format(totalMasks)}
             </div>
             <p> 100% Cotton Masks</p>
+          </div>
+          <div className="pr-8">
+            <div className="text-2xl font-medium text-gray-900">
+              {format(totalKidsMasks)}
+            </div>
+            <p> Kid-sized Masks</p>
           </div>
           <div className="pr-8">
             <div className="text-2xl font-medium text-gray-900">
