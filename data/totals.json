@@ -1,5 +1,23 @@
 [
   {
+    "count": 6,
+    "date": "06/30/2020",
+    "location": "Brooklyn",
+    "org_category": "Other",
+    "type": "Kids Masks",
+    "comment": "",
+    "order_number": "SC001"
+  },
+  {
+    "count": 300,
+    "date": "06/30/2020",
+    "location": "Brooklyn",
+    "org_category": "Childcare",
+    "type": "Reusable Masks",
+    "comment": "",
+    "order_number": "282c"
+  },
+  {
     "count": 10,
     "date": "06/29/2020",
     "location": "Bronx",
