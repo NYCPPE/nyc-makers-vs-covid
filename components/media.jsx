@@ -1,6 +1,15 @@
 const coverage = [
   {
     href:
+      'https://www.cnyhomepage.com/community/health/coronavirus/suny-oneonta-ppe-production/',
+    logo: 'media_logos/cnyhomepage.png',
+    organization: 'WUTR-TV - CNYhomepage.com',
+    title: 'SUNY Oneonta PPE production',
+
+    date: '7/1/2020'
+  },
+  {
+    href:
       'https://www.amny.com/coronavirus/gramercy-park-block-association-joins-forces-with-nyc-makes-ppe-to-provide-gear-to-manhattan-precincts/',
     logo: 'media_logos/amny.png',
     organization: 'AMNY',
