@@ -1,4 +1,5 @@
 import totals from '../data/totals'
+import DeliveryBreakdownByItem from './delivery_breakdown'
 import {
   format,
   formatDate,
@@ -8,47 +9,9 @@ import {
 export let totalCount = 0
 
 export default ({ limit }) => {
-  let totalCount = 0
-  let totalShields = 0
-  let totalMasks = 0
-  let totalKidsMasks = 0
-  let totalKN95 = 0
-  let totalSurgicalMasks = 0
-  let totalGallonsHandSanitizer = 0
-  let totalInhalerSpacer = 0
-  let totalEarSaver = 0
-  let totalGowns = 0
-
   totals.map(item => {
-    totalGallonsHandSanitizer += item.gallons ? item.gallons : 0
     totalCount += item.count ? item.count : 0
   })
-  totals
-    .filter(item => item.type === 'Face Shields')
-    .map(item => {
-      totalShields += item.count
-    })
-  totals
-    .filter(item => item.type === 'Reusable Masks')
-    .map(item => (totalMasks = totalMasks + item.count))
-  totals
-    .filter(item => item.type === 'Kids Masks')
-    .map(item => (totalKidsMasks = totalKidsMasks + item.count))
-  totals
-    .filter(item => item.type === 'KN95 Masks')
-    .map(item => (totalKN95 += item.count))
-  totals
-    .filter(item => item.type === 'Surgical Masks')
-    .map(item => (totalSurgicalMasks += item.count))
-  totals
-    .filter(item => item.type === 'Inhaler Spacers')
-    .map(item => (totalInhalerSpacer += item.count))
-  totals
-    .filter(item => item.type === 'Ear Savers')
-    .map(item => (totalEarSaver += item.count))
-  totals
-    .filter(item => item.type === 'Gowns')
-    .map(item => (totalGowns += item.count))
 
   return (
     <div className={'bg-white sm:rounded-md p-4 h-full hover:no-underline'}>
@@ -61,69 +24,8 @@ export default ({ limit }) => {
             {format(totalCount)}
           </p>
         </div>
-        <div className="mt-6  py-2 border-b mb-4 text-xl leading-6 font-medium text-gray-900">
-          Delivery Breakdown
-        </div>
-        <div className="flex flex-wrap item-baseline">
-          <div className="pr-8">
-            <div className="text-2xl font-medium text-gray-900">
-              {format(totalShields)}
-            </div>
-            <p> Face Shields</p>
-          </div>
-          <div className="pr-8">
-            <div className="text-2xl font-medium text-gray-900">
-              {format(totalMasks)}
-            </div>
-            <p> Reusable Masks</p>
-          </div>
-          <div className="pr-8">
-            <div className="text-2xl font-medium text-gray-900">
-              {format(totalKidsMasks)}
-            </div>
-            <p> Kids Masks</p>
-          </div>
-          <div className="pr-8">
-            <div className="text-2xl font-medium text-gray-900">
-              {format(totalSurgicalMasks)}
-            </div>
-            <p> Surgical Masks</p>
-          </div>
-          <div className="pr-8">
-            <div className="text-2xl font-medium text-gray-900">
-              {format(totalInhalerSpacer)}
-            </div>
-            <p>Inhaler Spacers</p>
-          </div>
-          <div className="pr-8">
-            <div className="text-2xl font-medium text-gray-900">
-              {format(totalEarSaver)}
-            </div>
-            <p>Ear Savers</p>
-          </div>
-          <div className="pr-8">
-            <div className="text-2xl font-medium text-gray-900">
-              {format(totalGowns)}
-            </div>
-            <p>Gowns</p>
-          </div>
-          <div className="pr-8">
-            <div className="text-2xl font-medium text-gray-900">
-              {format(totalGallonsHandSanitizer)} gallons
-              <a href="#note">
-                <sup>†</sup>
-              </a>
-            </div>
-            <p>Hand Sanitizer</p>
-          </div>
-          <div className="pr-8">
-            <div className="text-2xl font-medium text-gray-900">
-              {format(totalKN95)}
-            </div>
-            <p> KN95 Masks</p>
-          </div>
-        </div>
       </div>
+      <DeliveryBreakdownByItem />
       <div className="mt-2 py-2 border-b mb-4 text-xl leading-6 font-medium text-gray-900">
         Latest Deliveries as of {formatDate(totals[0].date)}
       </div>{' '}

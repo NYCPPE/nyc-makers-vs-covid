@@ -33,3 +33,12 @@ export let formatDate = date => {
   let latest = parse(date, 'MM/dd/yyyy', new Date())
   return _formatDate(latest, 'MMMM d, yyyy')
 }
+
+export let generate_delivery_breakdown = (totals, ppe_type) => {
+  totals
+    .filter(item => item.type == ppe_type.type)
+    .map(item => {
+      if (item.gallons) ppe_type.gallons += item.gallons
+      else ppe_type.count += item.count ? item.count : 0
+    })
+}
