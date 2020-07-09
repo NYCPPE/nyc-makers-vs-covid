@@ -1,6 +1,16 @@
 const coverage = [
   {
     href:
+      'http://www.wicz.com/story/42347838/from-set-design-to-ppe-suny-oneontas-theater-department-helps-front-line-workers',
+    logo: 'media_logos/wicz.jpg',
+    organization: 'FOX 40 News WICZ-TV',
+    title:
+      "From Set Design To PPE: SUNY Oneonta's Theater Department Helps Front Line Workers",
+
+    date: '7/8/2020'
+  },
+  {
+    href:
       'https://www.cnyhomepage.com/community/health/coronavirus/suny-oneonta-ppe-production/',
     logo: 'media_logos/cnyhomepage.png',
     organization: 'WUTR-TV - CNYhomepage.com',
