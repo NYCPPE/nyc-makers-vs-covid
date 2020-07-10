@@ -11,6 +11,16 @@ const coverage = [
   },
   {
     href:
+      'https://blog.suny.edu/2020/07/campus-volunteers-make-ppe-to-continue-keeping-healthcare-facilities-safe/',
+    logo: 'media_logos/big-ideas-circle-logo.jpg',
+    organization: 'Campus Life - Blog of the State University of New York',
+    title:
+      'Campus Volunteers Make PPE To Continue Keeping Healthcare Facilities Safe',
+
+    date: '7/6/2020'
+  },
+  {
+    href:
       'https://www.cnyhomepage.com/community/health/coronavirus/suny-oneonta-ppe-production/',
     logo: 'media_logos/cnyhomepage.png',
     organization: 'WUTR-TV - CNYhomepage.com',
