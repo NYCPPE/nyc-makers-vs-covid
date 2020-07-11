@@ -1,5 +1,59 @@
 [
   {
+    "count": 50,
+    "date": "07/10/2020",
+    "location": "Bronx",
+    "org_category": "Social services",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "567"
+  },
+  {
+    "count": 10,
+    "date": "07/10/2020",
+    "location": "Bronx",
+    "org_category": "Social services",
+    "type": "Reusable Masks",
+    "comment": "",
+    "order_number": "567a"
+  },
+  {
+    "count": 10,
+    "date": "07/10/2020",
+    "location": "Bronx",
+    "org_category": "Social services",
+    "type": "Ear Savers",
+    "comment": "",
+    "order_number": "567b"
+  },
+  {
+    "count": 50,
+    "date": "07/10/2020",
+    "location": "Bronx",
+    "org_category": "Health",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "587"
+  },
+  {
+    "count": 10,
+    "date": "07/10/2020",
+    "location": "Bronx",
+    "org_category": "Health",
+    "type": "Reusable Masks",
+    "comment": "",
+    "order_number": "587a"
+  },
+  {
+    "count": 10,
+    "date": "07/10/2020",
+    "location": "Bronx",
+    "org_category": "Childcare",
+    "type": "Kids Masks",
+    "comment": "",
+    "order_number": "594"
+  },
+  {
     "count": 100,
     "date": "07/09/2020",
     "location": "Staten Island",
