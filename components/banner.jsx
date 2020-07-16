@@ -6,9 +6,9 @@ export default function Banner() {
           <p className="font-bold text-white">
             {/* <span className="hidden md:inline">COVID-19 ALERT:</span> */}
             <span className="mr-2 text-gray-900">
-              Got a motorcycle, car, or truck? NYC Makes PPE is seeking
-              volunteer couriers to get our PPE to those on the frontline in all
-              five boroughs.
+              NYC Makes PPE is seeking volunteer couriers to get our PPE to
+              those on the frontline in all five boroughs.
+              <br />
             </span>
             <span className="block inline-block">
               <a
