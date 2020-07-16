@@ -1,5 +1,176 @@
 [
   {
+    "count": 20,
+    "date": "07/15/2020",
+    "location": "Bronx",
+    "org_category": "Childcare",
+    "type": "Kids Masks",
+    "comment": "",
+    "order_number": "476a"
+  },
+  {
+    "count": 20,
+    "date": "07/15/2020",
+    "location": "Bronx",
+    "org_category": "Childcare",
+    "type": "Cotton Masks",
+    "comment": "",
+    "order_number": "590"
+  },
+  {
+    "count": 50,
+    "date": "07/15/2020",
+    "location": "Bronx",
+    "org_category": "Childcare",
+    "type": "Cotton Masks",
+    "comment": "",
+    "order_number": "593"
+  },
+  {
+    "count": 30,
+    "date": "07/15/2020",
+    "location": "Bronx",
+    "org_category": "Childcare",
+    "type": "Cotton Masks",
+    "comment": "",
+    "order_number": "595"
+  },
+  {
+    "count": 20,
+    "date": "07/15/2020",
+    "location": "Bronx",
+    "org_category": "Childcare",
+    "type": "Cotton Masks",
+    "comment": "",
+    "order_number": "592"
+  },
+  {
+    "count": 150,
+    "date": "07/15/2020",
+    "location": "Bronx",
+    "org_category": "Social services",
+    "type": "Surgical Masks",
+    "comment": "",
+    "order_number": "600a"
+  },
+  {
+    "count": 20,
+    "date": "07/15/2020",
+    "location": "Brooklyn",
+    "org_category": "Social services",
+    "type": "Gowns",
+    "comment": "",
+    "order_number": "597"
+  },
+  {
+    "count": 20,
+    "date": "07/15/2020",
+    "location": "Queens",
+    "org_category": "Social services",
+    "type": "Gowns",
+    "comment": "",
+    "order_number": "589a"
+  },
+  {
+    "count": 20,
+    "date": "07/15/2020",
+    "location": "Queens",
+    "org_category": "Social services",
+    "type": "Gowns",
+    "comment": "",
+    "order_number": "596a"
+  },
+  {
+    "count": 300,
+    "date": "07/15/2020",
+    "location": "Brooklyn",
+    "org_category": "Other",
+    "type": "Cotton Masks",
+    "comment": "",
+    "order_number": "601"
+  },
+  {
+    "count": 300,
+    "date": "07/15/2020",
+    "location": "Outside NYC",
+    "org_category": "Prison/Jail",
+    "type": "Reusable Masks",
+    "comment": "",
+    "order_number": "GY0006"
+  },
+  {
+    "count": 50,
+    "date": "07/15/2020",
+    "location": "Bronx",
+    "org_category": "Hospital",
+    "type": "Gowns",
+    "comment": "",
+    "order_number": "599c"
+  },
+  {
+    "count": 10,
+    "date": "07/15/2020",
+    "location": "Manhattan",
+    "org_category": "Hospital",
+    "type": "Reusable Masks",
+    "comment": "",
+    "order_number": "575"
+  },
+  {
+    "count": 20,
+    "date": "07/15/2020",
+    "location": "Manhattan",
+    "org_category": "Hospital",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "575a"
+  },
+  {
+    "count": 17,
+    "date": "07/15/2020",
+    "location": "Manhattan",
+    "org_category": "Hospital",
+    "type": "Hair Caps",
+    "comment": "",
+    "order_number": "575b"
+  },
+  {
+    "count": 30,
+    "date": "07/15/2020",
+    "location": "Manhattan",
+    "org_category": "Hospital",
+    "type": "Ear Savers",
+    "comment": "",
+    "order_number": "604"
+  },
+  {
+    "count": 50,
+    "date": "07/15/2020",
+    "location": "Manhattan",
+    "org_category": "Hospital",
+    "type": "Surgical Masks",
+    "comment": "",
+    "order_number": "604a"
+  },
+  {
+    "count": 30,
+    "date": "07/15/2020",
+    "location": "Manhattan",
+    "org_category": "Hospital",
+    "type": "Reusable Masks",
+    "comment": "",
+    "order_number": "604b"
+  },
+  {
+    "count": 20,
+    "date": "07/15/2020",
+    "location": "Manhattan",
+    "org_category": "Hospital",
+    "type": "Gowns",
+    "comment": "",
+    "order_number": "604c"
+  },
+  {
     "count": 60,
     "date": "07/11/2020",
     "location": "Bronx",
