@@ -13,7 +13,7 @@
     "date": "07/15/2020",
     "location": "Bronx",
     "org_category": "Childcare",
-    "type": "Cotton Masks",
+    "type": "Reusable Masks",
     "comment": "",
     "order_number": "590"
   },
@@ -22,7 +22,7 @@
     "date": "07/15/2020",
     "location": "Bronx",
     "org_category": "Childcare",
-    "type": "Cotton Masks",
+    "type": "Reusable Masks",
     "comment": "",
     "order_number": "593"
   },
@@ -31,7 +31,7 @@
     "date": "07/15/2020",
     "location": "Bronx",
     "org_category": "Childcare",
-    "type": "Cotton Masks",
+    "type": "Reusable Masks",
     "comment": "",
     "order_number": "595"
   },
@@ -40,7 +40,7 @@
     "date": "07/15/2020",
     "location": "Bronx",
     "org_category": "Childcare",
-    "type": "Cotton Masks",
+    "type": "Reusable Masks",
     "comment": "",
     "order_number": "592"
   },
@@ -85,7 +85,7 @@
     "date": "07/15/2020",
     "location": "Brooklyn",
     "org_category": "Other",
-    "type": "Cotton Masks",
+    "type": "Reusable Masks",
     "comment": "",
     "order_number": "601"
   },
@@ -1308,7 +1308,7 @@
     "count": 700,
     "date": "06/22/2020",
     "location": "Brooklyn",
-    "org_category": " Hospital",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "510"
@@ -1543,7 +1543,7 @@
     "date": "06/16/2020",
     "location": "Brooklyn",
     "org_category": "Social services",
-    "type": "100% cotton masks",
+    "type": "Reusable Masks",
     "comment": "",
     "order_number": "GY0001"
   },
@@ -1644,7 +1644,7 @@
     "org_category": "Health",
     "type": "Reusable Masks",
     "comment": "",
-    "order_number": " 455a"
+    "order_number": "455a"
   },
   {
     "count": 15,
@@ -2587,7 +2587,7 @@
     "date": "05/27/2020",
     "location": "Manhattan",
     "org_category": "",
-    "type": "100% Cotton Mask",
+    "type": "Reusable Mask",
     "comment": "",
     "order_number": "372"
   },
@@ -3808,7 +3808,8 @@
     "location": "Queens",
     "org_category": "",
     "type": "Reusable Masks",
-    "comment": " 336a"
+    "comment": "",
+    "order_number": "336a"
   },
   {
     "count": 50,
@@ -3931,7 +3932,7 @@
     "location": "New Brunswick, NJ",
     "org_category": "",
     "type": "Face Shields",
-    "COMMENT": "RWJ"
+    "comment": "RWJ"
   },
   {
     "count": 100,
@@ -3939,7 +3940,7 @@
     "location": "Secaucus, NJ",
     "org_category": "",
     "type": "Face Shields",
-    "COMMENT": "OBGYN"
+    "comment": "OBGYN"
   },
   {
     "count": 300,
@@ -4410,7 +4411,7 @@
     "location": "Queens",
     "org_category": "",
     "type": "Face Shields",
-    "COMMENT": "FD"
+    "comment": "FD"
   },
   {
     "count": 100,
@@ -4945,7 +4946,7 @@
     "location": "Queens",
     "org_category": "",
     "type": "Face Shields",
-    "COMMENT": "FDNY"
+    "comment": "FDNY"
   },
   {
     "count": 100,
