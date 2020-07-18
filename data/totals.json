@@ -4386,6 +4386,7 @@
     "order_number": "290"
   },
   {
+    "count": 0,
     "gallons": 2.7,
     "date": "05/07/2020",
     "location": "Staten Island",
@@ -4757,6 +4758,7 @@
     "order_number": "317"
   },
   {
+    "count": 0,
     "gallons": 5.9,
     "date": "05/01/2020",
     "location": "Brooklyn",
@@ -5064,6 +5066,7 @@
     "order_number": "270"
   },
   {
+    "count": 0,
     "gallons": 10.0,
     "date": "04/24/2020",
     "location": "Manhattan",
@@ -5072,6 +5075,7 @@
     "comment": "6:39p 5/6/2020, DM with guan"
   },
   {
+    "count": 0,
     "gallons": 5.9,
     "date": "04/24/2020",
     "location": "Brooklyn",
@@ -5394,6 +5398,7 @@
     "order_number": "265"
   },
   {
+    "count": 0,
     "gallons": 5.9,
     "date": "04/20/2020",
     "location": "Bronx",
@@ -6863,6 +6868,7 @@
     "order_number": ""
   },
   {
+    "count": 0,
     "gallons": 2.9,
     "date": "04/02/2020",
     "location": "Bronx",
