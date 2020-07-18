@@ -5064,7 +5064,7 @@
     "order_number": "270"
   },
   {
-    "gallons": 10,
+    "gallons": 10.0,
     "date": "04/24/2020",
     "location": "Manhattan",
     "org_category": "",
