@@ -12,12 +12,12 @@ export let total_by_ppe_type = [
   { type: 'Ear Savers', count: 0 },
   { type: 'Gowns', count: 0 },
   { type: 'Hair Caps', count: 0 },
-  { type: 'Hand Sanitizer', gallons: 0 },
+  { type: 'Hand Sanitizer', gallons: 0.0 },
   { type: 'KN95 Masks', count: 0 }
 ]
 
 totals.map(item => {
-  totalCount += item.count ? item.count : 0
+  totalCount += item.count
 })
 
 total_by_ppe_type.forEach(ppe_type => {
@@ -25,7 +25,7 @@ total_by_ppe_type.forEach(ppe_type => {
     .filter(item => item.type == ppe_type.type)
     .map(item => {
       if (item.gallons) ppe_type.gallons += item.gallons
-      else ppe_type.count += item.count ? item.count : 0
+      else ppe_type.count += item.count
     })
 })
 
