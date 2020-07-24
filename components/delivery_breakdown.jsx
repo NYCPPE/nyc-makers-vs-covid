@@ -48,8 +48,8 @@ export default ({ limit }) => {
           Delivery Breakdown
         </div>
         <div className="flex flex-wrap item-baseline">
-          {total_by_ppe_type.map(item => (
-            <div className="pr-8">
+          {total_by_ppe_type.map((item, index) => (
+            <div className="pr-8" key={index}>
               <div className="text-2xl font-medium text-gray-900">
                 {item.gallons
                   ? format(item.gallons) + ' gallons'
