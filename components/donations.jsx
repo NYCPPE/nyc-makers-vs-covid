@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-export default ({ limit }) => {
+const Donations = ({ limit }) => {
   const [hasError, setErrors] = useState(false)
   const [data, setData] = useState({})
 
@@ -45,3 +45,5 @@ export default ({ limit }) => {
     </div>
   )
 }
+
+export default Donations

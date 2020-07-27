@@ -1,9 +1,11 @@
 import Media from '../components/media'
 
-export default () => {
+const Press = () => {
   return (
     <>
       <Media />
     </>
   )
 }
+
+export default Press

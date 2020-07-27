@@ -5,7 +5,7 @@ import RequestButton from '../components/modal'
 import Footer from '../components/footer'
 import Link from 'next/link'
 
-export default () => (
+const Index = () => (
   <div className="w-full" id="home">
     <div className="mt-0 p-8 sm:px-12 sm:py-12 md:pb-20 bg-cool-gray-900">
       <div className="mx-auto max-w-screen-md xl:max-w-screen-xl w-full flex justify-start xl:justify-around items-start flex-wrap">
@@ -76,3 +76,5 @@ export default () => (
     </div>
   </div>
 )
+
+export default Index

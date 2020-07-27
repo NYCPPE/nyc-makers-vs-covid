@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { GA_TRACKING_ID } from './gtag'
 
-export default function Header(props) {
+const Header = function Header(props) {
   const title = props.title || 'NYC Makes PPE'
   const description =
     props.description ||
@@ -70,3 +70,5 @@ export default function Header(props) {
     </Head>
   )
 }
+
+export default Header

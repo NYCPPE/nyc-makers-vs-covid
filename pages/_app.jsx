@@ -10,7 +10,7 @@ import { withRouter } from 'next/router'
 
 const mdComponents = {}
 
-export default ({ Component, pageProps, router, ...rest }) => {
+const App = ({ Component, pageProps, router, ...rest }) => {
   console.log(router.pathname)
   return (
     <ModalProvider>
@@ -41,3 +41,5 @@ export default ({ Component, pageProps, router, ...rest }) => {
     </ModalProvider>
   )
 }
+
+export default App

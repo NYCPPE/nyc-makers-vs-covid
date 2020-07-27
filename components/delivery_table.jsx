@@ -5,7 +5,7 @@ import {
 } from '../utils/utils'
 import totals from '../data/totals'
 
-export default () => {
+const DeliveryTable = () => {
   return (
     <>
       <div className="mt-2 py-2 border-b mb-4 text-xl leading-6 font-medium text-gray-900">
@@ -110,3 +110,5 @@ export default () => {
     </>
   )
 }
+
+export default DeliveryTable

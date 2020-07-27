@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Router from 'next/router'
 
-export default () => {
+const Sew = () => {
   useEffect(() => {
     window.location.href = 'https://bit.ly/SewnMasksNYC'
   })
@@ -16,3 +16,5 @@ export default () => {
     </>
   )
 }
+
+export default Sew

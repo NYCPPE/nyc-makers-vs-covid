@@ -156,7 +156,7 @@ const coverage = [
   }
 ]
 
-export default () => (
+const Media = () => (
   <>
     <div className="mt-12 mb-2 py-2 px-4 text-xl font-bold text-gray-900">
       Press
@@ -188,3 +188,5 @@ export default () => (
     </div>
   </>
 )
+
+export default Media

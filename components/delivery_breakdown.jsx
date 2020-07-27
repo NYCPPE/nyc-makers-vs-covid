@@ -29,7 +29,7 @@ total_by_ppe_type.forEach(ppe_type => {
     })
 })
 
-export default ({ limit }) => {
+const DeliveryBreakdownByItem = ({ limit }) => {
   return (
     <>
       <div className={'bg-white sm:rounded-md p-4 h-full hover:no-underline'}>
@@ -70,3 +70,5 @@ export default ({ limit }) => {
     </>
   )
 }
+
+export default DeliveryBreakdownByItem

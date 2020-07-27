@@ -1,4 +1,4 @@
-export default function Banner() {
+const Banner = () => {
   return (
     <div className="w-full relative bg-yellow-200">
       <div className="max-w-screen-xl mx-auto py-4 px-4">
@@ -24,3 +24,5 @@ export default function Banner() {
     </div>
   )
 }
+
+export default Banner

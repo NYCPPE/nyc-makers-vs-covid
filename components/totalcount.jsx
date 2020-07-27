@@ -1,7 +1,7 @@
 import totals from '../data/totals'
 import { format, formatDate } from '../utils/utils'
 
-export default ({ limit }) => {
+const TotalCount = ({ limit }) => {
   let truncatedList = []
   let totalCount = 0
   let totalGallonsHandSanitizer = 0
@@ -37,3 +37,5 @@ export default ({ limit }) => {
     </div>
   )
 }
+
+export default TotalCount

@@ -14,7 +14,7 @@ const links = [
   { href: '/about', label: 'About' }
 ]
 
-export default function Nav({ home }) {
+const Nav = ({ home }) => {
   return (
     <>
       <nav className={home ? 'bg-cool-gray-900' : 'bg-cool-gray-900 mb-8'}>
@@ -46,3 +46,5 @@ export default function Nav({ home }) {
     </>
   )
 }
+
+export default Nav

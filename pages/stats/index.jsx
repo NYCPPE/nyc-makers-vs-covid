@@ -1,9 +1,11 @@
 import Deliveries from '../../components/deliveries'
 
-export default () => {
+const Stats = () => {
   return (
     <>
       <Deliveries />
     </>
   )
 }
+
+export default Stats

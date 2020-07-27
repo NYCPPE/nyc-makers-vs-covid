@@ -1,7 +1,7 @@
 import DeliveryBreakdownByItem from './delivery_breakdown'
 import DeliveryTable from './delivery_table'
 
-export default ({ limit }) => {
+const Deliveries = ({ limit }) => {
   return (
     <>
       <DeliveryBreakdownByItem />
@@ -9,3 +9,5 @@ export default ({ limit }) => {
     </>
   )
 }
+
+export default Deliveries

@@ -65,7 +65,7 @@ const product = [
   }
 ]
 
-export default () => (
+const Products = () => (
   <>
     <div className="mt-12 mb-2 text-xl font-bold text-gray-900">
       Supported PPE Designs
@@ -94,3 +94,5 @@ export default () => (
     </div>
   </>
 )
+
+export default Products
