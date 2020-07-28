@@ -29,7 +29,7 @@ const TotalCount = ({ limit }) => {
           </p>
         </div>
         <div className="flex justify-between">
-          <span className="text-xs leading-6 text-cool-gray-500 font-hairline">
+          <span className="text-xs leading-6 text-cool-gray-100 font-hairline">
             Last updated {formatDate(totals[0].date)}
           </span>
         </div>
