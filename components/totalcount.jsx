@@ -1,14 +1,10 @@
 import totals from '../data/totals'
 import { format, formatDate } from '../utils/utils'
 
-const TotalCount = ({ limit }) => {
-  let truncatedList = []
+const TotalCount = () => {
   let totalCount = 0
-  let totalGallonsHandSanitizer = 0
 
-  truncatedList = totals
   totals.map(item => {
-    totalGallonsHandSanitizer += item.gallons ? item.gallons : 0
     totalCount += item.count ? item.count : 0
   })
 
