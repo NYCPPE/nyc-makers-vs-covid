@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-const Donations = ({ limit }) => {
+const Donations = () => {
   const [hasError, setErrors] = useState(false)
   const [data, setData] = useState({})
 
