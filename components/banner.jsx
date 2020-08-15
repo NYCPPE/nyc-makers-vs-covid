@@ -12,7 +12,7 @@ const Banner = () => {
             </span>
             <span className="block inline-block">
               <a
-                href="mailto:nycmakesppe.distribution@gmail.com"
+                href="mailto:distribution@nycmakesppe.org"
                 className="sm:p-2 text-white font-bold underline text-gray-900"
               >
                 E-mail us to find out how you can help! &rarr;

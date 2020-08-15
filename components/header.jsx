@@ -24,7 +24,7 @@ const Header = function Header(props) {
       <meta property="og:locale" content="en_US" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      {/* <meta property="og:url" content="https://nycmakesppe.com/" /> */}
+      {/* <meta property="og:url" content="https://nycmakesppe.org/" /> */}
       <meta property="og:site_name" content={title} />
       <meta property="og:image" content={image} />
       <meta property="og:image:width" content="1200" />
