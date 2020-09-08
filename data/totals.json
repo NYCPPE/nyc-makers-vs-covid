@@ -1,5 +1,45 @@
 [
   {
+    "count": 50,
+    "gallons": 0.0,
+    "date": "09/08/2020",
+    "location": "Brooklyn",
+    "org_category": "Health",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "620"
+  },
+  {
+    "count": 50,
+    "gallons": 0.0,
+    "date": "09/08/2020",
+    "location": "Brooklyn",
+    "org_category": "Health",
+    "type": "Reusable Masks",
+    "comment": "",
+    "order_number": "620a"
+  },
+  {
+    "count": 50,
+    "gallons": 0.0,
+    "date": "09/08/2020",
+    "location": "Brooklyn",
+    "org_category": "Health",
+    "type": "Ear Savers",
+    "comment": "",
+    "order_number": "620b"
+  },
+  {
+    "count": 50,
+    "gallons": 0.0,
+    "date": "09/08/2020",
+    "location": "Brooklyn",
+    "org_category": "Health",
+    "type": "Surgical Masks",
+    "comment": "",
+    "order_number": "620c"
+  },
+  {
     "count": 10,
     "gallons": 0.0,
     "date": "08/28/2020",
