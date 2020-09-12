@@ -1,5 +1,25 @@
 [
   {
+    "count": 200,
+    "gallons": 0.0,
+    "date": "09/11/2020",
+    "location": "Brooklyn",
+    "org_category": "Other",
+    "type": "Reusable Masks",
+    "comment": "",
+    "order_number": "624a"
+  },
+  {
+    "count": 300,
+    "gallons": 0.0,
+    "date": "09/11/2020",
+    "location": "Brooklyn",
+    "org_category": "Other",
+    "type": "Surgical Masks",
+    "comment": "",
+    "order_number": "624b"
+  },
+  {
     "count": 50,
     "gallons": 0.0,
     "date": "09/08/2020",
