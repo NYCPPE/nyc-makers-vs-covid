@@ -19,7 +19,7 @@ const DeliveryTable = () => {
         We are in the process of adding categorical information about
         organizations we deliver to. Those categories are: Hospital, Nursing
         Home, Social services, First responders, Prison/Jail, Childcare,
-        Health(medical practices, Home Healthcare, etc.), Other.
+        Schools, Health(medical practices, Home Healthcare, etc.), Other.
       </p>
       <p className="text-base leading-6 text-gray-900 hover:no-underline">
         We try to provide an accurate count of deliveries, and sometimes it
