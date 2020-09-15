@@ -12,8 +12,7 @@ const DeliveryTable = () => {
         Latest Deliveries as of {formatDate(totals[0].date)}
       </div>{' '}
       <p className="text-base leading-6 text-gray-900 hover:no-underline">
-        We deliver PPE to EMTs, Nursing Homes, and other locations. Locations
-        simplified for privacy.
+        We deliver PPE to underserved frontline workers. Locations simplified for privacy.
       </p>{' '}
       <p className="text-base leading-6 text-gray-900 hover:no-underline">
         We are in the process of adding categorical information about
