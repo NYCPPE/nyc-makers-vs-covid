@@ -1,5 +1,25 @@
 [
   {
+    "count": 400,
+    "gallons": 0.0,
+    "date": "09/21/2020",
+    "location": "Brooklyn",
+    "org_category": "Health",
+    "type": "Ear Savers",
+    "comment": "via SOMA NJ",
+    "order_number": "GY0011"
+  },
+  {
+    "count": 500,
+    "gallons": 0.0,
+    "date": "09/21/2020",
+    "location": "Brooklyn",
+    "org_category": "Health",
+    "type": "Face Shields",
+    "comment": "via SOMA NJ",
+    "order_number": "GY0010"
+  },
+  {
     "count": 250,
     "gallons": 0.0,
     "date": "09/18/2020",
