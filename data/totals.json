@@ -2,6 +2,46 @@
   {
     "count": 50,
     "gallons": 0.0,
+    "date": "09/30/2020",
+    "location": "Queens",
+    "org_category": "Social services",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "642"
+  },
+  {
+    "count": 50,
+    "gallons": 0.0,
+    "date": "09/30/2020",
+    "location": "Queens",
+    "org_category": "Social services",
+    "type": "Reusable Masks",
+    "comment": "",
+    "order_number": "642a"
+  },
+  {
+    "count": 50,
+    "gallons": 0.0,
+    "date": "09/30/2020",
+    "location": "Queens",
+    "org_category": "Social services",
+    "type": "Ear Savers",
+    "comment": "",
+    "order_number": "642b"
+  },
+  {
+    "count": 50,
+    "gallons": 0.0,
+    "date": "09/30/2020",
+    "location": "Queens",
+    "org_category": "Social services",
+    "type": "Surgical Masks",
+    "comment": "",
+    "order_number": "642c"
+  },
+  {
+    "count": 50,
+    "gallons": 0.0,
     "date": "09/28/2020",
     "location": "Brooklyn",
     "org_category": "Health",
