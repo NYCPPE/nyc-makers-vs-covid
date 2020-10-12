@@ -1,5 +1,65 @@
 [
   {
+    "count": 5,
+    "gallons": 0.0,
+    "date": "10/10/2020",
+    "location": "Brooklyn",
+    "org_category": "Schools",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "632"
+  },
+  {
+    "count": 5,
+    "gallons": 0.0,
+    "date": "10/10/2020",
+    "location": "Brooklyn",
+    "org_category": "Schools",
+    "type": "Reusable Masks",
+    "comment": "",
+    "order_number": "632a"
+  },
+  {
+    "count": 5,
+    "gallons": 0.0,
+    "date": "10/10/2020",
+    "location": "Brooklyn",
+    "org_category": "Schools",
+    "type": "Ear Savers",
+    "comment": "",
+    "order_number": "632b"
+  },
+  {
+    "count": 50,
+    "gallons": 0.0,
+    "date": "10/10/2020",
+    "location": "Brooklyn",
+    "org_category": "Schools",
+    "type": "Surgical Masks",
+    "comment": "",
+    "order_number": "632c"
+  },
+  {
+    "count": 50,
+    "gallons": 0.0,
+    "date": "10/10/2020",
+    "location": "Queens",
+    "org_category": "Social services",
+    "type": "Face Shields",
+    "comment": "",
+    "order_number": "647"
+  },
+  {
+    "count": 23,
+    "gallons": 0.0,
+    "date": "10/10/2020",
+    "location": "Queens",
+    "org_category": "Social services",
+    "type": "Reusable Masks",
+    "comment": "",
+    "order_number": "647a"
+  },
+  {
     "count": 24,
     "gallons": 0.0,
     "date": "10/09/2020",
