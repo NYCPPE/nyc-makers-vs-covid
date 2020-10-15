@@ -2,6 +2,16 @@
   {
     "count": 100,
     "gallons": 0.0,
+    "date": "10/14/2020",
+    "location": "Bronx",
+    "org_category": "Social services",
+    "type": "Surgical Masks",
+    "comment": "",
+    "order_number": 654
+  },
+  {
+    "count": 100,
+    "gallons": 0.0,
     "date": "10/13/2020",
     "location": "Bronx",
     "org_category": "Health",
