@@ -27,7 +27,7 @@ const Index = () => (
               </div>
               <div className="rounded-md">
                 <a
-                  href="https://bit.ly/nycmakesppe-request"
+                  href="https://request.nycmakesppe.org"
                   className="flex items-center justify-center text-white px-2 py-3 bg-blue-700 text-white font-medium rounded-lg"
                 >
                   Request PPE
