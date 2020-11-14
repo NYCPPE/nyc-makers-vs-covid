@@ -1,6 +1,16 @@
 [
   {
     "count": 50,
+    "gallons": 0,
+    "date": "11/13/2020",
+    "location": "Manhattan",
+    "org_category": "Social services",
+    "type": "Reusable Masks",
+    "comment": "From Zoey",
+    "order_number": "100000017-00019"
+  },
+  {
+    "count": 50,
     "gallons": 0.0,
     "date": "11/10/2020",
     "location": "Brooklyn",
