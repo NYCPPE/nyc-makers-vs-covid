@@ -2,6 +2,16 @@
   {
     "count": 50,
     "gallons": 0.0,
+    "date": "11/15/2020",
+    "location": "Queens",
+    "org_category": "Social services",
+    "type": "KN95 Masks",
+    "comment": "From Zoey",
+    "order_number": "100000018-00020"
+  },
+  {
+    "count": 50,
+    "gallons": 0.0,
     "date": "11/13/2020",
     "location": "Manhattan",
     "org_category": "Social services",
