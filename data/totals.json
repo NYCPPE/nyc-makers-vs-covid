@@ -2,6 +2,26 @@
   {
     "count": 50,
     "gallons": 0.0,
+    "date": "11/16/2020",
+    "location": "Queens",
+    "org_category": "Social services",
+    "type": "Face Shields",
+    "comment": "From Zoey",
+    "order_number": "100000018-00022"
+  },
+  {
+    "count": 100,
+    "gallons": 0.0,
+    "date": "11/16/2020",
+    "location": "Queens",
+    "org_category": "Social services",
+    "type": "Surgical Masks",
+    "comment": "From Zoey",
+    "order_number": "100000018-00021"
+  },
+  {
+    "count": 50,
+    "gallons": 0.0,
     "date": "11/15/2020",
     "location": "Queens",
     "org_category": "Social services",
