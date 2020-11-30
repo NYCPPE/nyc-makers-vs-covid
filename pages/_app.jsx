@@ -18,7 +18,6 @@ const App = ({ Component, pageProps, router, ...rest }) => {
         className="md:flex flex-col items-center w-full"
         components={mdComponents}
       >
-        <Banner />
         <Header />
 
         {router.pathname === '/' ? (
