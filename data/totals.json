@@ -3444,7 +3444,7 @@
     "gallons": 0.0,
     "date": "06/27/2020",
     "location": "Brooklyn",
-    "org_category": "Health ",
+    "org_category": "Health",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "582"
@@ -4004,7 +4004,7 @@
     "gallons": 0.0,
     "date": "06/17/2020",
     "location": "Brooklyn",
-    "org_category": "Social services ",
+    "org_category": "Social services",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "405"
@@ -4364,7 +4364,7 @@
     "gallons": 0.0,
     "date": "06/08/2020",
     "location": "Queens",
-    "org_category": "Social Services",
+    "org_category": "Social services",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "493"
@@ -4374,7 +4374,7 @@
     "gallons": 0.0,
     "date": "06/08/2020",
     "location": "Queens",
-    "org_category": "Social Services",
+    "org_category": "Social services",
     "type": "Face Shields",
     "comment": "",
     "order_number": "493a"
@@ -4474,7 +4474,7 @@
     "gallons": 0.0,
     "date": "06/05/2020",
     "location": "Bronx",
-    "org_category": "Childcare ",
+    "org_category": "Childcare",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "474"
