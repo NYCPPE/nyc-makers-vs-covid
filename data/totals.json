@@ -6800,7 +6800,7 @@
     "gallons": 2.7,
     "date": "05/07/2020",
     "location": "Staten Island",
-    "org_category": "",
+    "org_category": "Other",
     "type": "Hand Sanitizer",
     "comment": "6:39p 5/6/2020, DM with guan"
   },
@@ -7172,7 +7172,7 @@
     "gallons": 5.9,
     "date": "05/01/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Hand Sanitizer",
     "comment": "6:39p 5/6/2020, DM with guan"
   },
@@ -7480,8 +7480,9 @@
     "gallons": 10.0,
     "date": "04/24/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Social services",
     "type": "Hand Sanitizer",
+
     "comment": "6:39p 5/6/2020, DM with guan"
   },
   {
@@ -7489,7 +7490,7 @@
     "gallons": 5.9,
     "date": "04/24/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Hand Sanitizer",
     "comment": "6:39p 5/6/2020, DM with guan"
   },
@@ -7812,7 +7813,7 @@
     "gallons": 5.9,
     "date": "04/20/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Hand Sanitizer"
   },
   {
