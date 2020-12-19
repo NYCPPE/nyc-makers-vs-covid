@@ -614,7 +614,7 @@
     "gallons": 0.0,
     "date": "11/10/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "655"
@@ -624,7 +624,7 @@
     "gallons": 0.0,
     "date": "11/10/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "655a"
@@ -634,7 +634,7 @@
     "gallons": 0.0,
     "date": "11/10/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Ear Savers",
     "comment": "",
     "order_number": "655b"
@@ -644,7 +644,7 @@
     "gallons": 0.0,
     "date": "11/10/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Surgical Masks",
     "comment": "",
     "order_number": "655c"
@@ -864,7 +864,7 @@
     "gallons": 0.0,
     "date": "10/09/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "651"
@@ -874,7 +874,7 @@
     "gallons": 0.0,
     "date": "10/09/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Ear Savers",
     "comment": "",
     "order_number": "651a"
@@ -884,7 +884,7 @@
     "gallons": 0.0,
     "date": "10/09/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Surgical Masks",
     "comment": "",
     "order_number": "651b"
@@ -964,7 +964,7 @@
     "gallons": 0.0,
     "date": "10/08/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "649"
@@ -974,7 +974,7 @@
     "gallons": 0.0,
     "date": "10/08/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Ear Savers",
     "comment": "",
     "order_number": "649a"
@@ -984,7 +984,7 @@
     "gallons": 0.0,
     "date": "10/08/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Surgical Masks",
     "comment": "",
     "order_number": "649b"
@@ -994,7 +994,7 @@
     "gallons": 0.0,
     "date": "10/08/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "650"
@@ -1004,7 +1004,7 @@
     "gallons": 0.0,
     "date": "10/08/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Ear Savers",
     "comment": "",
     "order_number": "650a"
@@ -1014,7 +1014,7 @@
     "gallons": 0.0,
     "date": "10/08/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Surgical Masks",
     "comment": "",
     "order_number": "650b"
@@ -1024,7 +1024,7 @@
     "gallons": 0.0,
     "date": "10/08/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "653"
@@ -1034,7 +1034,7 @@
     "gallons": 0.0,
     "date": "10/08/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Ear Savers",
     "comment": "",
     "order_number": "653a"
@@ -1044,7 +1044,7 @@
     "gallons": 0.0,
     "date": "10/08/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Surgical Masks",
     "comment": "",
     "order_number": "653b"
@@ -1114,7 +1114,7 @@
     "gallons": 0.0,
     "date": "10/03/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "637"
@@ -1124,7 +1124,7 @@
     "gallons": 0.0,
     "date": "10/03/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "637a"
@@ -1134,7 +1134,7 @@
     "gallons": 0.0,
     "date": "10/03/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Ear Savers",
     "comment": "",
     "order_number": "637b"
@@ -1144,7 +1144,7 @@
     "gallons": 0.0,
     "date": "10/03/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Surgical Masks",
     "comment": "",
     "order_number": "637c"
@@ -1284,7 +1284,7 @@
     "gallons": 0.0,
     "date": "09/25/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "638"
@@ -1294,7 +1294,7 @@
     "gallons": 0.0,
     "date": "09/25/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Ear Savers",
     "comment": "",
     "order_number": "638a"
@@ -1304,7 +1304,7 @@
     "gallons": 0.0,
     "date": "09/25/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Surgical Masks",
     "comment": "",
     "order_number": "638b"
@@ -1314,7 +1314,7 @@
     "gallons": 0.0,
     "date": "09/25/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "639"
@@ -1324,7 +1324,7 @@
     "gallons": 0.0,
     "date": "09/25/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "639a"
@@ -1334,7 +1334,7 @@
     "gallons": 0.0,
     "date": "09/25/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Ear Savers",
     "comment": "",
     "order_number": "639b"
@@ -1344,7 +1344,7 @@
     "gallons": 0.0,
     "date": "09/25/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Surgical Masks",
     "comment": "",
     "order_number": "639c"
@@ -2334,7 +2334,7 @@
     "gallons": 0.0,
     "date": "07/21/2020",
     "location": "Staten Island",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "602"
@@ -2344,7 +2344,7 @@
     "gallons": 0.0,
     "date": "07/21/2020",
     "location": "Staten Island",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "KN95 Masks",
     "comment": "",
     "order_number": "602b"
@@ -2354,7 +2354,7 @@
     "gallons": 0.0,
     "date": "07/21/2020",
     "location": "Staten Island",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "602c"
@@ -2394,7 +2394,7 @@
     "gallons": 0.0,
     "date": "07/20/2020",
     "location": "Staten Island",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Gowns",
     "comment": "",
     "order_number": "602a"
@@ -3194,7 +3194,7 @@
     "gallons": 0.0,
     "date": "07/03/2020",
     "location": "Staten Island",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "555"
@@ -3204,7 +3204,7 @@
     "gallons": 0.0,
     "date": "07/03/2020",
     "location": "Staten Island",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "555a"
@@ -3214,7 +3214,7 @@
     "gallons": 0.0,
     "date": "07/03/2020",
     "location": "Staten Island",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Inhaler Spacers",
     "comment": "",
     "order_number": "555b"
@@ -3224,7 +3224,7 @@
     "gallons": 0.0,
     "date": "07/03/2020",
     "location": "Staten Island",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Ear Savers",
     "comment": "",
     "order_number": "555c"
@@ -3524,7 +3524,7 @@
     "gallons": 0.0,
     "date": "06/28/2020",
     "location": "Queens",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "507"
@@ -3534,7 +3534,7 @@
     "gallons": 0.0,
     "date": "06/28/2020",
     "location": "Queens",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "507a"
@@ -3544,7 +3544,7 @@
     "gallons": 0.0,
     "date": "06/28/2020",
     "location": "Queens",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Ear Savers",
     "comment": "",
     "order_number": "507b"
@@ -3634,7 +3634,7 @@
     "gallons": 0.0,
     "date": "06/27/2020",
     "location": "Queens",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Inhaler Spacers",
     "comment": "",
     "order_number": "294"
@@ -4004,7 +4004,7 @@
     "gallons": 0.0,
     "date": "06/19/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "495"
@@ -4204,7 +4204,7 @@
     "gallons": 0.0,
     "date": "06/17/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "513"
@@ -7321,7 +7321,7 @@
     "gallons": 0.0,
     "date": "04/28/2020",
     "location": "Queens",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "294"
@@ -7712,7 +7712,7 @@
     "gallons": 0.0,
     "date": "04/21/2020",
     "location": "Manhattan",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Surgical Masks",
     "comment": "",
     "order_number": "195"
@@ -7930,7 +7930,7 @@
     "gallons": 0.0,
     "date": "04/20/2020",
     "location": "Queens",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "line 151 Sort A-Z on delivery date"
   },
@@ -8674,7 +8674,7 @@
     "gallons": 0.0,
     "date": "04/11/2020",
     "location": "Queens",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "109b"
@@ -8753,7 +8753,7 @@
     "gallons": 0.0,
     "date": "04/10/2020",
     "location": "Queens",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "109a"
@@ -8893,7 +8893,7 @@
     "gallons": 0.0,
     "date": "04/09/2020",
     "location": "Bronx",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "37a"
@@ -8973,7 +8973,7 @@
     "gallons": 0.0,
     "date": "04/08/2020",
     "location": "Bronx",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "96"
@@ -8993,7 +8993,7 @@
     "gallons": 0.0,
     "date": "04/07/2020",
     "location": "Queens",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "9"
@@ -9022,7 +9022,7 @@
     "gallons": 0.0,
     "date": "04/07/2020",
     "location": "Manhattan",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Surgical Masks",
     "comment": "",
     "order_number": "10"
@@ -9042,7 +9042,7 @@
     "gallons": 0.0,
     "date": "04/07/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "12"
@@ -9092,7 +9092,7 @@
     "gallons": 0.0,
     "date": "04/06/2020",
     "location": "Manhattan",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "53"
@@ -9142,7 +9142,7 @@
     "gallons": 0.0,
     "date": "04/05/2020",
     "location": "Manhattan",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "34"
@@ -9152,7 +9152,7 @@
     "gallons": 0.0,
     "date": "04/05/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "31"
@@ -9172,7 +9172,7 @@
     "gallons": 0.0,
     "date": "04/04/2020",
     "location": "Queens",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "28"
@@ -9192,7 +9192,7 @@
     "gallons": 0.0,
     "date": "04/04/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "31"
@@ -9212,7 +9212,7 @@
     "gallons": 0.0,
     "date": "04/04/2020",
     "location": "Bronx",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "35"
@@ -9222,7 +9222,7 @@
     "gallons": 0.0,
     "date": "04/04/2020",
     "location": "Bronx",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "37"
@@ -9242,7 +9242,7 @@
     "gallons": 0.0,
     "date": "04/03/2020",
     "location": "Queens",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "16"
@@ -9462,7 +9462,7 @@
     "gallons": 0.0,
     "date": "03/27/2020",
     "location": "Brooklyn",
-    "org_category": "Nursing Home",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": ""
