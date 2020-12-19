@@ -12,13 +12,15 @@ const DeliveryTable = () => {
         Latest Deliveries as of {formatDate(totals[0].date)}
       </div>{' '}
       <p className="text-base leading-6 text-gray-900 hover:no-underline">
-        We deliver PPE to underserved frontline workers. Locations simplified for privacy.
+        We deliver PPE to underserved frontline workers. Locations simplified
+        for privacy.
       </p>{' '}
       <p className="text-base leading-6 text-gray-900 hover:no-underline">
         We are in the process of adding categorical information about
         organizations we deliver to. Those categories are: Hospital, Nursing
         Home, Social services, First responders, Prison/Jail, Childcare,
-        Schools, Health(medical practices, Home Healthcare, etc.), Other.
+        Schools, Health(medical practices, Home Healthcare, etc.),
+        Community(groups which distributed PPE to the public).
       </p>
       <p className="text-base leading-6 text-gray-900 hover:no-underline">
         We try to provide an accurate count of deliveries, and sometimes it
