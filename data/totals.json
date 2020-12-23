@@ -3044,7 +3044,7 @@
     "gallons": 0.0,
     "date": "07/07/2020",
     "location": "Queens",
-    "org_category": "Social services",
+    "org_category": "Childcare",
     "type": "Kids Masks",
     "comment": "",
     "order_number": "254K2"
@@ -3104,7 +3104,7 @@
     "gallons": 0.0,
     "date": "07/06/2020",
     "location": "Queens",
-    "org_category": "Social services",
+    "org_category": "Childcare",
     "type": "Kids Masks",
     "comment": "",
     "order_number": "254K1"
@@ -5166,7 +5166,7 @@
     "location": "Brooklyn",
     "org_category": "Health",
     "type": "Inhaler Spacers",
-    "comment": "",
+    "comment": "Urgent care",
     "order_number": "216"
   },
   {
@@ -5952,7 +5952,7 @@
     "gallons": 0.0,
     "date": "05/19/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Childcare",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "254a"
@@ -6042,7 +6042,7 @@
     "gallons": 0.0,
     "date": "05/18/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Childcare",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "254a"
@@ -6331,7 +6331,7 @@
     "gallons": 0.0,
     "date": "05/14/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Childcare",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "250"
@@ -6341,7 +6341,7 @@
     "gallons": 0.0,
     "date": "05/14/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Childcare",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "254"
@@ -6440,7 +6440,7 @@
     "gallons": 0.0,
     "date": "05/13/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "276"
@@ -6600,7 +6600,7 @@
     "gallons": 0.0,
     "date": "05/11/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "212"
@@ -6610,7 +6610,7 @@
     "gallons": 0.0,
     "date": "05/11/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "212"
@@ -6620,7 +6620,7 @@
     "gallons": 0.0,
     "date": "05/11/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "212"
@@ -6650,7 +6650,7 @@
     "gallons": 0.0,
     "date": "05/11/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Childcare",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "284"
@@ -6660,7 +6660,7 @@
     "gallons": 0.0,
     "date": "05/11/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Childcare",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "281"
@@ -6670,7 +6670,7 @@
     "gallons": 0.0,
     "date": "05/11/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Social services",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "232"
@@ -6680,7 +6680,7 @@
     "gallons": 0.0,
     "date": "05/11/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Childcare",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "278"
@@ -6730,7 +6730,7 @@
     "gallons": 0.0,
     "date": "05/09/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Schools",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "251"
@@ -6750,7 +6750,7 @@
     "gallons": 0.0,
     "date": "05/09/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "212"
@@ -6760,7 +6760,7 @@
     "gallons": 0.0,
     "date": "05/07/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Prison/Jail",
     "type": "Face Shields",
     "comment": "",
     "order_number": "299"
@@ -6800,7 +6800,7 @@
     "gallons": 0.0,
     "date": "05/07/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Social services",
     "type": "Face Shields",
     "comment": "",
     "order_number": "290"
@@ -6819,9 +6819,9 @@
     "gallons": 0.0,
     "date": "05/06/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Health",
     "type": "Reusable Masks",
-    "comment": "",
+    "comment": "Home health",
     "order_number": "245"
   },
   {
@@ -6829,7 +6829,7 @@
     "gallons": 0.0,
     "date": "05/06/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Social services",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "296"
@@ -6839,7 +6839,7 @@
     "gallons": 0.0,
     "date": "05/06/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Social services",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "300"
@@ -6914,7 +6914,7 @@
     "gallons": 0.0,
     "date": "05/05/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Childcare",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "283"
@@ -6954,7 +6954,7 @@
     "gallons": 0.0,
     "date": "05/05/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Childcare",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "280"
@@ -6984,7 +6984,7 @@
     "gallons": 0.0,
     "date": "05/05/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Social services",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "297"
@@ -6994,7 +6994,7 @@
     "gallons": 0.0,
     "date": "05/05/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Childcare",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "285"
@@ -7022,7 +7022,7 @@
     "gallons": 0.0,
     "date": "05/05/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Social services",
     "type": "Face Shields",
     "comment": "",
     "order_number": "296b"
@@ -7032,7 +7032,7 @@
     "gallons": 0.0,
     "date": "05/05/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Social services",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "296a"
@@ -7142,9 +7142,9 @@
     "gallons": 0.0,
     "date": "05/04/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Childcare",
     "type": "Reusable Masks",
-    "comment": "",
+    "comment": "Early childhood institution",
     "order_number": "246"
   },
   {
@@ -7191,9 +7191,9 @@
     "gallons": 0.0,
     "date": "05/01/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Health",
     "type": "Face Shields",
-    "comment": "",
+    "comment": "Biomedical technician",
     "order_number": "275"
   },
   {
@@ -7211,7 +7211,7 @@
     "gallons": 0.0,
     "date": "04/30/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Nursing home",
     "type": "Face Shields",
     "comment": "",
     "order_number": "298"
@@ -7251,9 +7251,9 @@
     "gallons": 0.0,
     "date": "04/29/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Nursing home",
     "type": "Face Shields",
-    "comment": "",
+    "comment": "Group home",
     "order_number": "293"
   },
   {
@@ -7261,7 +7261,7 @@
     "gallons": 0.0,
     "date": "04/29/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "291"
@@ -7271,7 +7271,7 @@
     "gallons": 0.0,
     "date": "04/29/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Schools",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "256"
@@ -7281,7 +7281,7 @@
     "gallons": 0.0,
     "date": "04/29/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Schools",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "244"
@@ -7301,7 +7301,7 @@
     "gallons": 0.0,
     "date": "04/29/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Childcare",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "252"
@@ -7311,7 +7311,7 @@
     "gallons": 0.0,
     "date": "04/29/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Childcare",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "249"
@@ -7321,7 +7321,7 @@
     "gallons": 0.0,
     "date": "04/29/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Schools",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "262"
@@ -7371,9 +7371,9 @@
     "gallons": 0.0,
     "date": "04/28/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Health",
     "type": "Reusable Masks",
-    "comment": "",
+    "comment": "Union clinic",
     "order_number": "279"
   },
   {
@@ -7381,9 +7381,9 @@
     "gallons": 0.0,
     "date": "04/28/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Social services",
     "type": "Face Shields",
-    "comment": "",
+    "comment": "Human services agency",
     "order_number": "266"
   },
   {
@@ -7391,7 +7391,7 @@
     "gallons": 0.0,
     "date": "04/28/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Social services",
     "type": "Face Shields",
     "comment": "",
     "order_number": "288"
@@ -7401,7 +7401,7 @@
     "gallons": 0.0,
     "date": "04/27/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "268"
@@ -7430,7 +7430,7 @@
     "gallons": 0.0,
     "date": "04/25/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Schools",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "247"
@@ -7440,9 +7440,9 @@
     "gallons": 0.0,
     "date": "04/25/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Other",
     "type": "Reusable Masks",
-    "comment": "",
+    "comment": "Military",
     "order_number": "243"
   },
   {
@@ -7450,9 +7450,9 @@
     "gallons": 0.0,
     "date": "04/25/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Health",
     "type": "KN95 Masks",
-    "comment": "",
+    "comment": "Rehab",
     "order_number": "267"
   },
   {
@@ -7460,9 +7460,9 @@
     "gallons": 0.0,
     "date": "04/25/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Health",
     "type": "Face Shields",
-    "comment": "",
+    "comment": "Rehab",
     "order_number": "267"
   },
   {
@@ -7480,7 +7480,7 @@
     "gallons": 0.0,
     "date": "04/25/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "270"
@@ -7552,7 +7552,7 @@
     "gallons": 0.0,
     "date": "04/24/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Health",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "194"
@@ -7562,7 +7562,7 @@
     "gallons": 0.0,
     "date": "04/24/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Community",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "196"
@@ -7572,9 +7572,9 @@
     "gallons": 0.0,
     "date": "04/24/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Other",
     "type": "Reusable Masks",
-    "comment": "",
+    "comment": "Homeless shelter",
     "order_number": "214"
   },
   {
@@ -7582,9 +7582,9 @@
     "gallons": 0.0,
     "date": "04/24/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Other",
     "type": "Reusable Masks",
-    "comment": "",
+    "comment": "Parking",
     "order_number": "258"
   },
   {
@@ -7592,7 +7592,7 @@
     "gallons": 0.0,
     "date": "04/24/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Social services",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "226"
@@ -7602,7 +7602,7 @@
     "gallons": 0.0,
     "date": "04/24/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Social services",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "238"
@@ -7612,7 +7612,7 @@
     "gallons": 0.0,
     "date": "04/23/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Social services",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "228"
@@ -7622,7 +7622,7 @@
     "gallons": 0.0,
     "date": "04/23/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Social services",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "240"
@@ -7652,9 +7652,9 @@
     "gallons": 0.0,
     "date": "04/22/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Social services",
     "type": "Face Shields",
-    "comment": "",
+    "comment": "Human services agency",
     "order_number": "266"
   },
   {
@@ -7662,9 +7662,9 @@
     "gallons": 0.0,
     "date": "04/22/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Other",
     "type": "Face Shields",
-    "comment": "",
+    "comment": "Food pantry",
     "order_number": "234"
   },
   {
@@ -7682,7 +7682,7 @@
     "gallons": 0.0,
     "date": "04/22/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "205"
@@ -7702,7 +7702,7 @@
     "gallons": 0.0,
     "date": "04/22/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "237"
@@ -7772,7 +7772,7 @@
     "gallons": 0.0,
     "date": "04/21/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "264"
@@ -7792,7 +7792,7 @@
     "gallons": 0.0,
     "date": "04/21/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "140a"
@@ -7802,7 +7802,7 @@
     "gallons": 0.0,
     "date": "04/21/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "217"
@@ -7812,7 +7812,7 @@
     "gallons": 0.0,
     "date": "04/21/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Inhaler Spacers",
     "comment": "",
     "order_number": "265"
@@ -7830,9 +7830,9 @@
     "gallons": 0.0,
     "date": "04/20/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Health",
     "type": "Inhaler Spacers",
-    "comment": "",
+    "comment": "Urgent care",
     "order_number": "216"
   },
   {
@@ -7840,9 +7840,9 @@
     "gallons": 0.0,
     "date": "04/20/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "First responders",
     "type": "Inhaler Spacers",
-    "comment": "",
+    "comment": "Ambulance",
     "order_number": "223"
   },
   {
@@ -7850,7 +7850,7 @@
     "gallons": 0.0,
     "date": "04/20/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Nursing home",
     "type": "Inhaler Spacers",
     "comment": "",
     "order_number": "207"
@@ -7860,9 +7860,9 @@
     "gallons": 0.0,
     "date": "04/20/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Health",
     "type": "Face Shields",
-    "comment": "",
+    "comment": "Urgent care",
     "order_number": "216"
   },
   {
@@ -7880,7 +7880,7 @@
     "gallons": 0.0,
     "date": "04/20/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "220"
@@ -7920,7 +7920,7 @@
     "gallons": 0.0,
     "date": "04/20/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Schools",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "215"
@@ -7930,7 +7930,7 @@
     "gallons": 0.0,
     "date": "04/20/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "206"
@@ -7949,9 +7949,9 @@
     "gallons": 0.0,
     "date": "04/20/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Health",
     "type": "Reusable Masks",
-    "comment": "",
+    "comment": "Home health",
     "order_number": "211"
   },
   {
@@ -7969,7 +7969,7 @@
     "gallons": 0.0,
     "date": "04/20/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "203"
@@ -8054,7 +8054,7 @@
     "gallons": 0.0,
     "date": "04/18/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "117"
@@ -8064,9 +8064,9 @@
     "gallons": 0.0,
     "date": "04/18/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Health",
     "type": "Face Shields",
-    "comment": "",
+    "comment": "Urgent care",
     "order_number": "216"
   },
   {
@@ -8074,9 +8074,9 @@
     "gallons": 0.0,
     "date": "04/18/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Health",
     "type": "Face Shields",
-    "comment": "",
+    "comment": "Pharmacy",
     "order_number": "133"
   },
   {
@@ -8233,9 +8233,9 @@
     "gallons": 0.0,
     "date": "04/16/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Other",
     "type": "Reusable Masks",
-    "comment": "",
+    "comment": "Food pantry",
     "order_number": "144"
   },
   {
@@ -8272,7 +8272,7 @@
     "gallons": 0.0,
     "date": "04/16/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "178"
@@ -8282,7 +8282,7 @@
     "gallons": 0.0,
     "date": "04/16/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "178"
@@ -8370,7 +8370,7 @@
     "gallons": 0.0,
     "date": "04/15/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "143"
@@ -8380,7 +8380,7 @@
     "gallons": 0.0,
     "date": "04/15/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "122"
@@ -8469,9 +8469,9 @@
     "gallons": 0.0,
     "date": "04/15/2020",
     "location": "Bronx",
-    "org_category": "",
+    "org_category": "Health",
     "type": "Face Shields",
-    "comment": "",
+    "comment": "Home health",
     "order_number": "149"
   },
   {
@@ -8498,9 +8498,9 @@
     "gallons": 0.0,
     "date": "04/14/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Health",
     "type": "Face Shields",
-    "comment": "",
+    "comment": "Mental health",
     "order_number": "141a"
   },
   {
@@ -8528,7 +8528,7 @@
     "gallons": 0.0,
     "date": "04/14/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "189a"
@@ -8538,7 +8538,7 @@
     "gallons": 0.0,
     "date": "04/14/2020",
     "location": "Brooklyn",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "189b"
@@ -8576,7 +8576,7 @@
     "gallons": 0.0,
     "date": "04/13/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Nursing home",
     "type": "Reusable Masks",
     "comment": "",
     "order_number": "165"
@@ -8616,9 +8616,9 @@
     "gallons": 0.0,
     "date": "04/12/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Health",
     "type": "Reusable Masks",
-    "comment": "",
+    "comment": "Union health clinic",
     "order_number": "121"
   },
   {
@@ -8694,7 +8694,7 @@
     "gallons": 0.0,
     "date": "04/11/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Health",
     "type": "Face Shields",
     "comment": "",
     "order_number": "124"
@@ -8733,7 +8733,7 @@
     "gallons": 0.0,
     "date": "04/11/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "125"
@@ -8743,7 +8743,7 @@
     "gallons": 0.0,
     "date": "04/11/2020",
     "location": "Queens",
-    "org_category": "",
+    "org_category": "Hospital",
     "type": "Face Shields",
     "comment": "",
     "order_number": "134"
@@ -8873,9 +8873,9 @@
     "gallons": 0.0,
     "date": "04/09/2020",
     "location": "Manhattan",
-    "org_category": "",
+    "org_category": "Health",
     "type": "Surgical Masks",
-    "comment": "",
+    "comment": "Clinic",
     "order_number": "11"
   },
   {
