@@ -28,3 +28,6 @@ yarn-debug.log*
 yarn-error.log*
 
 .now
+
+# we no longer need to track this
+./data/totals.json

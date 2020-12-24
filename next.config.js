@@ -4,6 +4,10 @@ const toc = require('remark-toc')
 const customblocks = require('remark-custom-blocks')
 const headings = require('remark-autolink-headings')
 const slug = require('remark-slug')
+const path = require('path')
+
+const mergeJSON = require('./plugins/merge-json')
+const withPlugins = require('next-compose-plugins')
 
 const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/,
@@ -35,7 +39,7 @@ const withMDX = require('@next/mdx')({
   }
 })
 
-module.exports = withMDX({
+const mdx = withMDX({
   target: 'serverless',
   pageExtensions: ['js', 'jsx', 'json', 'mdx'],
   exportPathMap: function (defaultPathMap) {
@@ -44,3 +48,5 @@ module.exports = withMDX({
     return pathMap
   }
 })
+
+module.exports = withPlugins([mdx, mergeJSON()])
