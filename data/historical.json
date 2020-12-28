@@ -4890,6 +4890,15 @@
     "order_number": "475"
   },
   {
+    "count": 0,
+    "gallons": 10.0,
+    "date": "06/02/2020",
+    "location": "New York State",
+    "org_category": "First responders",
+    "type": "Hand Sanitizer",
+    "comment": ""
+  },
+  {
     "count": 50,
     "gallons": 0.0,
     "date": "06/02/2020",
@@ -5358,6 +5367,22 @@
     "type": "Face Shields",
     "comment": "",
     "order_number": "295"
+  },
+  {
+    "count": 0,
+    "gallons": 2.0,
+    "date": "05/27/2020",
+    "location": "Brooklyn",
+    "org_category": "Community",
+    "type": "Hand Sanitizer"
+  },
+  {
+    "count": 0,
+    "gallons": 5.0,
+    "date": "05/27/2020",
+    "location": "Brooklyn",
+    "org_category": "Community",
+    "type": "Hand Sanitizer"
   },
   {
     "count": 50,
@@ -6810,7 +6835,7 @@
     "gallons": 2.7,
     "date": "05/07/2020",
     "location": "Staten Island",
-    "org_category": "Other",
+    "org_category": "Community",
     "type": "Hand Sanitizer",
     "comment": "6:39p 5/6/2020, DM with guan"
   },
