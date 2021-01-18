@@ -103,15 +103,24 @@ table {
 .main-title {
   font-size: 48px !important;
 }
+
 .main-image {
   /* width: 100%;
   max-width: 150px; */
 }
 
+@tailwind utilities;
+
 .markdown-body table {
   @apply font-normal text-left;
 }
 
-/* @import './github-markdown.css'; */
+.markdown-body ol {
+  @apply list-decimal
+}
 
-@tailwind utilities;
+.markdown-body ul {
+  @apply list-disc
+}
+
+/* @import './github-markdown.css'; */
