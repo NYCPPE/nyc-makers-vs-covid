@@ -11,7 +11,6 @@ import { withRouter } from 'next/router'
 const mdComponents = {}
 
 const App = ({ Component, pageProps, router, ...rest }) => {
-  console.log(router.pathname)
   return (
     <ModalProvider>
       <MDXProvider
