@@ -44,5 +44,5 @@
     "tailwindcss": "^2.1.2",
     "webpack": "^5.37.0"
   },
-  "license": "ISC"
+  "license": "GPL-3.0-or-later"
 }
