@@ -49,4 +49,12 @@ const mdx = withMDX({
   }
 })
 
-module.exports = withPlugins([mdx, mergeJSON()])
+module.exports = withPlugins([
+  mdx,
+  mergeJSON(),
+  {
+    future: {
+      webpack5: true
+    }
+  }
+])
