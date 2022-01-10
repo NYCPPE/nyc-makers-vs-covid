@@ -53,8 +53,6 @@ module.exports = withPlugins([
   mdx,
   mergeJSON(),
   {
-    future: {
-      webpack5: true
-    }
+    webpack5: true
   }
 ])
