@@ -4,7 +4,7 @@ const Photos = () => (
       <span className="rounded-lg overflow-hidden">
         <img
           className="h-auto w-full max-w-xs mx-auto"
-          src="distribution/image5.png"
+          src="distribution/image4.jpg"
         />
       </span>
       <span className="w-4 h-4"></span>
