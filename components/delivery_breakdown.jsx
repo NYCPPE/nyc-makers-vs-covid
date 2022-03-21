@@ -13,7 +13,8 @@ export let total_by_ppe_type = [
   { type: 'Gowns', count: 0 },
   { type: 'Hair Caps', count: 0 },
   { type: 'Hand Sanitizer', gallons: 0.0 },
-  { type: 'KN95 Masks', count: 0 }
+  { type: 'KN95 Masks', count: 0 },
+  { type: 'Corsi-Rosenthal box', count: 0 }
 ]
 
 totals.map(item => {
